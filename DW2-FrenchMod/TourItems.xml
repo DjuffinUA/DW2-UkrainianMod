@@ -1,0 +1,1910 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ArrayOfTourItem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TourItem>
+    <Title>Visite de base</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Introduction</StepTitle>
+        <MarkupText>Bienvenue à Distant Worlds 2!
+
+Cette brève tournée donne un aperçu des principaux éléments de l'interface utilisateur.
+
+Chaque élément sera mis en évidence avec une bordure colorée telle qu'elle est expliquée.
+
+Cliquez sur le bouton Suivant ci-dessous pour commencer!</MarkupText>
+        <RelatedControlNames>
+          <string />
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Se déplaçer</StepTitle>
+        <MarkupText>Vous pouvez panoramiser la vue principale en cliquant sur le clic gauche et en faisant glisser avec la souris ou en utilisant les touches W, A, S, D.
+        
+De plus, vous pouvez également panorfier la vue principale en déplaçant votre souris au bord de l'écran.
+
+Vous pouvez zoomer ou sortir à l'aide de la roue de défilement de la souris ou à l'aide des touches PageUp et Pagedown.</MarkupText>
+        <RelatedControlNames>
+          <string />
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Menu de jeu</StepTitle>
+        <MarkupText>Vous pouvez ouvrir le menu du jeu en cliquant sur ce bouton. Ou appuyez sur la touche d'échappement.
+        
+De là, vous pouvez faire ce qui suit:
+[ULI]Chargez et enregistrez les jeux[/ULI]
+[ULI]Modifier les paramètres du jeu[/ULI]
+[ULI]RELATIVER cette visite de base[/ULI]
+[ULI]Entrez l'éditeur de jeu[/ULI]
+[ULI]Retour au menu principal[/ULI]
+[ULI]quitter le jeu[/ULI]</MarkupText>
+        <RelatedControlNames>
+          <string>GameMenuButton</string>
+        </RelatedControlNames>
+      </TourStep>
+
+      <TourStep>
+        <StepTitle>Paramètres de jeu</StepTitle>
+        <MarkupText>Comme mentionné à l'étape précédente, vous pouvez afficher l'écran des paramètres du jeu à partir du menu du jeu. Vous pouvez également ouvrir les paramètres de jeu à l'aide de la touche /.
+        
+[H3]Taille de l'interface utilisateur[/H3]
+Dans les paramètres du jeu dans la section d'affichage, vous pouvez sélectionner la taille de l'interface utilisateur. Cela vous permet d'augmenter la taille du texte et d'autres éléments sur les écrans haute résolution.
+        
+[H3]Palette de couleurs de l'interface utilisateur[/H3]
+Vous pouvez également choisir un nouveau jeu de couleurs dans les options disponibles.
+
+Lorsque vous avez terminé la modification de vos paramètres, assurez-vous de cliquer sur le bouton «Appliquer» pour enregistrer les modifications.</MarkupText>
+        <RelatedControlNames>
+          <string>GameSettingsDialog</string>
+        </RelatedControlNames>
+      </TourStep>
+      
+      <TourStep>
+        <StepTitle>Pause / Reprendre &amp; Vitesse de jeu</StepTitle>
+        <MarkupText>Le bouton du milieu vous permet de faire une pause et de reprendre le jeu, ou d'utiliser la clé de la barre d'espace.
+
+Contrôlez la vitesse de jeu à l'aide des boutons gauche et droit, en augmentant ou en diminuant à quelle vitesse le temps passe. Vous pouvez également utiliser les clés + ou -.</MarkupText>
+        <RelatedControlNames>
+          <string>PlayPause</string>
+          <string>GameSpeedSlower</string>
+          <string>GameSpeedFaster</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>En-tête de vue principale</StepTitle>
+        <MarkupText>Cet en-tête affiche des informations importantes sur le jeu. De gauche à droite, cela montre:
+[ULI]Les projets de recherche actuels[/ULI]
+[ULI]Le nombre de colonies et la population totale de votre empire[/ULI]
+[ULI]L'argent actuel à portée de main et les flux de trésorerie pour votre empire[/ULI]
+[ULI]La date de la Galaxy Star[/ULI]
+Sur planer sur ceux-ci donnera plus d'informations. Cliquer dessus vous amènera à un écran avec encore plus de détails.
+
+Cet en-tête montrera parfois également des informations supplémentaires, qui peuvent inclure:
+[ULI]Avertissements sur les colonies rebelles[/ULI]
+[ULI]Avertissements sur la fatigue de haute guerre[/ULI]
+[ULI]Rapports d'avancement de la guerre[/ULI]</MarkupText>
+        <RelatedControlNames>
+          <string>MainViewHeader</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Centre de contrôle</StepTitle>
+        <MarkupText>Le centre de contrôle fournit une multitude d'informations, ainsi que de nombreux outils puissants pour aider à gérer votre empire.
+        
+Le survol de chacun des 10 boutons principaux élargira la section d'en-tête en dessous, offrant un résumé de votre empire dans ce domaine.
+
+Déplacer votre souris sur l'en-tête élargira ensuite les sous-menus ci-dessous, donnant encore plus de détails dans diverses sous-sections. Cliquez sur un bouton de sous-menu pour basculer entre les sous-sections.</MarkupText>
+        <RelatedControlNames>
+          <string>EmpireSectionList</string>
+        </RelatedControlNames>
+      </TourStep>
+
+      <TourStep>
+        <StepTitle>Centre de commande - panneaux de verrouillage ouverts</StepTitle>
+        <MarkupText>Chacune des sections du centre de contrôle peut être verrouillée en cliquant n'importe où dans la section élargie. Otewise la section s'effondrera automatiquement lorsque vous éloignez votre souris.
+
+Vous pouvez également verrouiller une section élargie en cliquant sur le bouton principal pertinent en haut du centre de contrôle.
+
+Pour «déverrouiller» une section et permettre de l'effondrement, cliquez à nouveau sur le bouton principal pertinent en haut du centre de contrôle.</MarkupText>
+        <RelatedControlNames>
+          <string>EmpireSectionList</string>
+        </RelatedControlNames>
+      </TourStep>
+
+      <TourStep>
+        <StepTitle>Panneau de sélection</StepTitle>
+        <MarkupText>Le panneau de sélection fournit des informations détaillées sur l'élément actuellement sélectionné. Cela peut inclure des navires, des bases, des colonies, des planètes, des lunes, des astéroïdes, des créatures spatiales ou des débris spatiaux.
+
+[H3]Sélection des articles[/H3]
+Vous pouvez sélectionner des éléments en cliquant dessus dans la vue principale. Lorsqu'un élément est sélectionné, il sera entouré du cercle de sélection. Vous pouvez également sélectionner des éléments de certaines des sous-listes du centre de contrôle.
+
+Pour sélectionner plusieurs navires, maintenez la touche CTRL lors de la bague de clic gauche avec la souris. Un rectangle de sélection apparaîtra, sélectionnant tous vos navires entièrement construits à l'intérieur du rectangle.
+
+[H3]Exploration des informations dans le panneau[/H3]
+Différentes informations seront affichées en fonction de ce qui est sélectionné. Une grande partie des données affichées fournira plus d'informations lors du plan de volant, via des infractions ou des panneaux latéraux à pop-out ainsi que des commandes supplémentaires.
+
+Vous pouvez naviguer vers l'avant et revenir à travers votre historique de sélection à l'aide des flèches gauche et droite près du haut du panneau de sélection. Vous pouvez également parcourir divers éléments de votre empire en utilisant des pressions de touches, par exemple «C» va parcourir toutes vos colonies, «X» passera à travers tous vos navires d'exploration. Voir les mappages clés dans les paramètres de jeu pour d'autres options.
+
+[H3]Renommer les articles[/H3]
+Vous pouvez modifier le nom de tout élément que vous possédez (navire, base, colonie) en cliquant sur son nom dans le panneau de sélection. Cela vous permettra de modifier le nom. Cliquez n'importe où à l'extérieur de la boîte d'édition pour enregistrer vos modifications.
+
+[H3]Zoomer sur l'article[/H3]
+Pour zoomer immédiatement la vue principale sur l'élément sélectionné, cliquez sur n'importe quel espace vide dans l'en-tête du panneau de sélection. Ou vous pouvez utiliser la touche arrière.</MarkupText>
+        <RelatedControlNames>
+          <string>SelectionPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Boutons d'action</StepTitle>
+        <MarkupText>Vous pouvez effectuer des actions sur l'élément sélectionné à l'aide des boutons d'action sous le panneau de sélection.
+
+Chaque élément sélectionné aura différentes actions disponibles. Survoler chaque bouton d'action fournit plus d'informations.
+
+Quelques exemples de boutons d'action:
+[ULI]faire le plein et réparer le navire sélectionné[/ULI]
+[ULI]augmenter le taux d'imposition dans la colonie sélectionnée[/ULI]
+[ULI]Modifier la base sélectionnée au dernier design[/ULI]
+[ULI]Fitre la construction d'une nouvelle station minière sur la planète sélectionnée[/ULI]
+
+[H3]Actions supplémentaires[/H3]
+Certains boutons d'action permettent une autre couche d'actions, par exemple Si vous avez sélectionné un spaceport, le bouton de construction fournit des actions pour construire toutes les conceptions de navires actifs dans votre empire. Vous pouvez revenir au niveau supérieur d'actions en utilisant le bouton le plus à droite «Retour en haut».</MarkupText>
+        <RelatedControlNames>
+          <string>ActionButtons</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Zoom préréglé et autres</StepTitle>
+        <MarkupText>Ces boutons vous permettent de zoomer rapidement à différents niveaux: un seul emplacement, un système d'étoiles entier, une large région et toute la galaxie.
+
+Vous pouvez également zoomer rapidement vers l'élément sélectionné. Ou utilisez la touche arrière pour faire la même chose.
+
+D'autres boutons permettent à basculer le navire et les symboles de base au niveau de l'emplacement et des indicateurs de plage d'armes pour le navire ou la base sélectionné.
+
+[H3]Vues de la caméra[/H3]
+Le bouton le plus à droite vous permet de modifier la vue de la caméra. Les paramètres disponibles comprennent:
+[ULI]Vue de 45 degrés par défaut[/ULI]
+[ULI]Angle de haut en bas[/ULI]
+[ULI]Angle élevé[/ULI]
+[ULI]Angle bas[/ULI]
+De plus, lorsque vous êtes zoom sur le niveau de localisation et que vous avez sélectionné un navire ou une base:
+[ULI]Ship de fuite ou vue de base[/ULI]
+[ULI]Navire de pont ou vue de base[/ULI]</MarkupText>
+        <RelatedControlNames>
+          <string>LocationShipSymbolButton</string>
+          <string>WeaponRangeDisplayButton</string>
+          <string>ZoomInButton</string>
+          <string>ZoomOutButton</string>
+          <string>ZoomToItemButton</string>
+          <string>ZoomLocationButton</string>
+          <string>ZoomSystemButton</string>
+          <string>ZoomSectorButton</string>
+          <string>ZoomGalaxyButton</string>
+          <string>CameraModeButton</string>
+        </RelatedControlNames>
+      </TourStep>
+      
+      <TourStep>
+        <StepTitle>Galaxy Zoom Nivel and Badges</StepTitle>
+        <MarkupText>Lorsque vous zoomez au niveau de la galaxie, vous pouvez voir les systèmes d'étoiles et les nuages ​​de nébuleuses qui composent la galaxie.
+
+[H3]Badges système[/H3]
+Au niveau de la galaxie, vous pouvez également voir les badges pour les systèmes colonisés. Ces badges fournissent un résumé de ce qui se trouve dans le système.
+
+La couleur d'arrière-plan de chaque badge correspond à l'empire de la colonie.
+
+La première ligne du badge a le nom du système. Si le système est l'Empire Capital, une étoile est montrée à gauche du nom.
+
+La rangée suivante a une image de la course majeure à la colonie, ainsi que le niveau de la population. À côté de cela se trouve une icône montrant le taux d'approbation de la colonie.
+
+Si le système dispose d'un spaceport, présente une icône jaune «cour de construction». Si le système a une source de ravitaillement, une icône bleu «ravitaillement» est affichée.
+
+La troisième ligne montre les principales ressources présentes dans le système.
+
+Une quatrième rangée peut également être montrée décrivant la flotte de notre empire et la force du navire dans le système (texte blanc et icône d'éclairage jaune). S'il y a des menaces ennemies dans le système, leur force est affichée (texte rouge et icône du boulon d'éclairage).
+
+[H3]Badges d'emplacement[/H3]
+Lors du zoom au niveau du système, vous pouvez voir des badges pour les emplacements des colonies dans le système.
+
+Ces badges affichent des données similaires aux badges système.
+
+[H3]Badges de colonie[/H3]
+Lors du zoom au niveau de l'emplacement, le plan de la souris sur une colonie affichera un badge de colonie avec des données essentielles comme les suivantes:
+[ULI]Nom de la colonie et du niveau d'exploration[/ULI]
+[ULI]Type et taille de la planète ou de la lune[/ULI]
+[ULI]qualité de la planète ou de la lune[/ULI]
+[ULI]Population, approbation et niveau de développement de la colonie[/ULI]
+[ULI]Icônes montrant toute source spatiale ou ravitaillement dans la colonie[/ULI]
+[ULI]Ressources extraites dans la colonie[/ULI]</MarkupText>
+        <RelatedControlNames>
+          <string>ZoomGalaxyButton</string>
+          <string>MapOverlays_Cartouches</string>
+        </RelatedControlNames>
+        <ZoomMode>Galaxy</ZoomMode>
+      </TourStep>
+
+      <TourStep>
+        <StepTitle>Superpositions de cartes</StepTitle>
+        <MarkupText>Il existe de nombreuses superpositions de cartes qui peuvent être montrées lors du zoom vers le niveau de la galaxie.
+
+Il s'agit notamment des éléments suivants:
+[ULI]Flux de ressources de l'emplacement minier à la destination[/ULI]
+[ULI]Les coulées de migration des colonies établies vers de nouvelles colonies[/ULI]
+[ULI]Le tourisme coule des colonies aux bases du complexe[/ULI]
+[ULI]Marqueurs de limite de nébuleuse[/ULI]
+[ULI]Couverture du scanner à longue portée[/ULI]
+[ULI]Vecteurs de voyage de navires[/ULI]
+[ULI]Badges de système et d'emplacement[/ULI]
+[ULI]Superposition d'exploration[/ULI]
+[ULI]Superposition de diplomatie[/ULI]
+
+Une option est également présente pour masquer la majeure partie de l'interface utilisateur, vous permettant de vous concentrer complètement sur la scène dans la vue principale.
+
+Survolez chaque bouton de superposition de carte pour plus de détails.</MarkupText>
+        <RelatedControlNames>
+          <string>MapOverlayButtons</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Afficher le résumé</StepTitle>
+        <MarkupText>Le résumé de la vue est un outil de gestion très puissant qui vous donne un aperçu rapide de tous les éléments visibles dans la vue actuelle. Cet aperçu est automatiquement mis à jour à mesure que votre vue change lorsque vous vous panoramique ou zoom.
+
+Le survol de chaque élément du résumé de la vue fournira plus d'informations avec une ligne de callout montrant où l'article se trouve dans la vue principale.
+
+Cliquez sur un élément le sélectionnera dans le panneau de sélection. Double-cliquez sur un élément zoomer la vue principale sur l'élément.
+
+Lorsqu'il existe de nombreux éléments, certaines données peuvent être résumées à l'aide d'une icône avec le nombre d'éléments. Le plan de planage élargira les éléments aux unités individuelles qui peuvent ensuite être sélectionnées.
+
+[H3]Niveau de la galaxie[/H3]
+Lors du zoom arrière au niveau de la galaxie, cliquer sur un badge système modifiera le résumé de la vue pour afficher les éléments connus de ce système. Vous pouvez ensuite interagir avec ces éléments, en sélectionnant et en vous déplaçant vers eux, même si vous avez zoom sur le niveau de la galaxie.
+
+Cliquez à nouveau sur l'insigne du système pour revenir à la visualisation des éléments Galaxy. Ou vous pouvez simplement zoomer ou sortir en utilisant la roue de défilement de la souris.</MarkupText>
+        <RelatedControlNames>
+          <string>SystemSummary</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Messages</StepTitle>
+        <MarkupText>Les messages entrants sont affichés sur le côté droit de l'écran.
+
+Les messages expirent progressivement et disparaissent, comme indiqué par la barre de progression au bas de chaque message.
+
+Le survol d'un message fournit des informations plus détaillées, souvent avec des options pour déplacer votre vue vers l'emplacement du message.
+
+Le plan de planage d'un message cinglera également l'emplacement dans la vue principale, vous montrant l'emplacement de l'événement dans la galaxie (lors du zoom arrière au niveau de la galaxie).
+
+Le clic gauche d'un message sélectionnera tout élément connexe dans le panneau de sélection.
+
+Cliquez avec le bouton droit sur un message le rejetera, le retirant de la liste. Cependant, le message sera toujours conservé dans le journal des messages (voir suivant).
+
+Les messages peuvent également inclure des suggestions de conseillers, vous donnant des conseils sur ce qu'il faut faire ensuite. Vous pouvez approuver ou refuser la suggestion du conseiller lorsque vous survolez le message.</MarkupText>
+          <RelatedControlNames>
+          <string>MessageListView</string>
+        </RelatedControlNames>
+        <ZoomMode>Capital</ZoomMode>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Journal des messages et filtrage</StepTitle>
+        <MarkupText>Pour voir tous vos messages passés, ouvrez le journal des messages à l'aide du bouton indiqué. Vous pouvez ensuite survoler chaque message pour le revoir en détail.
+
+[H3]Filtrage des messages[/H3]
+Dans le journal des messages, vous pouvez également filtrer les types de messages que vous souhaitez voir en cliquant sur le texte du filtre en haut. Cela élargira les boutons de filtre.
+
+Vous pouvez activer ou désactiver les filtres de message par faction ou catégorie.</MarkupText>
+        <RelatedControlNames>
+          <string>MessageLogButton</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Galactopédie</StepTitle>
+        <MarkupText>La Galactopedia fournit une aide complète sur chaque élément du jeu.
+        
+Cela comprend des sujets dans les domaines suivants:
+[ULI]Concepts de jeu[/ULI]
+[ULI]Écrans de jeu[/ULI]
+[ULI]Types d'étoiles et de planètes[/ULI]
+[ULI]Ressources exploitables[/ULI]
+[ULI]Créatures spatiales[/ULI]
+[ULI]Espèces extraterrestres[/ULI]
+[ULI]Styles gouvernementaux[/ULI]
+[ULI]Composants de navires[/ULI]
+[ULI]Installations planétaires[/ULI]
+
+Naviguez dans la Galactopedia en élargissant et en cliquant sur des sujets dans la zone à droite de l'écran Galactopedia.
+
+[H3]Concepts de jeu[/H3]
+Vous devez particulièrement examiner les sujets sous les concepts de jeu pour mieux comprendre le fonctionnement des mondes distants 2.
+
+Ces sujets vous aideront à étendre votre empire plus efficacement. Ils fournissent également des conseils pour optimiser votre jeu, même pour les joueurs expérimentés.</MarkupText>
+        <RelatedControlNames>
+          <string>GalactopediaButton</string>
+          <string>GalactopediaDialog</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Complet!</StepTitle>
+        <MarkupText>Merci d'avoir fait la visite de base de Distant Worlds 2!
+        
+Vous pouvez faire à nouveau cette tournée de base à tout moment à partir de l'écran des visites hors du menu du jeu (Easpy Key).
+
+D'autres visites sont également disponibles en cliquant sur le bouton «Lance Tour» dans chaque zone de l'interface utilisateur.
+        
+Vous devez également parcourir la Galactopedia pour des informations détaillées sur tous les éléments du jeu.
+
+Explorez, développez et conquérez!</MarkupText>
+        <RelatedControlNames>
+          <string />
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+  
+  <TourItem>
+    <Title>Votre empire</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Économie</StepTitle>
+        <MarkupText>Cet écran montre une ventilation de votre état et des économies privées.
+
+Chaque type de revenu et de dépenses est répertorié pour l'année en cours et précédente, ainsi qu'une projection des montants attendus pour chacun de ceux-ci pour l'année en cours. Vous pouvez survoler chaque montant pour plus d'informations.
+
+[H3]Économie d'État[/H3]
+La section supérieure de votre économie d'État montre régulièrement les revenus et les dépenses prévues. Ces quantités changent lentement au fil du temps à mesure que votre empire grandit.
+
+La section inférieure de votre économie d'État montre un revenu de bonus irrégulier. Ces montants peuvent varier considérablement, étant souvent composés de revenus de construction de navires privés, où le secteur privé de votre empire achète de nouveaux navires.
+          
+[H3]Économie privée[/H3]
+La section de l'économie privée montre les revenus et les dépenses du secteur privé de votre empire. Vous n'avez aucun contrôle direct sur la façon dont le secteur privé gagne ou dépense de l'argent.</MarkupText>
+        <RelatedControlNames>
+          <string>EmpireEconomy_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Niveaux de financement de l'empire</StepTitle>
+        <MarkupText>Si vous choisissez, vous pouvez affiner la façon dont votre revenu est dépensé dans l'écran de financement bonus. Survolez chaque valeur pour une explication détaillée.
+
+Notez que les niveaux de financement de l'Empire sont automatiquement gérés par vos conseillers. Contrôler ces niveaux manuellement est une option avancée. Pour désactiver l'automatisation et contrôler les niveaux de financement vous-même, visitez la section «économie» dans l'écran de la politique Empire.
+
+[H3]Allouer le financement de la maintenance[/H3]
+Si vous choisissez de contrôler manuellement les niveaux de financement, dans cet écran, vous pouvez définir des valeurs de pourcentage pour chacune de vos principales zones de dépenses régulières: entretien des navires et de la base, entretien des troupes et entretien des installations. Ces pourcentages limiteront le montant que vos conseillers sont prêts à dépenser dans chaque domaine.
+
+Ainsi, si vous allouez 50% de vos revenus à l'entretien des navires, vos conseillers seront prêts à construire des navires et des bases jusqu'à une limite de maintenance de 50% de votre économie. Mais ils ne recommanderont pas de nouveaux navires une fois que vous aurez atteint la limite spécifiée.
+
+Limiter les dépenses dans chaque domaine permet une répartition plus uniforme de vos revenus à tous les domaines de votre économie, empêchant les dépenses excessives dans une seule zone.
+
+Vous pouvez également spécifier un pourcentage de votre revenu qui reste non dépensé, créant ainsi un stock de stockage qui peut être utilisé pour les achats et autres dépenses.
+
+[H3]Financement excédentaire pour la croissance et la recherche des colonies[/H3]
+Tout revenu excédentaire peut être dirigé vers la croissance des colonies ou la recherche. L'allocation du financement de ces 2 domaines augmentera le taux de croissance des colonies ou la vitesse de recherche que votre empire peut effectuer.
+
+Si vous automatisez les niveaux de financement (le paramètre par défaut), vos conseillers économiques utiliseront tout revenu excédentaire pour maintenir une vitesse de recherche complète tout en dirigeant le reste vers les taux de croissance des colonies.</MarkupText>
+        <RelatedControlNames>
+          <string>EmpireFundingLevels_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Entretien</StepTitle>
+        <MarkupText>Cet écran affiche les coûts de maintenance des navires pour tous les navires et bases de votre empire, qu'ils soient publiques ou privés.
+
+La section militaire montre le nombre et l'entretien total des navires militaires pour chaque rôle.
+
+L'autre section d'État montre le nombre et l'entretien total des autres navires et bases d'État pour chaque rôle.
+
+La section privée montre le nombre et l'entretien total des navires privés et des bases pour chaque rôle.</MarkupText>
+        <RelatedControlNames>
+          <string>EmpireMaintenance_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Gouvernement</StepTitle>
+        <MarkupText>Cet écran montre les détails de votre gouvernement actuel et un résumé de tous les bonus à l'échelle de l'empire pour votre empire.
+
+[H3]Changer votre gouvernement[/H3]
+Vous pouvez modifier votre gouvernement en sélectionnant un autre type de gouvernement dans la liste déroulante en haut de la section.
+
+Après avoir comparé les statistiques entre votre gouvernement actuel et celui sélectionné, vous pouvez passer au nouveau gouvernement en cliquant sur le bouton «Have Revolution» au bas de cette section.
+
+[H3]Bonus d'empire[/H3]
+La section «Les bonus d'empire de toutes les sources» fournit une liste de tous vos bonus. Le plan de plan sur chaque ligne donne une ventilation complète des différents facteurs qui ajoutent à chaque type de bonus.</MarkupText>
+        <RelatedControlNames>
+          <string>EmpireGovernment_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Chef</StepTitle>
+        <MarkupText>Le leader de votre empire est montré ici. Votre chef est un personnage très important pour votre empire. Leurs compétences s'appliquent à l'ensemble de votre empire, offrant des avantages ou des pénalités dans divers domaines.
+
+Vous pouvez voir les détails de votre chef en survolant l'entrée de la liste et en cliquant pour verrouiller l'ouvrir le panneau à droite.
+
+Vous pouvez modifier le nom de votre leader en cliquant sur son nom sous le portrait et en tapant un nouveau.
+
+[H3]Emplacement du leader[/H3]
+Votre chef doit être situé dans la capitale de votre empire. Mais si vous le souhaitez, vous pouvez le transférer dans un autre emplacement à l'aide de la liste déroulante et du bouton de transfert ci-dessous.
+
+[H3]Événements[/H3]
+Tout en bas du panneau de détail se trouve une liste de tous les événements avec lesquels votre chef a été impliqué. Divers événements peuvent améliorer ou diminuer les compétences de votre leader, ou fournir de nouveaux traits de caractère.
+
+[H3]Rejeter votre chef[/H3]
+Si votre chef a de très mauvaises compétences, vous pouvez décider de le rejeter en utilisant le bouton sous son portrait. Un nouveau leader sera finalement sélectionné pour les remplacer.</MarkupText>
+        <RelatedControlNames>
+          <string>CharactersLeader_SubSection</string>
+          <string>CharacterPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Paramètres de stratégie</StepTitle>
+        <MarkupText>L'écran des paramètres de stratégie vous permet de contrôler les parties de votre empire automatisées, les domaines avec lesquels vous souhaitez que les conseillers vous guident et les domaines que vous souhaitez contrôler complètement par vous-même.
+
+Vous pouvez développer ou effondrer chaque section en cliquant sur les barres d'en-tête. En plus des commandes d'automatisation de haut niveau, chaque zone a également de nombreux autres paramètres qui vous permettent d'ajuster les choses plus en détail. Survolez chaque réglage pour une explication.
+
+La section supérieure «conseillers et automatisation» résume tous les paramètres d'automatisation de votre empire, fournissant un emplacement centralisé unique pour modifier les zones automatisées, contrôlées par le conseiller ou contrôlées manuellement. Vous pouvez même sélectionner l'une des configurations prédéfinies dans la liste déroulante en haut.</MarkupText>
+        <RelatedControlNames>
+          <string>EmpirePolicy_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Diplomatie</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Relations diplomatiques</StepTitle>
+        <MarkupText>Lorsque vous rencontrez d'autres factions, vous pouvez vous engager dans la diplomatie avec eux. La diplomatie consiste à établir des traités, à donner des cadeaux et des accords commerciaux. Lorsque les choses ne se passent pas bien, cela peut également inclure la déclaration de guerre et la résolution de la paix.
+
+Au début du jeu, vous n'avez encore rencontré personne. Mais si vous réalisez cette visite une fois que vous avez contacté une autre faction, plus d'articles décrits ci-dessous seront visibles.
+
+[H3]Liste des relations[/H3]
+Cet écran répertorie toutes vos relations avec d'autres empires. Notez que par défaut, cela exclut les factions pirates et les colonies indépendantes. Vérifiez les différentes options de tri et de filtre en haut du panneau.
+
+Chaque élément de liste montre comment l'autre Empire se sent envers vous avec la tendance de votre relation.
+
+Cliquer sur un élément de relation dans la liste sélectionnera le capital de faction, s'il est connu.
+
+[H3]Panel de détail de la relation[/H3]
+Le survol d'un élément de liste affiche le panneau de détail de la relation à droite. Cliquez sur l'élément de liste ou le panneau de détail le verrouillera.
+
+Le panneau de détail fournit un résumé complet de votre relation avec l'Empire sélectionné. Au sommet, le drapeau de l'Empire et toutes les courses de l'Empire. Planer sur chaque course pour la population totale de l'Empire et un résumé de leurs caractéristiques.
+
+Le style de gouvernement est montré sous le nom de l'empire.
+
+Ci-dessous, le bouton «Speak» vous permet de lancer une conversation avec l'autre faction.
+
+[H3]Parler avec une autre faction[/H3]
+Parler avec l'autre faction offre un certain nombre d'options, notamment l'offre de traités et de cadeaux et la négociation de transactions commerciales détaillées. Cliquez sur «Au revoir» ou sur le bouton Fermer en haut à droite pour terminer la conversation.
+
+[H3]Réputation[/H3]
+La réputation actuelle de l'Empire indique comment les autres voient généralement cet empire. La réputation d'un empire vient de ses actions. Planer sur la valeur d'une liste des facteurs contribuant à la réputation de l'Empire.
+
+[H3]Lassitude de la guerre[/H3]
+La lassitude de la guerre se développe avec le temps chaque fois qu'un empire est en guerre avec une autre faction. Il augmente considérablement lorsque l'Empire subit des pertes importantes au combat. La fatigue élevée de la guerre mène au malheur et aux troubles dans les colonies.
+
+Ainsi, un empire recherchera généralement la paix lorsque sa lassitude de la guerre est élevée.
+
+Cependant, parfois, la valeur de la fatigue de la guerre d'un empire peut en fait être positive si elles sont victimes d'une déclaration de guerre injustifiée par une autre faction. Dans ce cas, ils ont une motivation supplémentaire pour lutter contre les agresseurs.
+
+[H3]Stratégie[/H3]
+La section de stratégie montre comment votre empire prévoit de gérer l'autre faction. Vous pouvez automatiser ce paramètre, et ainsi laisser vos conseillers sélectionner une stratégie appropriée.
+
+Alternativement, vous pouvez contrôler manuellement la stratégie en désactivant l'automatisation à l'aide du bouton à gauche, puis en sélectionnant la stratégie souhaitée dans la liste déroulante à droite. Survolent la stratégie actuelle pour une explication de ce que cela signifie lors de la gestion de l'autre faction.
+
+[H3]Statut et traités[/H3]
+Tous les traités actuels sont répertoriés en haut de la section d'état.
+
+La partie suivante de la section d'état montre les autres factions qui se sentent vers vous. La valeur à gauche est la valeur globale définissant ce qu'ils pensent à propos de vous. Une valeur positive montre qu'ils vous aiment, une valeur négative montre qu'ils ne vous aiment pas.
+
+Ce sentiment est décrit par le texte au milieu. Sur planant sur ce texte montre ce que vos conseillers pensent de l'autre faction. La tendance relationnelle actuelle est montrée à droite.
+
+En vertu du total résumé se trouve une liste complète de tous les facteurs qui contribuent à l'évaluation des autres factions de vous. Certains de ces facteurs peuvent être statiques et non-changeant, tandis que d'autres peuvent changer avec le temps, augmentant ou diminuant de valeur. Toute tendance pour chaque facteur est indiquée à droite.
+
+[H3]Autres informations[/H3]
+La section Info Empire affiche des informations clés que vous connaissez sur l'autre faction. Notez que certaines des informations ici peuvent être incomplètes, par exemple La force militaire connue ne montre que la force des navires militaires que vous avez vus.
+
+La section de l'offre de ressources montre tout revenu commercial avec l'autre faction. Cela signifie les ressources que vous avez achetées et vendues avec eux.
+
+Cette section montre également les ressources uniques que l'autre faction peut vous fournir (une fois que vous avez un accord commercial). Ce sont des ressources dont vous manquez, mais l'autre empire peut échanger avec vous.
+
+[H3]Leurs relations avec d'autres factions[/H3]
+La section Relation avec les autres montre les relations de l'autre faction avec tous les autres empires que vous avez rencontrés, y compris tous les traités et leurs sentiments les uns envers les autres.
+
+Planer sur la description du sentiment pour plus de détails sur la façon dont les deux parties se sentent les unes des autres.</MarkupText>
+        <RelatedControlNames>
+          <string>DiplomacyRelations_SubSection</string>
+          <string>EmpireRelationPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Relations avec les pirates</StepTitle>
+        <MarkupText>Les pirates sont des factions hors la loi qui vivent entièrement dans l'espace, sur les navires ou les bases. Ils n'ont pas de colonies. Les pirates sont généralement hostiles et hostiles. Ils font une descente et un pillage, prenant ce qu'ils veulent.
+
+Cependant, vous pouvez améliorer les relations avec les pirates en acceptant des accords de «protection» ou en leur offrant des cadeaux. Alternativement, vous pouvez simplement constituer vos forces et les essuyer.
+
+[H3]Liste des factions pirates[/H3]
+Cet écran répertorie toutes vos relations avec les factions pirates. Vérifiez les différentes options de tri et de filtre en haut du panneau.
+
+Chaque élément de liste montre comment la faction pirate se sent envers vous avec la tendance de votre relation.
+
+Cliquez sur un élément de relation dans la liste sélectionnera la base de pirate de faction, si elle est connue.
+
+[H3]Panel de détail de la relation[/H3]
+Le survol d'un élément de liste affiche le panneau de détail de la relation à droite. Cliquez sur l'élément de liste ou le panneau de détail le verrouillera.
+
+Le panneau de détail fournit un résumé complet de votre relation avec la faction pirate sélectionnée, avec des informations similaires à ce que vous verriez lors de l'interaction avec un autre empire.
+
+[H3]Parler avec des pirates[/H3]
+Vous pouvez converser avec les pirates en cliquant sur le bouton «Speak» sous leur nom dans le panneau de détail. Les discussions avec les pirates offrent des options telles que l'offre de traités et les cadeaux et la négociation de transactions commerciales détaillées.
+
+Les pirates ont souvent beaucoup d'informations secrètes sur la galaxie qu'ils peuvent être disposées à vous vendre si les relations sont assez amicales.
+
+Cliquez sur «Au revoir» ou sur le bouton Fermer en haut à droite pour terminer la conversation.</MarkupText>
+        <RelatedControlNames>
+          <string>DiplomacyPirates_SubSection</string>
+          <string>EmpireRelationPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Colonies indépendantes</StepTitle>
+        <MarkupText>Les colonies indépendantes sont des mondes peuplés qui n'appartiennent à aucune faction. Ce sont des mondes neutres et sont largement non développés.
+
+Vous pouvez vous lier d'amitié en établissant des traités commerciaux et en leur offrant des cadeaux. S'ils vous aiment suffisamment, ils peuvent vous demander de les coloniser et de rejoindre votre empire. Les grandes populations déjà établies de colonies indépendantes peuvent fournir un gros coup de pouce à votre empire lorsqu'il se développe encore.
+
+Une autre stratégie pour traiter les colonies indépendantes est de simplement construire vos troupes et de les envahir. Cependant, cela nuira à votre réputation avec d'autres factions.
+
+[H3]Liste des colonies indépendantes[/H3]
+Cet écran répertorie toutes vos relations avec des colonies indépendantes. Vérifiez les différentes options de tri et de filtre en haut du panneau.
+
+Les colonies indépendantes n'appartiennent à aucune faction. Vous pouvez échanger avec eux contre des ressources. Vous pouvez également les intégrer dans votre empire, soit par la force, soit par la diplomatie.
+
+Chaque élément de liste montre comment la colonie indépendante se sent envers vous avec la tendance de votre relation.
+
+Cliquez sur un élément de relation dans la liste sélectionnera la colonie indépendante, si elle est connue.
+
+[H3]Panel de détail de la relation[/H3]
+Le survol d'un élément de liste affiche le panneau de détail de la relation à droite. Cliquez sur l'élément de liste ou le panneau de détail le verrouillera.
+
+Le panneau de détail fournit un résumé complet de votre relation avec la colonie indépendante sélectionnée, avec des informations similaires à ce que vous verriez lors de l'interaction avec un autre empire.
+
+[H3]Stratégie[/H3]
+La section de stratégie vous permet de spécifier comment vous interagissez avec la colonie. Vous pouvez tenter de les intégrer via des cadeaux et une diplomatie, ce qui a finalement conduit à une invitation à coloniser. Ou vous pouvez choisir d'envahir et de prendre la colonie par force.
+
+[H3]Parler avec une colonie indépendante[/H3]
+Vous pouvez converser avec la colonie indépendante en cliquant sur le bouton «parler» sous leur nom dans le panneau de détail. Les discussions avec des colonies indépendantes offrent des options telles que l'offre de traités et les cadeaux, ou même la négociation de transactions commerciales détaillées.
+
+Les colonies indépendantes peuvent souvent avoir des connaissances sur les endroits secrets dans toute la galaxie qu'ils peuvent être disposés à vous vendre si les relations sont assez amicales.
+
+Cliquez sur «Au revoir» ou sur le bouton Fermer en haut à droite pour terminer la conversation.</MarkupText>
+        <RelatedControlNames>
+          <string>DiplomacyIndependentColonies_SubSection</string>
+          <string>EmpireRelationPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Ambassadeurs</StepTitle>
+        <MarkupText>Tous les personnages ambassadeurs de votre empire sont présentés dans cette liste.
+
+Vous pouvez voir les détails de chaque ambassadeur en survolant l'entrée de la liste et en cliquant pour verrouiller l'ouvrir le panneau à droite.
+
+Vous pouvez modifier le nom d'un ambassadeur en cliquant sur son nom sous le portrait et en tapant un nouveau.
+
+[H3]Emplacement de l'ambassadeur[/H3]
+Les ambassadeurs appliquent des avantages diplomatiques et d'espionnage à votre relation avec une autre faction. Pour affecter un ambassadeur à une faction particulière, vous devez les envoyer à la capitale de la faction.
+
+Utilisez la liste déroulante Emplacement et le bouton «Transfert» pour les affecter à la faction souhaitée.
+
+Alternativement, vous pouvez automatiser l'ambassadeur afin que vos conseillers diplomatiques sélectionnent le meilleur emplacement pour eux. Utilisez le bouton «Automatiser» sous le portrait de l'ambassadeur à droite.
+
+[H3]Événements[/H3]
+Tout en bas du panneau de détail se trouve une liste de tous les événements avec lesquels l'ambassadeur a été impliqué. Divers événements peuvent améliorer ou diminuer leurs compétences, ou fournir de nouveaux traits de caractère.</MarkupText>
+        <RelatedControlNames>
+          <string>CharactersAmbassadors_SubSection</string>
+          <string>CharacterPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Espions</StepTitle>
+        <MarkupText>Tous les personnages d'espionnage de votre empire sont indiqués dans cette liste.
+
+Vous pouvez voir les détails de chaque espion en survolant l'entrée de la liste et en cliquant pour verrouiller le panneau à droite.
+
+Vous pouvez modifier le nom d'un espion en cliquant sur leur nom sous le portrait et en tapant un nouveau.
+
+[H3]Missions d'intelligence[/H3]
+Les espions réalisent des missions de renseignement contre d'autres factions, volant des cartes et la technologie ou sabotant une autre faction de diverses manières.
+
+Ils peuvent également effectuer une contre-intelligence, protégeant votre empire des missions d'espionnage ennemies.
+
+Les compétences de chaque espion déterminent fortement les types de missions dans lesquelles ils sont les meilleurs.
+
+[H3]Attribuer des missions[/H3]
+Pour attribuer une mission à un espion, sélectionnez l'empire cible, le type de mission, toute cible de mission spécifique et le temps de compléter dans les listes déroulantes dans la section Mission, puis cliquez sur le bouton «Attribuez la mission».
+
+Au fur et à mesure que vous sélectionnez différentes options, la chance de succès de la mission est montrée à droite. Faites attention de ne pas attribuer des missions trop difficiles. Sinon, votre espion pourrait être intercepté et même capturé, conduisant à de graves répercussions diplomatiques.
+
+Si vous souhaitez automatiser complètement les missions attribuées à un espion, vous pouvez automatiser l'espion en utilisant le bouton «Automatiser» sous le portrait d'espionnage à droite.
+
+[H3]Événements[/H3]
+Tout en bas du panneau de détail se trouve une liste de tous les événements avec lesquels l'espion a été impliqué. Divers événements peuvent améliorer ou diminuer leurs compétences, ou fournir de nouveaux traits de caractère. La fin de la réussite des missions d'intelligence peut particulièrement augmenter les compétences de votre espion.</MarkupText>
+        <RelatedControlNames>
+          <string>DiplomacySpies_SubSection</string>
+          <string>CharacterPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Prisonniers</StepTitle>
+        <MarkupText>Tous les caractères capturés d'autres factions sont indiqués dans cette liste.
+
+Vous pouvez voir les détails de chaque caractère ennemi emprisonné en survolant l'entrée de la liste et en cliquant pour verrouiller l'ouvrir le panneau à droite.</MarkupText>
+        <RelatedControlNames>
+          <string>DiplomacyPrisoners_SubSection</string>
+          <string>CharacterPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Personnages</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Personnages</StepTitle>
+        <MarkupText>Les personnages de votre empire sont affichés dans cette liste. Par défaut, cela est filtré pour afficher des rôles de caractère non-SPY. Vérifiez les différentes autres options de tri et de filtre en haut du panneau.
+
+Vous pouvez voir les détails de chaque personnage en survolant l'entrée de la liste et en cliquant pour verrouiller le panneau à droite.
+
+Vous pouvez modifier le nom d'un personnage en cliquant sur son nom sous le portrait et en tapant un nouveau.
+
+La plupart des personnages commencent par leurs compétences et traits inconnus. Au fur et à mesure que vous utilisez le personnage, leurs compétences et traits seront révélés, puis se développent au fil du temps.
+
+[H3]Emplacements de caractère[/H3]
+La plupart des personnages appliquent leurs compétences à leur emplacement actuel. Par exemple, un amiral applique ses compétences militaires à la flotte dont il fait partie. Les scientifiques appliquent leurs compétences en recherche à la station de recherche où ils sont basés.
+
+Votre chef applique son empire de compétences à l'échelle de l'empire, améliorant tout votre empire de différentes manières. À l'inverse, lorsqu'ils ont des niveaux de compétence négatifs, ils peuvent être un préjudice de tout votre empire dans ces domaines spécifiques.
+
+Pour déplacer un caractère vers un emplacement spécifique, utilisez la liste déroulante de l'emplacement pour sélectionner l'emplacement, puis cliquez sur le bouton «Transférer» pour les déplacer là-bas.
+
+Si vous souhaitez automatiser complètement où un personnage est situé, vous pouvez utiliser le bouton «Automatiser» sous le portrait de caractère à droite.
+
+[H3]Événements[/H3]
+Tout en bas du panneau de détail se trouve une liste de tous les événements avec lesquels le personnage a été impliqué. Divers événements peuvent améliorer ou diminuer leurs compétences, ou fournir de nouveaux traits de caractère.</MarkupText>
+        <RelatedControlNames>
+          <string>Characters_SubSection</string>
+          <string>CharacterPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Espions</StepTitle>
+        <MarkupText>Tous les personnages d'espionnage de votre empire sont indiqués dans cette liste.
+
+Vous pouvez voir les détails de chaque espion en survolant l'entrée de la liste et en cliquant pour verrouiller le panneau à droite.
+
+Vous pouvez modifier le nom d'un espion en cliquant sur leur nom sous le portrait et en tapant un nouveau.
+
+[H3]Missions d'intelligence[/H3]
+Les espions réalisent des missions de renseignement contre d'autres factions, volant des cartes et la technologie ou sabotant une autre faction de diverses manières.
+
+Ils peuvent également effectuer une contre-intelligence, protégeant votre empire des missions d'espionnage ennemies.
+
+Les compétences de chaque espion déterminent fortement les types de missions dans lesquelles ils sont les meilleurs.
+
+[H3]Attribuer des missions[/H3]
+Pour attribuer une mission à un espion, sélectionnez l'empire cible, le type de mission, toute cible de mission spécifique et le temps de compléter dans les listes déroulantes dans la section Mission, puis cliquez sur le bouton «Attribuez la mission».
+
+Au fur et à mesure que vous sélectionnez différentes options, la chance de succès de la mission est montrée à droite. Faites attention de ne pas attribuer des missions trop difficiles. Sinon, votre espion pourrait être intercepté et même capturé, conduisant à de graves répercussions diplomatiques.
+
+Si vous souhaitez automatiser complètement les missions attribuées à un espion, vous pouvez automatiser l'espion en utilisant le bouton «Automatiser» sous le portrait d'espionnage à droite.
+
+[H3]Événements[/H3]
+Tout en bas du panneau de détail se trouve une liste de tous les événements avec lesquels l'espion a été impliqué. Divers événements peuvent améliorer ou diminuer leurs compétences, ou fournir de nouveaux traits de caractère. La fin de la réussite des missions d'intelligence peut particulièrement augmenter les compétences de votre espion.</MarkupText>
+        <RelatedControlNames>
+          <string>CharactersSpies_SubSection</string>
+          <string>CharacterPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Prisonniers</StepTitle>
+        <MarkupText>Tous les caractères capturés d'autres factions sont indiqués dans cette liste.
+
+Vous pouvez voir les détails de chaque caractère ennemi emprisonné en survolant l'entrée de la liste et en cliquant pour verrouiller l'ouvrir le panneau à droite.</MarkupText>
+        <RelatedControlNames>
+          <string>Prisoners_SubSection</string>
+          <string>CharacterPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Colonies</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Colonies</StepTitle>
+        <MarkupText>Les colonies sont les mondes peuplés de votre empire. Ils fournissent la majeure partie de la richesse et du revenu de votre empire. Vous prenez une partie de ce revenu en taxant vos colonies.
+
+Au fil du temps, les colonies se développent à la fois dans la population et le niveau de développement. Les colonies plus grandes et plus développées offrent un revenu plus élevé.
+
+Pour développer vos colonies plus rapidement et les faire développer davantage, vous devriez travailler pour garder la population heureuse et leur fournir des ressources de construction et de luxe abondantes. Vous pouvez également accélérer la croissance des colonies en allouant un financement dans l'écran des niveaux de financement dans votre section Empire.
+
+[H3]Liste de colonie[/H3]
+Cet écran répertorie tous les mondes colonisés de votre empire. Vérifiez les différentes options de tri et de filtre en haut du panneau.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les emplacements des colonies sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste montre le niveau de population, le taux d'approbation, le niveau de développement et les revenus fiscaux de chaque colonie.
+
+Cliquer sur une colonie dans la liste sélectionnera la colonie. Il ouvrira également le panneau de détail de la colonie à droite. Double-cliquez sur la colonie déplacera la vue vers la colonie. Vous pouvez également ouvrir le panneau de détail de la colonie en survolant la flèche à l'extrême droite de l'élément de liste.
+
+[H3]Panneau de détail de la colonie[/H3]
+Le panneau de détail de la colonie fournit un résumé complet de votre colonie. Il a également un ensemble élargi d'options pour gérer votre colonie.
+
+La section supérieure montre le développement et l'économie de la colonie. En utilisant les boutons en dessous de cette section, vous pouvez modifier le taux d'imposition et décider d'automatiser différentes zones de votre colonie. Vous pouvez également attribuer un modèle d'armée spécifique qui détermine le type de garnison des troupes défensives que la colonie devrait avoir.
+
+[H3]Population[/H3]
+La section de la population montre toutes les courses de la colonie. Le plan sur chaque course montre que son taux de reproduction et son niveau d'assimilation.
+
+Le niveau d'approbation global de la colonie est également répertorié dans cette section, ainsi qu'une ventilation de tous les facteurs qui contribuent à cette cote d'approbation.
+
+[H3]Troupes et personnages[/H3]
+La section des troupes et des personnages montre toutes les unités et personnages de troupes de la colonie.
+
+Vous pouvez recruter de nouvelles unités de troupes en utilisant les boutons sous cette section. La sélection des unités de troupes individuelles permet également de dissoudre ou de garnir l'unité.
+
+[H3]Installations planétaires[/H3]
+La section des installations planétaires montre toutes les installations, les merveilles et les ruines de la colonie.
+
+Vous pouvez construire de nouvelles installations à l'aide des boutons sous cette section. La sélection des installations individuelles vous permet également de supprimer le bâtiment.
+
+[H3]Construction[/H3]
+La section de construction montre tous les navires ou bases actuellement en construction dans la colonie. Vous pouvez construire de nouveaux navires ou bases à l'aide des boutons sous cette section.
+
+Cliquez sur le bouton Fermer en haut à droite du panneau pour le fermer.</MarkupText>
+        <RelatedControlNames>
+          <string>ColonyColonies_SubSection</string>
+          <string>ColonyDetailPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Nouvelles colonies</StepTitle>
+        <MarkupText>Cet écran répertorie toutes les nouvelles colonies potentielles que vous pouvez cibler. Vérifiez les étendues options de tri et de filtre en haut du panneau. Les options de filtre vous permettent de cibler des niveaux d'adéquation spécifiques, des races extraterrestres ou des types de planète.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les emplacements des nouvelles colonies sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche l'aptitude de la taille et de la colonisation de la planète ou de la lune. Fouler la cote d'adéquation fournit un résumé détaillé de la façon dont la nouvelle colonie est adaptée à chaque course de votre empire.
+
+[H3]Coloniser les mondes indépendants[/H3]
+Si la nouvelle colonie potentielle est déjà habitée par une race extraterrestre indépendante (une colonie indépendante), la race et le niveau de population sont montrés, ainsi que les chances actuelles de coloniser avec succès la colonie indépendante, c'est-à-dire quelle est la probabilité d'accueillir de rejoindre votre empire.
+
+[H3]Colonisation de la mise en file d'attente[/H3]
+Le bouton à droite vous permet de faire la queue de colonisation de la planète ou de la lune. Cela construira un nouveau navire de colonie, le remplira de colons de l'une de vos colonies, puis enverra le nouveau navire de colonie dans le monde cible pour le coloniser.
+
+Alternativement, si un navire de colonie approprié existe déjà dans votre empire, cela peut plutôt être utilisé pour coloniser le nouveau monde.
+
+[H3]Emplacements dangereux[/H3]
+Un symbole de boulon d'éclair rouge sera illustré à côté du nom de l'emplacement si l'emplacement est considéré comme dangereux. Un emplacement est dangereux lorsqu'il y a des menaces non diffusées, comme des pirates ou des créatures spatiales mortelles.
+
+Les navires non militaires ne se rendront pas dans un endroit dangereux. Les menaces doivent d'abord être éliminées par des navires militaires ou par une flotte. Cela signifie que même si vous pouvez faire la queue de construction d'une nouvelle colonie à un endroit dangereux, les navires de la colonie n'y voyageront pas tant que les menaces ne seront pas effacées.</MarkupText>
+        <RelatedControlNames>
+          <string>ColonyNewColonies_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Navires de colonie</StepTitle>
+        <MarkupText>Les navires de colonie sont des navires de transport spéciaux qui peuvent charger un grand nombre de colons qui sont envoyés à un nouveau monde pour votre empire.
+
+Lorsque des navires de colonie atteignent leur destination, ils sont démontés et les ressources brutes utilisées pour établir la nouvelle colonie. Ainsi, les navires de colonie ne peuvent être utilisés que pour coloniser un seul monde. Vous devez construire un nouveau navire de colonie pour chaque monde que vous souhaitez coloniser.
+
+[H3]Liste des navires de colonie[/H3]
+Cet écran répertorie tous les navires de colonie de votre empire. Vérifiez les options de tri et de filtre en haut du panneau.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les emplacements des navires de colonie sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche le niveau de construction, la mission actuelle et tous les colons chargés à bord.
+
+[H3]État d'automatisation[/H3]
+Vous modifiez l'état d'automatisation du navire de colonie à l'aide du bouton à l'extrême droite de l'élément de liste.</MarkupText>
+        <RelatedControlNames>
+          <string>ColonyColonyShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Installations planétaires</StepTitle>
+        <MarkupText>Les installations planétaires sont construites dans les colonies de votre empire. Ils offrent divers bonus ou de nouvelles capacités pour la colonie.
+        
+Certaines installations permettent le recrutement de nouveaux types de troupes. D'autres fournissent des armes au sol pour défendre la colonie. D'autres installations donnent des bonus à la gouvernance, réduisant la corruption et améliorant le bonheur et augmentant ainsi les revenus de la colonie.
+
+Les nouvelles installations sont activées par la recherche: examinez les projets de l'écran de recherche pour voir quelles installations vous pouvez débloquer.
+
+[H3]Construire de nouvelles installations[/H3]
+Pour construire une nouvelle installation dans une colonie, sélectionnez la colonie et utilisez le bouton d'action «Build Installations» sous le panneau de sélection. Cela présentera une liste de boutons avec toutes les installations qui peuvent être construites dans la colonie.
+
+Survolez chaque bouton pour un résumé de l'installation. Cliquez sur un bouton pour payer le coût de construction et commencez à construire l'installation.
+
+[H3]Éléments de liste des installations[/H3]
+Cet écran répertorie toutes les installations planétaires, les merveilles et les ruines dans les colonies de votre empire. Vérifiez les options de tri et de filtre en haut du panneau. Les options de filtre vous permettent de vous concentrer sur des types d'installations spécifiques, comme les installations d'armes, le recrutement de troupes ou les bâtiments de gouvernance.
+
+Lors du zoom sur le niveau de galaxie ou système, les emplacements des installations sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Fouler un élément de liste ouvre un résumé détaillé de l'installation dans un panel à droite.</MarkupText>
+        <RelatedControlNames>
+          <string>ColonyFacilities_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Artefacts</StepTitle>
+        <MarkupText>Cet écran répertorie tous les artefacts appartenant à votre empire.
+
+Les artefacts sont des objets que vous pouvez acquérir grâce à l'exploration. Ils fournissent généralement des bonus à votre empire ou à leur emplacement. Parfois, les artefacts doivent être dans une colonie ou dans votre capital pour offrir leurs avantages.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les emplacements des artefacts sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Faire planer sur un artefact dans la liste montrera également un panneau de résumé détaillé à droite.</MarkupText>
+        <RelatedControlNames>
+          <string>ColonyArtifacts_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Exploration</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Navires d'exploration</StepTitle>
+        <MarkupText>L'exploration consiste à envoyer des navires d'exploration pour visiter des mondes inconnus, révélant leurs ressources, leur aptitude à la colonisation et tout bonus spécial. Ils peuvent également rencontrer des ruines anciennes ou des navires ou des bases abandonnés qui peuvent être étudiés.
+
+Les emplacements peuvent être explorés à différents niveaux. L'exploration initiale révèle des données plus évidentes, comme la qualité d'une planète ou des ressources au niveau de la surface.
+
+Mais d'autres éléments peuvent être cachés à des niveaux d'exploration plus profonds. Cela peut inclure des bonus, des ruines anciennes, des ressources ou même des artefacts rares.
+
+L'exploration à un niveau plus profond nécessite de meilleurs composants avec une note de note plus élevée, soit des modules d'enquête ou des scanners d'exploration.
+
+À chaque emplacement, le navire d'exploration envoie des équipes d'enquête pour inspecter la planète. L'enquête est lente et longue.
+
+Des niveaux technologiques plus élevés débloquent les composants du scanner d'exploration qui permettent une exploration plus rapide. Cependant, les équipes d'enquête plus lentes peuvent toujours être utiles pour explorer un emplacement plus approfondie et donc découvrir des articles profondément cachés.
+
+[H3]Liste des navires d'exploration[/H3]
+Cet écran répertorie tous les navires d'exploration de votre empire. Vérifiez les options de tri et de filtre en haut du panneau.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les emplacements des navires d'exploration sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Vous modifiez l'état d'automatisation du navire d'exploration à l'aide du bouton à l'extrême droite de l'élément de liste.
+
+[H3]Superposition de la carte d'exploration[/H3]
+Lorsque la liste des navires d'exploration est ouverte, la superposition de la carte de la galaxie d'exploration est auto-activée, montrant l'état d'exploration pour chaque système. Les systèmes verts sont entièrement explorés, tandis que les systèmes jaunes sont partiellement explorés.</MarkupText>
+        <RelatedControlNames>
+          <string>ExplorationShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Ruines connues</StepTitle>
+        <MarkupText>L'exploration peut parfois révéler des ruines anciennes à certains endroits. Ces ruines peuvent contenir des secrets et d'autres éléments de valeur.
+
+[H3]Liste des ruines connues[/H3]
+Cet écran répertorie toutes les ruines que vous avez rencontrées lors de l'exploration de la galaxie.
+
+Lors du zoom vers le niveau du galaxie ou du système, les emplacements de ruine sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément sélectionner son emplacement. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche les bonus pertinents fournis par les ruines. Vous pouvez gagner ces bonus pour votre empire en colonisant la planète où se trouvent les ruines. Vous pouvez acquérir des bonus de recherche en construisant une station de recherche sur place. Vous pouvez acquérir des bonus de paysage en construisant une base de villégiature à l'emplacement.
+
+Fouler une ruine dans la liste affichera également un panneau de résumé détaillé à droite.</MarkupText>
+        <RelatedControlNames>
+          <string>ExplorationRuins_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Navires et bases abandonnées</StepTitle>
+        <MarkupText>L'exploration peut parfois révéler des navires ou des bases abandonnées. Ceux-ci peuvent contenir des informations importantes que vous pouvez obtenir lorsque vous montez et enquêtez. Ils peuvent généralement être également récupérés en envoyant un navire de construction pour les réparer.
+
+[H3]Liste des navires et des bases abandonnés[/H3]
+Cet écran répertorie tous les navires et bases abandonnés connus que vous avez rencontrés lors de l'exploration de la galaxie.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les emplacements de navire ou de base abandonnés sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément sélectionnera le navire ou la base abandonnée. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Le bouton à droite vous permet de faire la queue de réparation et d'investigation sur le navire ou la base abandonnée. Cela enverra un navire de construction pour réparer l'article.</MarkupText>
+        <RelatedControlNames>
+          <string>ExplorationAbandonedShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Emplacements spéciaux</StepTitle>
+        <MarkupText>Parfois, l'exploration peut révéler des emplacements inhabituels. Ceux-ci peuvent inclure des champs de débris de navires provenant de batailles anciennes ou d'autres phénomènes encore étrangers.
+
+[H3]Liste des emplacements spéciaux[/H3]
+Cet écran répertorie tous les emplacements spéciaux connus que vous avez rencontrés lors de l'exploration de la galaxie.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les emplacements spéciaux sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément sélectionnera l'emplacement.
+
+Fouler un emplacement spécial dans la liste affichera également un panneau de résumé détaillé à droite.</MarkupText>
+        <RelatedControlNames>
+          <string>ExplorationSpecialLocations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Ressources et mines</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Ressources</StepTitle>
+        <MarkupText>Les ressources sont les matières premières trouvées sur les planètes, les lunes et les astéroïdes. Ceux-ci peuvent inclure des minerais métalliques, des gaz, des minéraux, des textiles, des aliments, des boissons et de nombreux autres articles.
+
+Vous pouvez exploiter ces ressources, les extraire pour une utilisation dans votre empire.
+
+Certaines ressources sont utilisées pour construire de nouveaux navires et basé et améliorer la croissance de vos colonies. D'autres ressources sont utilisées pour élever le développement de vos colonies - ce sont des ressources de luxe. Et une ressource (Caslon) est utilisée comme carburant réacteur universel.
+
+[H3]Liste de ressources[/H3]
+Cet écran répertorie toutes les ressources de la galaxie.
+
+Par défaut, les ressources sont filtrées pour montrer uniquement les ressources de carburant et de construction que votre empire utilise actuellement. L'ordre de tri par défaut hiérarte les ressources où votre empire a une pénurie de production.
+
+Vérifiez les paramètres de tri et de filtre en haut du panneau pour plus d'options. D'autres options de filtre comprennent la montrer des ressources de luxe qui ajoutent au développement de vos colonies. Les options de tri incluent les taux d'exploitation, la demande, le nombre de sources et les niveaux de stockage dans votre empire.
+
+[H3]Superposition de la carte de flux de ressources[/H3]
+Lorsque la liste des ressources est ouverte, la superposition de la carte de la galaxie de flux de ressources est auto-compatible, montrant le flux de ressources entre les systèmes d'étoiles dans votre empire. Cela vous aide à visualiser le flux de fret par les cargos et les navires miniers entre les colonies et les bases de votre empire.
+
+En cliquant sur une seule ressource dans la liste filtre la superposition de la carte de flux de ressources pour afficher uniquement le transport de fret pour la ressource sélectionnée. Tous les emplacements de source connus pour la ressource sélectionnée sont également mis en évidence sur la carte Galaxy. Cliquer à nouveau sur la ressource le désélectionne.
+
+Chaque élément de liste affiche le stockage actuel, le taux de production et le nombre de sources connues et exploitées pour la ressource.</MarkupText>
+        <RelatedControlNames>
+          <string>ResourcesKnown_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Lieux d'exploitation</StepTitle>
+        <MarkupText>Cet écran répertorie tous les emplacements miniers actuels de votre empire. Cela comprend les colonies et les stations minières. Vérifiez les options de tri et de filtre en haut du panneau. Vous pouvez filtrer par des ressources individuelles pour identifier rapidement tous les emplacements pour une ressource particulière dans votre empire.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les emplacements minières sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément sélectionner son emplacement. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche toutes les ressources connues extraites à cet endroit, ainsi que leurs abondances. Si une ressource a une pénurie de production, son image est entourée d'une bordure rouge en pointillés. Survolez chaque ressource pour plus de détails, y compris tous les bonus qu'il fournit.</MarkupText>
+        <RelatedControlNames>
+          <string>ResourcesMiningStations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Nouveaux emplacements minières</StepTitle>
+        <MarkupText>Cet écran répertorie les nouveaux emplacements d'exploitation potentiels que vous pouvez cibler. Ces emplacements sont l'endroit où vous devriez construire de nouvelles stations minières.
+
+Vérifiez les options de tri et de filtre en haut du panneau. Les options de filtre vous permettent de cibler des ressources spécifiques. Les articles filtrants de couleur jaune sont des ressources de construction utilisées pour construire de nouveaux navires et bases. Les articles de filtre bleu clair sont des ressources de luxe utilisées pour développer vos colonies.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les nouveaux emplacements minières sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche les ressources connues et les niveaux d'abondance à l'emplacement. Si votre empire a une pénurie de la ressource, il sera entouré d'une frontière rouge en pointillés. Survolent chaque ressource pour un résumé complet, y compris tous les bonus qu'il fournit.
+
+[H3]Fiche de nouvelles stations minières[/H3]
+Le bouton à droite vous permet de faire la queue de construction d'une nouvelle station minière à l'emplacement. Lorsque le prochain navire de construction sera disponible, il construira une station minière ici. Vous pouvez à nouveau cliquer sur le bouton pour annuler la construction.
+
+Si vous ne pouvez pas construire à l'emplacement, le bouton de file d'attente sera désactivé. Une info-bulle sur le bouton expliquera pourquoi vous ne pouvez pas y construire.
+
+[H3]Emplacements dangereux[/H3]
+Un symbole de boulon d'éclair rouge sera illustré à côté du nom de l'emplacement si l'emplacement est considéré comme dangereux. Un emplacement est dangereux lorsqu'il y a des menaces non diffusées, comme des pirates ou des créatures spatiales mortelles.
+
+Les navires non militaires ne se rendront pas dans un endroit dangereux. Les menaces doivent d'abord être éliminées par des navires militaires ou par une flotte. Cela signifie que même si vous pouvez faire la queue de construction de nouvelles stations minières à un endroit dangereux, les navires de construction n'iront pas là-bas pour construire la nouvelle station tant que les menaces ne seront pas effacées.</MarkupText>
+        <RelatedControlNames>
+          <string>ResourcesNewMiningLocations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Navires minières</StepTitle>
+        <MarkupText>Les navires minières sont des navires d'extraction de ressources mobiles. Ils se rendent dans des emplacements miniers pour exploiter les ressources là-bas. Une fois qu'ils ont une charge complète, ils renvoient les ressources extraites vers le spatial le plus proche.
+
+Les navires minières font partie de votre économie civile, vous ne pouvez donc pas normalement leur attribuer des missions. Au lieu de cela, ils recherchent des emplacements d'exploitation par eux-mêmes, préférant les ressources qui sont en forte demande dans votre empire.
+
+Cependant, certains styles gouvernementaux vous permettent d'attribuer directement des missions aux navires miniers. Vous pouvez ensuite choisir où chaque navire minier exploitera en le sélectionnant et en cliquant avec le bouton droit sur l'emplacement de l'exploitation cible.
+
+[H3]Liste des navires minières[/H3]
+Cet écran répertorie tous les navires miniers de votre empire. Vérifiez les options de tri et de filtre en haut du panneau. Vous pouvez filtrer par les types de ressources extraites: carburant, construction ou ressources de luxe.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les navires miniers sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche les ressources que le navire minier extrait et la mission actuelle.</MarkupText>
+        <RelatedControlNames>
+          <string>ResourcesMiningShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Pétroliers de carburant</StepTitle>
+        <MarkupText>Les pétroliers se déplacent autour des navires de ravitaillement en carburant faible. Lorsque vous attribuez des pétroliers à une flotte, ils donneront la priorité aux navires de ravitaillement dans leur flotte.
+
+Ils peuvent exploiter le carburant de n'importe quel emplacement avec une ressource sur les combustibles. Mais ils préfèrent charger du carburant à partir d'un spaceport ou d'une colonie, car c'est généralement un moyen plus rapide d'obtenir du carburant.
+
+[H3]Liste des pétroliers à carburant[/H3]
+Cet écran répertorie tous les pétroliers dans votre empire.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les pétroliers sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche la cargaison actuelle et la mission du pétrolier.</MarkupText>
+        <RelatedControlNames>
+          <string>ResourcesFuelTankers_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Construction</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Construction de navires</StepTitle>
+        <MarkupText>Ce bouton ouvre la liste des conceptions où vous pouvez voir tous les conceptions de navires et de base pour votre empire.
+        
+À partir de cette liste, vous pouvez afficher ou modifier des conceptions, ou créer de nouvelles conceptions.
+
+L'ajout d'une nouvelle conception consiste à sélectionner une coque de navire, puis à ajouter des composants à la conception de l'écran de conception du navire.</MarkupText>
+        <RelatedControlNames>
+          <string>ShipDesignScreenButton</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Chantiers de construction</StepTitle>
+        <MarkupText>Les cours de construction sont l'endroit où vous construisez de nouveaux navires pour votre empire. Cela comprend des spaceports, qui sont généralement le moyen le plus rapide de construire de nouveaux navires. Vos colonies peuvent également construire des navires et des bases.
+
+[H3]Liste des cours de construction[/H3]
+Cet écran répertorie tous les cours de construction actuelles de votre empire. Vérifiez les options de tri et de filtre en haut du panneau. Vous pouvez trier par vitesse de construction ou temps d'attente de construction actuel.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les chantiers de construction sont mis en évidence sur la carte. Les badges du système et de l'emplacement indiquent également des spatiaux à l'aide de l'icône de construction jaune. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément sélectionner son emplacement. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+[H3]File d'attente de construction et temps d'attente[/H3]
+Chaque élément de liste affiche le temps d'attente de construction actuel. C'est le moment avant que toute nouvelle construction ne commence.
+
+Les navires ou les bases dans la file d'attente de construction, y compris tous les navires entrant pour la réparation ou la modernisation (non encore arrivés). Survolez chaque navire ou base pour plus de détails, y compris le pourcentage de progression de la construction.
+
+Le survol d'un élément de liste affichera également un panneau de résumé à droite. Ce résumé montre le nombre de verges de construction individuelles que l'emplacement a. Il montre également le temps d'attente actuel et les vitesses de construction et de réparation.</MarkupText>
+        <RelatedControlNames>
+          <string>ConstructionSpaceports_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Nouveaux emplacements de cour de construction</StepTitle>
+        <MarkupText>Cet écran répertorie les colonies où vous pouvez construire de nouveaux spaceports. Vérifiez les options de tri et de filtre en haut du panneau.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les nouveaux emplacements spatiaux sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+[H3]Faire la queue de nouveaux spaties[/H3]
+Le bouton à droite vous permet de faire la queue de construction d'un nouveau spatial dans la colonie.
+
+Si vous ne pouvez pas construire à l'emplacement, le bouton de file d'attente sera désactivé. Une info-bulle sur le bouton expliquera pourquoi vous ne pouvez pas y construire.</MarkupText>
+        <RelatedControlNames>
+          <string>ConstructionNewSpaceportLocations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Navires de construction</StepTitle>
+        <MarkupText>Les navires de construction sont des cours de construction mobiles. Ils construisent des bases de différents types: stations d'exploitation minière, stations de recherche, bases de villégiature, stations de surveillance. Ils peuvent également réparer les navires endommagés par immobile. Ils peuvent même réparer les navires abandonnés et les bases rencontrées par l'exploration.
+
+La construction d'une nouvelle base nécessite des ressources de construction. Ainsi, la première action effectuée par une construction en expédition lorsqu'il est attribué à une mission de construction consiste à se rendre auprès du spatial le plus proche pour charger les ressources de construction requises.
+
+[H3]Liste des navires de construction[/H3]
+Cet écran répertorie tous les navires de construction de votre empire.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les navires de construction sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche la mission actuelle du navire de construction.
+
+[H3]État d'automatisation[/H3]
+Le petit bouton à droite vous permet de modifier l'état d'automatisation du navire. Ainsi, vous pouvez contrôler manuellement le navire de construction ou l'automatiser complètement, ce qui lui permet de sélectionner ses propres missions.
+
+Ou vous pouvez avoir une automatisation plus spécifique, où le navire de construction ne construira que des stations d'exploitation minière, des stations de recherche, des stations de surveillance, des bases de villégiature ou des navires et des bases abandonnés.</MarkupText>
+        <RelatedControlNames>
+          <string>ConstructionShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Construire l'ordre</StepTitle>
+        <MarkupText>L'écran de commande de construction offre un moyen rapide de construire un grand nombre de navires. Chaque ligne répertorie un seul rôle de navire avec un champ de montant. Modifiez le montant pour construire dans le champ numérique. Vous pouvez également sélectionner la conception spécifique à construire pour chaque rôle dans la liste déroulante au centre de chaque ligne.
+
+Une fois que vous avez défini le montant et la conception que vous souhaitez créer pour chaque rôle, cliquez sur le bouton d'achat en haut du panneau pour acheter les nouveaux navires et commencer la construction. Les nouveaux navires seront construits dans la meilleure cour de construction disponible dans votre empire. Souvent, cela signifie utiliser plusieurs mètres de construction répartis dans tout votre empire.
+
+[H3]Par la superposition de la carte des rôles[/H3]
+Si vous cliquez sur une ligne de rôle, vous pouvez ensuite spécifier la quantité et la construction de l'emplacement de chaque nouveau navire en cliquant sur les badges de cour de construction jaune indiqués au niveau de la galaxie.
+
+Le clic gauche une fois sur un badge de cour de construction fera la queue de construction d'un seul navire pour ce rôle à cet endroit. Un clic droit sur l'insigne supprimera la construction d'un seul navire pour ce rôle à cet endroit.</MarkupText>
+        <RelatedControlNames>
+          <string>ConstructionBuildOrder_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Écran de conception de navires</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Introduction</StepTitle>
+        <MarkupText>L'écran de conception du navire vous permet de créer un nouveau design pour un navire, une base ou un combattant.
+
+Vous générez un nouveau design en ajoutant des composants aux baies dans une coque.
+
+Votre nouveau design doit répondre à de nombreuses exigences à considérer comme valides. Par exemple:
+[ULI]Tous les conceptions doivent avoir un centre de commande[/ULI]
+[ULI]Toutes les conceptions doivent stocker du carburant pour générer de l'énergie à partir d'un réacteur[/ULI]
+[ULI]Tous les navires doivent avoir des moteurs pour être mobiles[/ULI]
+
+Il existe de nombreuses exigences supplémentaires spécifiques à chaque rôle.
+
+[H3]Bouton de recommandations[/H3]
+Vérifiez le bouton Recommandations et le panneau pop-up lorsque vous ajoutez des composants à votre conception (en haut du panneau de résumé de conception). Certaines recommandations sont facultatives (indiquées en jaune). D'autres recommandations sont obligatoires (indiquées en rouge).
+
+Vous ne pouvez pas enregistrer votre conception tant que toutes les exigences ne seront pas satisfaites.</MarkupText>
+        <RelatedControlNames>
+          <string>Warnings</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Composants disponibles</StepTitle>
+        <MarkupText>La liste des composants disponibles montre tous les composants recherchés qui sont disponibles pour ajouter à la conception.
+
+Seuls les composants valides pour le rôle sont indiqués. Ainsi, les combattants ne voient aucun composant de navire, et vice versa. Les composants seront également exclus s'ils sont trop grands pour des baies dans la coque.
+
+Vous pouvez filtrer davantage les composants à l'aide de la liste déroulante en haut à gauche du panneau. Cela vous permet de filtrer par type baie, ou de simplement afficher le dernier composant par catégorie.
+
+Vous pouvez trier les composants à l'aide de la liste déroulante en haut à droite du panneau. Cela vous permet de trier par nom, catégorie, niveau technologique ou taille.
+
+[H3]Résumé des composants[/H3]
+Lorsque vous survolez chaque composant, un résumé contextuel apparaîtra à droite, décrivant les spécifications des composants.</MarkupText>
+        <RelatedControlNames>
+          <string>AvailableComponentContainer</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Baies de conception</StepTitle>
+        <MarkupText>La liste des baies de conception affiche toutes les baies composantes de la coque.
+
+Les composants ajoutés à la liste des baies de conception sont le cœur de la conception. Les composants ajoutés ici définissent les capacités et le comportement de la conception.
+
+Chaque baie a un type et une taille. Vous ne pouvez placer des composants que dans une baie lorsqu'il s'agit d'un type correspondant et lorsque la taille des composants s'intègre dans la baie.
+
+Il existe 6 types de baie de composants. Chaque type de baie permet uniquement certains types de composants:
+[ULI]Général: centres de commandement, quartiers d'équipage, piles à combustible, réacteurs, hyperdrives, baies de fret, compartiments de passagers, compartiments de troupes, moteurs miniers, collectionneurs d'énergie et tous les autres[/ULI]
+[ULI]Armes: armes ou poutres de tracteur[/ULI]
+[ULI]Moteurs: moteurs et moteurs à vectorisation[/ULI]
+[ULI]Défense: armure, boucliers ou contrôle des dommages[/ULI]
+[ULI]Hangars: baies d'accueil, cours de construction ou baies de chasse[/ULI]
+[ULI]Capteurs: scanners, contre-mesures, ciblage des ordinateurs, modules d'enquête, brouillards du scanner[/ULI]
+
+Pour ajouter un composant à une baie:
+[OLI]Sélectionnez le composant souhaité dans la liste des composants disponibles[/OLI]
+[OLI]Trouvez une baie du type de correspondance et une taille adéquate dans la liste des baies de conception[/OLI]
+[OLI]Cliquez sur le plan gauche dans la baie pour placer le composant[/OLI]
+
+Vous pouvez également faire ce qui suit:
+[ULI]Lorsque vous survolez une baie qui contient déjà un composant, une fenêtre de comparaison contextuelle sera affichée. Cela vous permet de voir rapidement les différences entre elles[/ULI]
+[ULI]Cliquez avec le bouton droit sur une baie pour supprimer un composant existant[/ULI]
+
+[H3]Baies externes[/H3]
+Notez que certaines baies de composants sont externes sur le modèle d'aperçu. En d'autres termes, ils peuvent être vus à l'extérieur du navire ou de la base.
+
+Les baies externes sont affichées dans la liste des baies de conception par une icône «View» à gauche. Vous pouvez cliquer sur l'icône Afficher pour faire pivoter l'aperçu pour afficher la baie externe.</MarkupText>
+        <RelatedControlNames>
+          <string>DesignComponentsContainer</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Aperçu de la conception</StepTitle>
+        <MarkupText>Le centre de l'écran montre un aperçu de la conception.
+
+Vous pouvez faire pivoter la vue en maintenant le bouton de souris droite et en déplaçant la souris gauche / droite et haut / bas.
+
+Utilisez la roue de défilement de la souris pour zoomer ou sortir de l'aperçu.
+
+[H3]Marqueurs de la baie externe[/H3]
+Les baies externes sont indiquées sur l'aperçu par un marqueur sphérique. La couleur du marqueur correspond au type de la baie.
+
+Vous pouvez activer ou désactiver les marqueurs de baie externes en utilisant le bouton à droite de la zone des paramètres tactiques.
+
+Vous pouvez placer des composants sélectionnés directement dans les baies externes sur l'aperçu:
+[OLI]Sélectionnez un composant dans la liste des composants disponibles[/OLI]
+[OLI]Les baies valides sont ensuite mises en évidence sur l'aperçu[/OLI]
+[OLI]Cliquez à gauche sur une baie valide où vous souhaitez ajouter le composant[/OLI]
+
+Vous pouvez également faire ce qui suit:
+[ULI]Cliquez avec le bouton droit sur une position de baie dans l'aperçu pour supprimer un composant existant de la baie externe[/ULI]
+
+[H3]Placement du moteur[/H3]
+Notez que lorsque vous ajoutez des moteurs à une conception de navires, la baie réelle où le moteur est ajouté peut être différente de la baie que vous avez sélectionnée. En effet, les moteurs doivent rester symétriques et seront donc toujours ajoutés sur des côtés alternés de la conception.</MarkupText>
+        <RelatedControlNames>
+          <string />
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Aperçu de la conception</StepTitle>
+        <MarkupText>L'aperçu de la conception affiche toutes les statistiques actuelles pour votre conception. Les valeurs de ce panneau changent lorsque vous ajoutez et supprimez les composants à la coque.
+
+Il existe de nombreuses sections à la vue d'ensemble de la conception montrant des données sur divers aspects de la conception. Une grande partie des données comportent plus d'informations lorsqu'elles sont survolées.
+
+En haut se trouve le nom de conception. Cliquez ici pour saisir un nouveau nom.
+
+[H3]Recommandations[/H3]
+Ensuite, le bouton des recommandations. Cela montre un résumé de tout avertissement ou erreur dans la conception actuelle.
+
+Survolez le bouton Recommandations pour faire sauter un panneau de résumé plus important. Cliquez sur le bouton pour verrouiller l'ouverture du panneau des recommandations.
+
+La conception n'est pas valide (et ne peut pas être enregistrée) tant que les erreurs ne sont pas résolues.
+
+[H3]Informations sur la conception de base[/H3]
+Vient ensuite un résumé des données de conception clés. Cela comprend des informations sur les frais d'achat et de maintenance.
+
+Il décrit également certaines exigences importantes:
+[ULI]La conception ne peut pas être plus grande que la taille maximale autorisée par la coque[/ULI]
+[ULI]Il doit y avoir un équipage adéquat pour la conception[/ULI]
+
+[H3]Notation[/H3]
+La section de notation résume les données sur la conception dans 4 domaines clés: attaque la force, défendre la force, la vitesse et les manœuvres et les scanners.
+
+Survolent chaque valeur pour une ventilation des facteurs qui contribuent à la notation dans chaque zone.
+
+[H3]Énergie[/H3]
+La section d'énergie résume la production d'énergie, le stockage et la distribution dans la conception.
+
+Il montre également des graphiques décrivant comment l'énergie est consommée à la fois à des vitesses de sublight au combat et pendant les voyages d'hyperspace. Pour les bases, un seul graphique est affiché.
+
+Une valeur importante est le taux de production d'énergie des réacteurs par unité de carburant. Cela montre l'efficacité de l'utilisation du carburant des réacteurs, qui a un impact direct sur la rapidité avec laquelle un navire doit faire le plein.
+
+[H3]Mouvement[/H3]
+Cette section n'est pertinente que pour les navires. Il montre la vitesse de mouvement et la consommation d'énergie à différents niveaux.
+
+La plage de saut hyperdrive et la plage globale de carburant sont également montrées ici.
+
+La précision de saut hyperdrive indique la plage de sortie de saut minimale lors de la voyage vers un emplacement sans colonie ni base de votre propre, par ex. Lors de l'attaque d'un emplacement ennemi.
+
+Cela signifie que le navire quittera le saut à environ cette plage et doit ensuite voyager à une vitesse de sous-lumière vers la destination.
+
+[H3]Armes[/H3]
+La section des armes décrit les gammes d'armes et les taux de dégâts par seconde dans diverses catégories d'armes.
+
+Sur planant sur les graphiques des dégâts d'armes révèle plus d'informations.
+
+On indique également la capacité de chasse et le taux de construction.
+
+[H3]Défense[/H3]
+La section de défense montre les valeurs du blindage, de l'armure et des dommages pour la conception.
+
+Sur planant sur le bouclier et les graphiques d'armure révèle plus d'informations.
+
+On indique également la force de la défense de l'embarquement.
+
+[H3]Ciblage et contre-mesures[/H3]
+Cette section montre les bonus de ciblage et de contre-mesures.
+
+Un ciblage amélioré rend les armes plus précises et plus susceptibles de frapper leur objectif.
+
+Les contre-mesures améliorées rendent un design plus capable de décourager les armes ennemies et d'éviter ainsi les dégâts.
+
+[H3]Capteurs[/H3]
+La section des capteurs décrit la résistance et la gamme d'une variété de types de scanner différents:
+[ULI]scanners généraux à court et à longue portée pour détecter les navires distants[/ULI]
+[ULI]Suivi de l'hyperjump des navires ennemis lorsqu'ils sautent de votre emplacement[/ULI]
+[ULI]Trace le balayage des informations internes sur les navires ennemis à proximité[/ULI]
+[ULI]Bounard du scanner qui protège contre la scanne par les ennemis[/ULI]
+
+[H3]Industrie[/H3]
+La section de l'industrie a des valeurs pour diverses catégories industrielles comme le stockage de fret, le débit d'amarrage, l'exploitation minière, la recherche et autres.
+
+[H3]Bonus[/H3]
+La section des bonus résume les bonus fournis par la coque ou les composants de la conception.
+
+[H3]Ressources nécessaires pour construire[/H3]
+Cette section montre les ressources totales nécessaires pour créer une nouvelle copie de cette conception.
+
+Cela comprend les ressources de la coque et de tous les composants de la conception.</MarkupText>
+        <RelatedControlNames>
+          <string>DesignSummaryContainer</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Paramètres tactiques</StepTitle>
+        <MarkupText>Utilisez les boutons des paramètres tactiques pour définir les tactiques par défaut pour le nouveau design. Ces tactiques par défaut seront utilisées pour les nouveaux navires et bases à l'aide de la conception.
+
+Une fois les navires construits, ils peuvent définir leurs propres tactiques, mais leurs tactiques initiales proviennent de leur conception.</MarkupText>
+        <RelatedControlNames>
+          <string>TacticsButtonStrip</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Sauver et sortir</StepTitle>
+        <MarkupText>Une fois que vous avez fini d'ajouter des composants à votre conception et que toutes les exigences sont satisfaites, cliquez sur le bouton Enregistrer et sortir pour revenir à la vue principale.
+
+Ou vous pouvez cliquer sur le bouton Annuler pour revenir à la vue principale sans enregistrer la conception actuelle.</MarkupText>
+        <RelatedControlNames>
+          <string>Close</string>
+          <string>Save</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Recherche</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Recherche</StepTitle>
+        <MarkupText>La recherche déverrouille la nouvelle technologie que vous pouvez utiliser pour améliorer votre empire de diverses manières:
+[ULI]Les nouvelles coques et composants de navires vous permettent de construire des navires et des bases plus grands et meilleurs[/ULI]
+[ULI]Les nouvelles installations planétaires aident à améliorer vos colonies[/ULI]
+[ULI]Améliorations à votre capacité à coloniser de nouveaux mondes[/ULI]
+[ULI]Améliorations à vos troupes terrestres[/ULI]
+[ULI]Fournit divers bonus, notamment en améliorant vos relations diplomatiques avec d'autres factions[/ULI]</MarkupText>
+        <RelatedControlNames>
+          <string>ResearchSection_SectionHeader</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Écran et sortie de recherche</StepTitle>
+        <MarkupText>Ce bouton ouvre l'écran de recherche où vous pouvez voir l'intégralité de l'arborescence technologique et sélectionner de nouveaux projets à rechercher.
+
+Vous pouvez également accélérer les progrès de la recherche en payant pour «crash-research» un projet.
+
+[H3]Projets simultanés[/H3]
+Lorsque vous avez plusieurs stations de recherche, vous pouvez rechercher plus d'un projet à la fois.
+
+Vous définissez la limite supérieure du nombre de projets à rechercher simultanément en utilisant cette valeur.
+
+[H3]Sources et sortie[/H3]
+La production de recherche provient des deux populations de vos colonies et des stations de recherche que vous construisez.
+
+Pour exploiter pleinement votre production de recherche, vous devez également dépenser un financement excédentaire pour la recherche. La recherche entièrement financée signifie un accès plus rapide aux nouvelles technologies.
+
+Vous pouvez allouer le financement de la recherche dans l'écran des niveaux de financement (CTRL-F2) dans la section Empire.</MarkupText>
+        <RelatedControlNames>
+          <string>ResearchScreenButton</string>
+          <string>Research_MaximumConcurrentProjects</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Postes de recherche</StepTitle>
+        <MarkupText>Cet écran répertorie tous les emplacements de recherche actuels de votre empire. Cela comprend les stations de recherche et toutes les autres bases avec des laboratoires de recherche. Vérifiez les options de tri et de filtre en haut du panneau. Vous pouvez filtrer par des bonus de recherche spécifiques pour identifier rapidement tous les emplacements d'un domaine de recherche particulier dans votre empire.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les emplacements de recherche sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément sélectionner son emplacement. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+[H3]Sortie de recherche[/H3]
+Chaque élément de liste montre le montant de la sortie de la recherche pour l'emplacement. Les bonus de recherche sont également répertoriés sur le lieu. Survolent la description du bonus pour un résumé complet de tous les bonus de recherche sur place, y compris d'où ils viennent. S'il y a des scientifiques à bord de la base, ils sont également présentés ici en haut à droite.</MarkupText>
+        <RelatedControlNames>
+          <string>ResearchResearchStations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Nouveaux emplacements de recherche</StepTitle>
+        <MarkupText>Cet écran vous montre des emplacements que vous avez explorés qui ont des bonus de recherche spéciaux. Ces emplacements sont l'endroit où vous devriez construire de nouvelles stations de recherche. Vérifiez les options de tri et de filtre en haut du panneau. Vous pouvez filtrer par des bonus de recherche spécifiques pour identifier rapidement les nouveaux emplacements pour un domaine de recherche particulier.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les nouveaux emplacements de recherche sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cela vous aide à voir facilement où se trouve un emplacement par rapport aux autres.
+
+Cliquez sur un élément de liste le sélectionnera. Double-cliquez sur un article déplacer la vue vers cet emplacement.
+
+Chaque élément de liste montre les bonus de recherche sur le lieu. Survolent la description du bonus pour un résumé complet de tous les bonus de recherche sur place, y compris d'où ils viennent.
+
+[H3]Fiche de nouvelles stations de recherche[/H3]
+Le bouton à droite vous permet de faire la queue de construction d'une nouvelle station de recherche sur place. Lorsque le prochain navire de construction sera disponible, il construira une station de recherche ici. Vous pouvez à nouveau cliquer sur le bouton pour annuler la construction.
+
+Si vous ne pouvez pas construire à l'emplacement, le bouton de file d'attente sera désactivé. Une info-bulle sur le bouton expliquera pourquoi vous ne pouvez pas y construire.
+
+[H3]Emplacements dangereux[/H3]
+Un symbole de boulon d'éclair rouge sera illustré à côté du nom de l'emplacement si l'emplacement est considéré comme dangereux. Un emplacement est dangereux lorsqu'il y a des menaces non diffusées, comme des pirates ou des créatures spatiales mortelles.
+
+Les navires non militaires ne se rendront pas dans un endroit dangereux. Les menaces doivent d'abord être éliminées par des navires militaires ou par une flotte. Cela signifie que même si vous pouvez faire la queue de construction de nouvelles stations de recherche à un endroit dangereux, les navires de construction n'iront pas là-bas pour construire la nouvelle station tant que les menaces ne seront pas effacées.</MarkupText>
+        <RelatedControlNames>
+          <string>ResearchNewResearchLocations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Montants de la recherche</StepTitle>
+        <MarkupText>Cet écran répertorie tous les bonus de recherche dans votre empire séparés par type. Les bonus de recherche sont importants de deux manières:
+[ULI]La vitesse de recherche est augmentée pour les projets avec le type de bonus correspondant, par exemple La recherche de nouvelles coques de navire est accélérée lorsque vous avez des bonus de recherche en construction[/ULI]
+[ULI]Certains projets de recherche ont des exigences supplémentaires où ils ne peuvent être initiés que lorsque vous avez des bonus de recherche suffisants d'un type particulier, par exemple Certains projets de bouclier haut de gamme vous obligent à avoir un certain seuil de bonus de recherche sur le bouclier[/ULI]
+
+Sur planant sur chaque type de bonus de recherche affiche une ventilation complète de toutes les sources du bonus dans un panneau à droite.
+
+Ces sources peuvent inclure des emplacements où vous avez construit une station de recherche. Ils peuvent également inclure des scientifiques et d'autres personnages. D'autres sources peuvent être des primes raciales ou gouvernementales.</MarkupText>
+        <RelatedControlNames>
+          <string>ResearchBonusAmounts_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Scientifiques</StepTitle>
+        <MarkupText>Tous les personnages scientifiques de votre empire sont montrés dans cette liste.
+
+Vous pouvez voir les détails de chaque scientifique en survolant l'entrée de la liste et en cliquant pour verrouiller le panneau à droite.
+
+Vous pouvez modifier le nom d'un scientifique en cliquant sur son nom sous le portrait et en tapant un nouveau.
+
+[H3]Emplacements des scientifiques[/H3]
+Les scientifiques appliquent des avantages de recherche lorsqu'ils sont à bord d'une station de recherche. Vous devez utiliser la liste déroulante Emplacement et le bouton «Transfer» pour les attribuer à un emplacement particulier.
+
+Alternativement, vous pouvez automatiser le scientifique afin que vos conseillers en recherche sélectionnent le meilleur emplacement pour eux. Utilisez le bouton «Automatiser» sous le portrait scientifique à droite.
+
+[H3]Événements[/H3]
+Tout en bas du panneau de détail se trouve une liste de tous les événements avec lesquels le scientifique a été impliqué. Divers événements peuvent améliorer ou diminuer leurs compétences, ou fournir de nouveaux traits de caractère.</MarkupText>
+        <RelatedControlNames>
+          <string>CharactersScientists_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Écran de recherche</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Aperçu</StepTitle>
+        <MarkupText>L'écran de recherche montre tous les projets de recherche.
+
+Les projets doivent être recherchés pour débloquer leurs avantages. La recherche prend du temps. La vitesse de la recherche est déterminée par la production de recherche de vos colonies et stations de recherche.
+
+Les projets de recherche fournissent les types de nouvelles technologies suivants qui peuvent améliorer votre empire de diverses manières:
+[ULI]Les nouvelles coques et composants de navires vous permettent de construire des navires et des bases plus grands et meilleurs[/ULI]
+[ULI]Les nouvelles installations planétaires aident à améliorer vos colonies[/ULI]
+[ULI]Améliorez votre capacité à coloniser de nouveaux mondes[/ULI]
+[ULI]Améliorez vos troupes terrestres[/ULI]
+[ULI]Offrez divers bonus, notamment en améliorant vos relations diplomatiques avec d'autres factions[/ULI]
+
+Le côté gauche de l'écran est le niveau technologique le plus bas. Ce sont les techniciens que vous avez au début d'un nouveau jeu.
+
+Au fur et à mesure que vous progressez vers la droite de l'écran, le niveau technologique augmente.
+
+[H3]Ordre de recherche[/H3]
+Les projets sont liés entre eux par des chemins. Les projets des parents doivent être recherchés avant les projets d'enfants. Au fur et à mesure que vous recherchez un projet, tous les projets d'enfants (généralement à droite) sont activés pour la recherche.
+
+[H3]Recherche aveugle contre non aveugle[/H3]
+Lorsque votre jeu a été mis en place pour utiliser la recherche aveugle, vous ne pouvez voir que les prochains projets disponibles au-delà de ceux qui sont déjà recherchés.
+
+Lorsque votre jeu n'a pas été mis en place pour utiliser des recherches aveugles, vous pouvez voir tous les projets dès le début du jeu.</MarkupText>
+        <RelatedControlNames>
+          <string />
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Naviguer sur l'écran de recherche</StepTitle>
+        <MarkupText>Vous pouvez déplacer la vue dans l'écran de recherche en cliquant sur le clic gauche et en faisant glisser avec la souris.
+
+La roue de défilement de la souris déplacera rapidement la vue vers le haut ou vers le bas.
+
+Vous pouvez zoomer ou sortir de la vue pour voir plus ou moins des projets disponibles. Vous pouvez le faire de 2 manières:
+[ULI]Maintenez la touche Ctrl en utilisant la roue de défilement de la souris[/ULI]
+[ULI]Cliquez sur les boutons de zoom ou de zoom arrière dans le panneau de configuration à droite[/ULI]
+
+Vous pouvez également utiliser les touches de flèche pour faire défiler / bas / gauche / droite.
+
+Pour déplacer la vue rapidement vers le haut ou vers le bas, utilisez les touches PageUp et Pagedown.</MarkupText>
+        <RelatedControlNames>
+          <string>Research_ZoomIn</string>
+          <string>Research_ZoomOut</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Voir et rechercher un projet</StepTitle>
+        <MarkupText>Le survol d'un projet présentera un résumé du projet, y compris les avantages qu'il déverrouille. Lorsque vous planez plus longtemps, un résumé plus détaillé est affiché, avec des données complètes sur les avantages du projet.
+
+Notez que vous pouvez également survoler les projets dans la file d'attente de recherche et le bouton «Fitre suggéré».
+
+[H3]Faire la queue d'un projet de recherche[/H3]
+Cliquez à gauche un projet pour le faire la queue pour la recherche.
+
+Cliquez avec le bouton droit sur un projet pour le supprimer de la file d'attente de recherche.
+
+[H3]Coûts d'initiation[/H3]
+Certains projets nécessitent un coût d'initiation à payer avant le début des recherches. Le coût peut inclure de l'argent et des ressources.
+
+Lorsque vous faites un clic gauche pour faire la queue d'un projet qui a des coûts d'initiation, une fenêtre rapide apparaîtra pour vous demander d'approuver le paiement des frais.
+
+[H3]Exigences supplémentaires[/H3]
+Certains projets ont des exigences de bonus de recherche supplémentaires avant de pouvoir commencer à les rechercher.
+
+Cela signifie qu'ils ne peuvent être initiés que lorsque vous avez des bonus de recherche suffisants d'un type particulier, par ex. Certains projets de bouclier haut de gamme vous obligent à avoir un certain seuil de bonus de recherche de bouclier.
+
+Vous pouvez obtenir des bonus de recherche dans des domaines spécifiques en recherchant ces emplacements par exploration. Lorsque vous trouvez un domaine avec des bonus de recherche spéciaux, vous pouvez ensuite y construire une station de recherche pour obtenir ces bonus pour votre empire.
+
+De plus, vous pouvez également obtenir des bonus de recherche par d'autres moyens:
+[ULI]de vos personnages de chef et scientifiques[/ULI]
+[ULI]Certaines races ont des bonus de recherche dans certains domaines[/ULI]
+[ULI]Certaines installations planétaires fournissent des bonus de recherche[/ULI]
+
+[H3]Crashing Research[/H3]
+Vous pouvez accélérer les recherches d'un projet important en le «la recherche». Cela signifie dépenser de l'argent pour doubler le taux de recherche pour ce projet.
+
+Pour faire des recherches sur un projet: un projet:
+[ULI]Assurez-vous que le projet est actuellement en cours de recherche, c'est-à-dire le premier projet de la file d'attente[/ULI]
+[ULI]Cliquez sur le projet dans la vue[/ULI]
+[ULI]Une fenêtre rapide semblera vous demander d'approuver le paiement pour rechercher le projet le projet[/ULI]</MarkupText>
+        <RelatedControlNames>
+          <string />
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Panneau de contrôle</StepTitle>
+        <MarkupText>À droite de l'écran se trouve le panneau de commande de recherche. Ce panneau offre un certain nombre de fonctions utiles pour naviguer dans l'arborescence technologique.
+
+[H3]Projets simultanés maximaux[/H3]
+Près du sommet se trouve une explication du nombre maximum de projets de recherche simultanés. Survolez cette explication pour plus de détails.
+
+[H3]Zoomer / out[/H3]
+À droite, les boutons Zoom avant et zoomez qui vous permettent de voir plus ou moins des projets disponibles.
+
+[H3]Boutons de saut[/H3]
+Viennent ensuite les boutons de saut. Cliquer sur l'un de ces boutons vous permet de déplacer immédiatement la vue vers la première ligne de projets pour cette catégorie.
+
+Par exemple, cliquer sur le bouton «Hyperspace Tech», déplacera immédiatement la vue pour afficher des projets hyperdrive en haut de l'écran.
+
+[H3]Filtrage des projets[/H3]
+Ci-dessous, une liste déroulante permet de filtrer les projets affichés. Cela vous permet de vous concentrer exclusivement dans une seule catégorie. Bien sûr, cela signifie également que vous ne pouvez pas voir les autres projets. Assurez-vous donc de revenir à «tous les projets».
+
+[H3]Projet suggéré suivant[/H3]
+Vient ensuite le bouton «Fitre suggéré». Ce bouton suggère le prochain projet que vos conseillers en recherche pensent que vous devriez rechercher. Cliquez sur le bouton pour filer le projet suggéré.
+
+Le survol du bouton fournira un résumé du projet suggéré. Tout en survolant le bouton, le projet sera également «pingé» dans la vue (vous devrez peut-être zoomer pour voir où il se trouve).
+
+[H3]File d'attente de recherche[/H3]
+Enfin, il y a la file d'attente de recherche. Ce sont tous les projets qui sont actuellement en file d'attente pour la recherche. Les principaux projets sont actuellement en cours de progression activement (le nombre de projets simultanés), tandis que les projets suivants attendent que les principaux projets soient achevés.
+
+Vous pouvez supprimer des projets de la file d'attente en les cliquant avec le bouton droit dans la file d'attente. Vous pouvez également déplacer des projets vers le haut ou vers le bas de la file d'attente à l'aide des flèches à droite.
+
+[H3]Sortie de la recherche[/H3]
+En haut se trouve le bouton «Exit Research». En cliquant sur ce bouton, fermera l'écran de recherche et reviendra au jeu.</MarkupText>
+        <RelatedControlNames>
+          <string>ResearchNavigationPanel</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Militaire</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Navires militaires</StepTitle>
+        <MarkupText>Les navires militaires défendent votre empire contre les attaques ennemies. Ils peuvent également être utilisés pour étendre votre empire par la conquête, attaquant les flottes ennemies et envahissant les colonies ennemies. Les navires militaires peuvent également se protéger contre les pirates de maraude et les créatures spatiales dangereuses.
+
+Les navires militaires sont disponibles en différentes tailles et rôles. Au fur et à mesure que votre technologie progresse, vous pouvez rechercher de nouvelles coques de navires militaires qui vous permettent de concevoir et de construire de plus grands navires militaires.
+[ULI]Escorte: le plus petit navire militaire. Peut repousser les raids ennemis, surtout lorsque vous avez plusieurs escortes à un endroit.[/ULI]
+[ULI]FRIGATE: Les expédies rapides bien adaptées pour intercepter les pillards ennemis, comme les pirates. Peut également fonctionner efficacement sous forme de piquets de piquets ou d'escorte dans une flotte.[/ULI]
+[ULI]Destroyer: Le plus petit navire bien adapté aux opérations offensives. Ont souvent de nombreuses armes à faire, permettant des attaques à distance efficaces contre des cibles fixes comme les bases ennemies. Peut avoir des baies de chasse, bien qu'à un coût important dans l'espace.[/ULI]
+[ULI]Cruiser: Navires de frappe multi-rôles très forts et capables. Ont généralement un éventail équilibré d'armes, mais manquent généralement d'équipement plus exotique comme des armes de zone ou des composants hyper refusés. Peut avoir des baies de chasse.[/ULI]
+[ULI]Boutillette: Le plus grand type de navire militaire. Généralement chargé avec un tableau complet de types d'armes: fermer, stand-off, interception, zone, ion, hyper refuser. Peut également avoir des baies de chasse et des scanners à longue portée. Le choix évident pour les navires de plomb de flotte. Aussi de bons navires sur lesquels stationner vos précieux amiraux.[/ULI]
+[ULI]Carrier: Spécialisé avec plusieurs baies de hangar pour abriter de nombreux combattants. Évitez généralement de s'impliquer directement dans le combat, en s'appuyant plutôt sur leurs grands compléments de combattant pour engager l'ennemi. Peut également avoir des scanners à longue portée et peut être de bons navires de plomb.[/ULI]
+[ULI]Transport des troupes: Spécialisé pour transporter un grand nombre de troupes pour l'invasion des colonies ennemies, ou le renforcement de vos propres colonies. Ont également des composants de pod d'assaut pour déployer des troupes pour invasion. Fait généralement partie d'une flotte d'invasion dédiée.[/ULI]
+[ULI]Camion-citernes à carburant: fournissez du carburant à d'autres navires, augmentant leur portée, en particulier lorsqu'il est dans le territoire ennemi. Peut exploiter leur propre carburant des planètes à gaz. Pas strictement un navire militaire, mais souvent affecté aux flottes en tant que navires de soutien.[/ULI]
+
+[H3]Attribuer des missions[/H3]
+Pour attribuer des missions à un navire militaire, sélectionnez-le d'abord en cliquant sur le clic gauche dans la liste ou directement dans la vue principale. Cliquez ensuite avec le bouton droit sur la cible pour attribuer la mission par défaut.
+
+La maintenance du bouton avec le bouton droit fournira une liste de toutes les missions valides pour la cible. Sélectionnez le type de mission souhaité dans la liste.
+[ULI]Attaque: déclenche une attaque contre une cible ennemie, que ce soit une créature de navire, de base, de colonie ou d'espace. Notez que l'attribution d'une mission d'attaque contre une colonie ennemie à un navire transportant des troupes lancera une invasion, le navire tentant de décrocher ses troupes dans la colonie.[/ULI]
+[ULI]RAID: tente de réduire les boucliers de la base ennemie, puis de faire des raids à l'aide de gousses d'assaut. Si les Raiders battent des défenseurs, ils pourraient être en mesure de piller la base, de gagner de l'argent, des ressources ou de la technologie.[/ULI]
+[ULI]Capture: tente d'abaisser les boucliers du navire ou de la base ennemi, puis des parties d'embarquement, tentant de reprendre la cible. Si les pensionnaires battent des défenseurs, ils acquièrent le navire ou la base pour votre empire.[/ULI]
+[ULI]Bombard: Bombardement orbital d'une colonie ennemie, réduisant les défenses, les troupes, la population ou la qualité de la colonie. Peut être un moyen efficace d'adoucir une colonie avant l'invasion. Les armes Bombard sont souvent spécialisées pour détruire des aspects spécifiques des défenses des colonies.[/ULI]
+[ULI]Blocus: Garez-vous dans une base ennemie ou une colonie, empêchant les navires de charger ou de décharger des cargaisons ou des passagers. Attaquera tous les navires qui tentent d'exécuter le blocus.[/ULI]
+[ULI]Escorte: accompagner un navire civil, le protégeant des attaques par toutes les menaces.[/ULI]
+[ULI]Garde: Garez-vous dans une base ou une colonie amicale, en la protégeant des attaques par toutes les menaces.[/ULI]
+[ULI]Chargez des troupes: chargez des troupes de l'une de vos colonies sur un navire avec une capacité de troupes de rechange.[/ULI]
+[ULI]Déchargez les troupes: déchargez les troupes de vos navires à une colonie.[/ULI]</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+
+      <TourStep>
+        <StepTitle>Navires militaires</StepTitle>
+        <MarkupText>[H3]Liste des navires militaires[/H3]
+Cet écran répertorie tous les navires militaires de votre empire. Vérifiez les étendues options de tri et de filtre en haut du panneau. Vous pouvez trier par force, taille, flotte, rôle et force d'attaque de troupes. Vous pouvez filtrer par rôle, statut de flotte, statut d'automatisation et niveau de dégâts.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les navires militaires sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche la mission actuelle du navire. Si le navire fait partie d'une flotte, le nom de la flotte est indiqué entre parenthèses après le nom du navire. On indique également la force de combat du navire et la force d'attaque de toutes les troupes à bord. Tous les caractères à bord du navire sont affichés à droite, à côté de la description de la mission.
+
+Les navires endommagés ou en construction ont un fond rouge ou orange derrière leur image. Passez à l'image du navire pour montrer le niveau de santé.
+
+Le survol d'un élément de liste affiche un résumé détaillé dans un panneau à droite.
+
+[H3]État d'automatisation[/H3]
+Le petit bouton à droite vous permet de modifier l'état d'automatisation du navire. Ainsi, vous pouvez contrôler manuellement le navire ou l'automatiser complètement, ce qui lui permet de sélectionner ses propres missions.
+
+Ou vous pouvez avoir une automatisation plus spécifique, où le navire n'attribuera des missions que pour l'escorte, la garde, la patrouille ou le raid.
+
+[H3]Paramètres tactiques[/H3]
+Chaque navire a une gamme complète de paramètres tactiques qui affinent le fonctionnement. Ouvrez l'écran des paramètres tactiques en sélectionnant le navire et en cliquant sur le bouton «Set Tactics» à l'extrême droite sous le panneau de sélection.
+
+Vous pouvez contrôler comment les navires réagiront aux menaces en définissant la plage d'engagement. Pour plus de détails, survolez chaque paramètre dans l'écran des paramètres tactiques.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Flottes</StepTitle>
+        <MarkupText>Les flottes sont des groupes de navires militaires qui agissent ensemble pour effectuer des missions.
+        
+Ils ont une base d'attache qui définit leur centre d'opérations. Ils ont également une gamme de fiançailles qui définit la zone qu'ils engageront des cibles ennemies, dans un rayon de leur base d'origine.
+
+[H3]Liste des flottes[/H3]
+Cet écran répertorie toutes les flottes de votre empire. Vérifiez les options de tri et de filtre en haut du panneau.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les flottes sont mises en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche la mission actuelle de la flotte. Le nombre de navires dans la flotte, la force de combat de la flotte et la force d'attaque de toutes les troupes de la flotte. L'icône du rôle de flotte est montrée à l'extrême droite. Tous les personnages de la flotte sont montrés à droite, à côté de la description de la mission.
+
+Le survol d'un élément de liste affiche un résumé détaillé dans un panneau à droite. Ce panneau de résumé montre une ventilation complète de tous les navires de la flotte par rôle de navire, niveau de dégâts et niveau de carburant. Il fournit également des détails sur tous les amiraux ou généraux de la flotte.
+
+[H3]Modèles et rôles de flotte[/H3]
+Comme expliqué précédemment, les flottes sont basées sur un modèle. Les flottes peuvent avoir un rôle spécifique tel que: attaque, raid, défendre ou envahir. Ces flottes sélectionneront des missions appropriées à leur rôle de flotte.
+
+Vous pouvez également choisir de contrôler manuellement une flotte en définissant son rôle sur manuel (bouton de rôle de flotte sous panneau de sélection) ou en attribuant simplement une mission à la flotte (le modifiant ainsi automatiquement en flotte manuelle).
+
+[H3]Création de nouvelles flottes[/H3]
+Vous pouvez créer une nouvelle flotte de différentes manières:
+[ULI]Sélectionnez plusieurs navires dans la vue principale en sélectionnant la sélection avec le bouton gauche de la souris maintenue ou en cliquant sur Ctrl chaque navire. Puis cliquez sur le bouton «Créer une nouvelle flotte» sous le panneau de sélection[/ULI]
+[ULI]Sélectionnez plusieurs navires dans la liste des navires militaires par les navires de Ctrl et de clics à décalage dans la liste. Puis cliquez sur le bouton «Créer une nouvelle flotte» sous le panneau de sélection[/ULI]
+[ULI]Dans l'écran des modèles de flotte, sélectionnez le modèle souhaité, puis cliquez sur les boutons «Formulairez New Fleet» ou «Créer une nouvelle flotte» à droite[/ULI]
+
+Vous pouvez également ajouter des navires individuels à une flotte existante en sélectionnant le navire et en cliquant sur le bouton «Rejoignez le navire à la flotte» sous le panneau de sélection. Cela figurera une liste de toutes les flottes qui peuvent être jointes. Sélectionnez la flotte que vous souhaitez que le navire rejoigne en cliquant dessus dans la liste.
+
+[H3]Paramètres tactiques[/H3]
+Les flottes ont une gamme complète de paramètres tactiques qui affinent leur fonctionnement. Ouvrez l'écran des paramètres tactiques en sélectionnant la flotte et en cliquant sur le bouton «Set Tactics» à l'extrême droite sous le panneau de sélection.
+
+Vous pouvez contrôler comment les flottes réagiront aux menaces en définissant la plage d'engagement. Pour plus de détails, survolez chaque paramètre dans l'écran des paramètres tactiques.
+
+Notez que les navires individuels dans une flotte ont également leurs propres paramètres tactiques. Vous pouvez modifier comment la flotte et les tactiques des navires interagissent dans la section «Fleet navires - Défenses tactiques».</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryFleets_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Modèles de flotte</StepTitle>
+        <MarkupText>Les modèles de flotte vous permettent de définir la composition de vos flottes, en fixant la quantité de navires pour chaque rôle de navire. Ils définissent également un regroupement de paramètres tactiques par défaut. Vous pouvez ensuite créer de nouvelles flottes en fonction d'un modèle.
+
+Les flottes tenteront d'inclure des navires qui correspondent aux rôles et aux montants décrits dans leur modèle. Mais si des navires sont insuffisants disponibles pour un rôle souhaité, la flotte tombera pour utiliser des navires à partir d'autres rôles pour remplir le nombre global de navires.
+
+[H3]Types de modèles de flotte[/H3]
+Chaque rôle de flotte a un modèle par défaut: attaque, raid, défendre, envahir. Vous pouvez également créer manuellement d'autres modèles pour chaque rôle de flotte.
+
+[H3]Création de flottes à l'aide de modèles de flotte[/H3]
+Vous pouvez créer de nouvelles flottes en sélectionnant manuellement les navires, puis en formant une flotte avec eux. Cependant, l'écran des modèles de flotte fournit quelques façons rapides de créer de nouvelles flottes.
+
+Dans l'écran Modèles de flotte, vous pouvez sélectionner le modèle souhaité, puis cliquez sur les boutons «Formulaire Nouvelle flotte» ou «Créer une nouvelle flotte» à droite.</MarkupText>
+        <RelatedControlNames>
+          <string>FleetTemplatesButton</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Troupes</StepTitle>
+        <MarkupText>Les troupes sont utilisées pour envahir les colonies ennemies et défendre vos colonies contre l'invasion.
+
+Les unités de troupes sont recrutées dans vos colonies et prennent du temps pour atteindre la préparation opérationnelle. Les plus grandes colonies peuvent s'entraîner et récupérer des troupes plus rapidement que les colonies plus petites.
+
+De nouvelles unités de troupes peuvent être déverrouillées grâce à la recherche. Les unités de troupes de niveau supérieur ne peuvent être recrutées que lorsque l'installation planétaire requise est construite dans une colonie.
+
+Les troupes peuvent être garnis de colonies. Cela signifie qu'ils sont stationnés en permanence dans la colonie pour le défendre et ne seront donc pas ramassés par les navires de transport de troupes.
+
+Les unités de troupes ont un coût monétaire unique pour recruter. Ils ont également des coûts de maintenance annuels continus.
+
+Chaque troupe a également une taille: certaines sont petites (infanterie) tandis que d'autres sont plus grandes (défense planétaire blindé). La taille est importante lorsque l'on considère la capacité de transport des troupes pour les navires de transport de troupes et les flottes d'invasion.
+
+[H3]Types d'unités de troupes[/H3]
+Il existe 5 types d'unités de troupes:
+[ULI]Infanterie: l'unité de base des troupes défensives. L'infanterie est disponible dès le début du jeu. Chaque race a sa propre unité d'infanterie unique avec diverses forces et faiblesses.[/ULI]
+[ULI]Blindé: l'unité de troupe d'attaque primaire. Nécessite une caserne d'armure pour recruter.[/ULI]
+[ULI]Défense planétaire: unités de troupes défensives spécialisées qui peuvent intercepter les troupes ennemies alors qu'elles voyagent de leurs navires d'atterrissage à la surface planétaire. Nécessite une installation du centre de défense planétaire pour recruter.[/ULI]
+[ULI]Forces spéciales: unités d'infanterie hautement qualifiées spécialisées dans la suppression des défenses des colonies lors d'une invasion (installations au sol, en défense des unités de défense planétaire, des généraux ennemis). Nécessite une caserne d'opérations spéciales pour recruter.[/ULI]
+[ULI]Titans: Unités d'attaque haut de gamme très fortes. Nécessite une installation de centre de fabrication Titan pour recruter.[/ULI]
+
+[H3]Liste des troupes[/H3]
+Cet écran répertorie toutes les unités de troupes de votre empire. Vérifiez les étendues options de tri et de filtre en haut du panneau. Vous pouvez trier par attaque et défendre la force, le coût de maintenance et l'emplacement. Vous pouvez filtrer par type de troupe, statut de garnison et emplacement (colonies vs transports).
+
+Lors du zoom sur le niveau de la galaxie ou du système, les troupes sont mises en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste montre la force d'attaque, défend la force et le coût de maintenance de l'unité de troupes. Le survol d'un élément de liste affiche un résumé détaillé dans un panneau à droite. Les troupes garnisées sont indiquées par une ligne bleue sous leur image.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryTroops_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Modèles de l'armée</StepTitle>
+        <MarkupText>Les modèles de l'armée vous permettent de définir la composition relative des types de troupes. Les modèles de l'armée sont utilisés par les flottes et les colonies pour spécifier le nombre de chaque type de troupes.
+
+[H3]Types de modèles de l'armée[/H3]
+Il existe 4 types de base de modèle d'armée:
+[ULI]Invasion: affecté aux flottes pour définir les troupes devraient être utilisées lors de l'invasion des colonies ennemies. Ceux-ci incluraient généralement beaucoup d'armures, des forces spéciales, de l'infanterie et des titans (si disponibles)[/ULI]
+[ULI]Défense majeure de la colonie: affecté aux grandes colonies (comme votre capitale) pour définir les troupes devraient être utilisées pour défendre la colonie contre les troupes ennemies envahissantes. Ceux-ci incluraient généralement tous les types de troupes, mais surtout beaucoup d'unités d'infanterie et de défense planétaire.[/ULI]
+[ULI]Défense de la colonie frontalière: affecté à des colonies frontalières vulnérables pour définir les troupes devraient être utilisées pour défendre la colonie contre les troupes ennemies envahissantes. Ceux-ci incluraient généralement beaucoup d'infanterie et certaines unités de défense planétaire.[/ULI]
+[ULI]Défense standard de la colonie: affecté à toutes les autres colonies pour définir les troupes devraient être utilisées pour défendre la colonie contre les troupes ennemies envahissantes. Ceux-ci incluraient généralement beaucoup d'infanterie.[/ULI]
+
+Il existe un modèle par défaut pour chaque type, mais vous pouvez les modifier ou créer des modèles supplémentaires qui correspondent à vos besoins.
+
+[H3]Attribuer des modèles d'armée[/H3]
+Vous pouvez sélectionner un modèle de l'armée pour une colonie en sélectionnant la colonie et en utilisant les boutons «Set Colony Automation»&gt; «Template de l'armée» sous le panneau de sélection. Cela figurera une liste de tous les modèles de l'armée qui peuvent être utilisés.
+
+Sélectionnez le modèle que vous souhaitez utiliser pour la colonie en cliquant dessus dans la liste. La colonie tentera ensuite de recruter des troupes défensives dans le ratio décrites par le modèle.
+
+Vous pouvez sélectionner un modèle de l'armée pour une flotte en sélectionnant la flotte et en utilisant le bouton «modèle de l'armée» sous le panneau de sélection. Cela figurera une liste de tous les modèles de l'armée qui peuvent être utilisés. Sélectionnez le modèle que vous souhaitez utiliser pour la flotte en cliquant dessus dans la liste. La flotte tentera alors de charger des troupes dans le rapport décrit par le modèle.</MarkupText>
+        <RelatedControlNames>
+          <string>ArmyTemplatesButton</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Amiraux et généraux</StepTitle>
+        <MarkupText>Tous les personnages d'amiral ou généraux de votre empire sont indiqués dans cette liste.
+
+Vous pouvez voir les détails de chaque personnage en survolant l'entrée de la liste et en cliquant pour verrouiller le panneau à droite.
+
+Vous pouvez modifier le nom d'un personnage en cliquant sur son nom sous le portrait et en tapant un nouveau.
+
+[H3]Admiral et General Lieux[/H3]
+Les amiraux appliquent leurs bonus de combat lorsqu'ils sont à bord d'un navire militaire, et surtout lorsqu'ils sont dans une flotte. Vous devez utiliser la liste déroulante Emplacement et le bouton «Transfer» pour les attribuer à une flotte ou à un autre emplacement particulier.
+
+Les amiraux peuvent également fournir des bonus non combattants lorsqu'ils sont stationnés dans des spaties, par ex. vitesse de construction du navire.
+
+Les généraux appliquent leurs bonus de combat au sol lorsqu'ils sont dans une colonie: défendre l'une de vos propres colonies ou envahir une colonie ennemie. Vous devez utiliser la liste déroulante Emplacement et le bouton «Transfert» pour les attribuer à une flotte ou une colonie particulière.
+
+Pour utiliser un général défensivement, vous devez les placer dans l'une de vos colonies. Pour les utiliser pour attaquer, vous devez les placer dans l'une de vos flottes d'invasion.
+
+Les généraux peuvent également fournir des bonus non combattants lorsqu'ils sont stationnés dans les colonies, par ex. Taux de recrutement de troupes.
+
+Vous pouvez également automatiser l'amiral ou le général afin que vos conseillers militaires sélectionnent le meilleur emplacement pour eux. Utilisez le bouton «Automatiser» sous le portrait de caractère à droite.
+
+[H3]Événements[/H3]
+Tout en bas du panneau de détail se trouve une liste de tous les événements avec lesquels l'amiral ou le général a été impliqué. Divers événements peuvent améliorer ou diminuer leurs compétences, ou fournir de nouveaux traits de caractère.</MarkupText>
+        <RelatedControlNames>
+          <string>CharactersAdmiralsGenerals_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Bases défensives</StepTitle>
+        <MarkupText>Les bases défensives sont des plates-formes d'armes lourdes qui sont utilisées pour défendre les colonies importantes. Ils sont construits dans l'espace autour de la colonie et fournissent une puissance de feu substantielle pour combattre les forces ennemies attaquant.
+
+[H3]Liste de base défensive[/H3]
+Cet écran répertorie toutes les bases défensives actuelles de votre empire. Vérifiez les options de tri et de filtre en haut du panneau.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les bases défensives sont mises en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément sélectionner son emplacement. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryDefensiveBases_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Stations de surveillance</StepTitle>
+        <MarkupText>Les stations de surveillance sont des bases spécialisées qui fournissent des scanners à longue portée pour surveiller les emplacements stratégiques. Ils sont construits à des endroits calmes qui sont à portée pour surveiller les cibles ennemies.
+
+[H3]Liste des stations de surveillance[/H3]
+Cet écran répertorie toutes les stations de surveillance actuelles de votre empire. Vérifiez les options de tri et de filtre en haut du panneau.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les stations de surveillance sont mises en évidence sur la carte. Les badges du système et de l'emplacement indiquent également des spatiaux à l'aide de l'icône de construction jaune. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément sélectionner son emplacement. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryMonitoringStations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Nouveaux emplacements de la station de surveillance</StepTitle>
+        <MarkupText>Cet écran répertorie les emplacements idéaux où vous devez créer de nouvelles stations de surveillance.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les nouveaux emplacements de station de surveillance sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+[H3]Fiche de nouvelles stations de surveillance[/H3]
+Le bouton à droite vous permet de faire la queue de construction d'une nouvelle station de surveillance à l'emplacement. Vous pouvez à nouveau cliquer sur le bouton pour annuler la construction.
+
+Si vous ne pouvez pas construire à l'emplacement, le bouton de file d'attente sera désactivé. Une info-bulle sur le bouton expliquera pourquoi vous ne pouvez pas y construire.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryNewMonitoringLocations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Cibles ennemies</StepTitle>
+        <MarkupText>Cet écran répertorie les cibles ennemies connues que vous pouvez attaquer avec vos flottes. Ceux-ci incluent des cibles fixes comme les bases ennemies (par exemple les bases de pirates) et les colonies. Il comprend également les flottes ennemies pour lesquelles nous connaissons l'emplacement actuel.
+
+Lors du zoom vers le niveau du galaxie ou du système, les cibles ennemies sont mises en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément sélectionner son emplacement. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche la force ennemie connue à l'emplacement cible. Pour les bases ennemies, il montre également le niveau de santé actuel de la cible.
+
+[H3]Force de défense[/H3]
+Pour les colonies ennemies, cela montre la force des troupes défendant connues. Notez que cela peut être une estimation lorsque la colonie n'est pas directement visible, donc la prudence est nécessaire lorsque l'on considère s'il faut envahir.
+
+[H3]Attaques de file d'attente[/H3]
+Le bouton à droite vous permet de faire filer une attaque contre la cible. Lorsque la prochaine flotte appropriée sera disponible, elle attribuera une mission d'attaque contre la cible. Vous pouvez à nouveau cliquer sur le bouton pour annuler l'attaque.
+
+Si vous ne pouvez pas attaquer la cible, le bouton de file d'attente sera désactivé. Une info-bulle sur le bouton expliquera pourquoi vous ne pouvez pas attaquer.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryEnemyTargets_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Emplacements dangereux</StepTitle>
+        <MarkupText>Certains emplacements sont dangereux car ils connaissaient des menaces hostiles. Ces menaces comprennent généralement des cibles mobiles comme les navires pirates et les créatures spatiales mortelles. Ces menaces se déplacent souvent entre les emplacements, de sorte que ces informations sont transitoires et sont souvent mises à jour.
+
+Les navires civils ne se rendront pas dans un endroit qui a des menaces hostiles présentes. Cela signifie que les navires de construction n'y construisent pas de bases. Les navires d'exploration n'exploreront pas plus loin là-bas. Cela signifie également que les navires miniers ne l'exploiteront pas là-bas, et les cargos ne ramasseront ni ne livrent de marchandises à partir de là.
+
+[H3]Liste des emplacements dangereux[/H3]
+Cet écran répertorie les endroits dangereux qui connaissent des menaces hostiles. Vérifiez les options de tri et de filtre en haut du panneau. Vous pouvez filtrer par chaque type de menace, y compris des types spécifiques de créature spatiale.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les emplacements dangereux sont mis en évidence sur la carte. Les badges du système et de l'emplacement indiquent également un emplacement dangereux à l'aide de l'icône du boulon d'éclair rouge. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément sélectionner son emplacement. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche la menace majeure à l'emplacement ainsi que la force hostile totale. Il indique également quand ces informations ont été mises à jour pour la dernière fois, et donc à quel point elles sont précises.
+
+[H3]Enquête sur la mise en file d'attente[/H3]
+Le bouton à droite vous permet de faire la queue d'une enquête et d'un dégagement de l'emplacement dangereux. Lorsque la prochaine flotte appropriée sera disponible, elle se déplacera vers l'emplacement et effacera toutes les menaces qu'il trouve là-bas.
+
+Vous pouvez à nouveau cliquer sur le bouton pour annuler l'enquête.
+
+Si vous ne pouvez pas enquêter sur l'emplacement, le bouton de file d'attente sera désactivé. Une infraction sur le bouton expliquera pourquoi vous ne pouvez pas enquêter.</MarkupText>
+        <RelatedControlNames>
+          <string>MilitaryDangerousLocations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+  <TourItem>
+    <Title>Civil</Title>
+    <Steps>
+      <TourStep>
+        <StepTitle>Tous les navires civils</StepTitle>
+        <MarkupText>Cet écran répertorie tous les navires civils de votre empire. Cela comprend les cargos, les navires de passagers et les navires miniers.
+
+Les navires civils font partie de votre économie civile, vous ne pouvez donc pas normalement leur attribuer des missions. Au lieu de cela, ils recherchent leurs propres missions: déplacer des marchandises, transporter des touristes et des migrants et des ressources minières.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les navires civils sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche la mission actuelle du navire. Il montre également toute cargaison ou passagers que le navire transporte.</MarkupText>
+        <RelatedControlNames>
+          <string>CivilianShipsAll_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Cargos</StepTitle>
+        <MarkupText>Cet écran répertorie tous les cargos de votre empire.
+
+Les cargos font partie de votre économie civile, vous ne pouvez donc pas leur attribuer des missions. Au lieu de cela, ils recherchent leurs propres missions, transportant des marchandises entre les emplacements.
+
+Vérifiez les options de tri et de filtre en haut du panneau. Vous pouvez filtrer par le type de ressources transportées: carburant, construction ou ressources de luxe.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les cargos sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche la mission actuelle du navire. Il montre également toute cargaison que le navire transporte.</MarkupText>
+        <RelatedControlNames>
+          <string>CivilianFreighters_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Navires de passagers</StepTitle>
+        <MarkupText>Cet écran répertorie tous les navires de passagers de votre empire.
+
+Les navires de passagers font partie de votre économie civile, vous ne pouvez donc pas leur attribuer des missions. Au lieu de cela, ils recherchent leurs propres missions, transportant des touristes et des migrants entre les emplacements.
+
+Vérifiez les options de tri et de filtre en haut du panneau. Vous pouvez filtrer par le type de passagers transportés: les touristes ou les migrants.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les navires de passagers sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche la mission actuelle du navire. Il montre également à tous les passagers que le navire transporte.</MarkupText>
+        <RelatedControlNames>
+          <string>CivilianPassengerShips_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Bases de villégiature</StepTitle>
+        <MarkupText>Cet écran répertorie tous les emplacements de la station de votre empire. Les stations sont des destinations pour le tourisme. Les navires de passagers transporteront des touristes dans des stations, gagnant des revenus pour votre empire.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les bases de la station sont mises en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche les bonus de paysage à l'emplacement.</MarkupText>
+        <RelatedControlNames>
+          <string>CivilianResortBases_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+      <TourStep>
+        <StepTitle>Nouveaux emplacements de villégiature</StepTitle>
+        <MarkupText>Cet écran répertorie les nouveaux emplacements de villégiature potentiels que vous pouvez cibler. Ces emplacements sont l'endroit où vous devriez construire de nouvelles bases de villégiature. Les stations sont des destinations pour le tourisme. Les navires de passagers transporteront des touristes dans des stations, gagnant des revenus pour votre empire.
+
+Les stations sont construites dans des endroits panoramiques de la galaxie. Ces emplacements ont généralement une caractéristique panoramique naturelle. Les ruines anciennes peuvent également fournir des bonus de paysage qui peuvent être exploités en y construisant une base de villégiature.
+
+Lors du zoom sur le niveau de la galaxie ou du système, les nouveaux emplacements de la station sont mis en évidence sur la carte. Faire planer sur un élément de la liste fera un ping à craquer sur la carte. Cliquez sur l'élément le sélectionnera. Double-cliquez sur l'élément déplacer la vue vers cet emplacement.
+
+Chaque élément de liste affiche les bonus de paysage connus à l'emplacement. Survole la description du bonus de paysage pour un résumé complet, y compris la fonction naturelle qui fournit le bonus.
+
+[H3]Fiche de nouvelles bases de villégiature[/H3]
+Le bouton à droite vous permet de faire la queue de construction d'une nouvelle base de villégiature à l'emplacement. Lorsque le prochain navire de construction sera disponible, il construira une base de villégiature ici. Vous pouvez à nouveau cliquer sur le bouton pour annuler la construction.
+
+Si vous ne pouvez pas construire à l'emplacement, le bouton de file d'attente sera désactivé. Une info-bulle sur le bouton expliquera pourquoi vous ne pouvez pas y construire.
+
+[H3]Emplacements dangereux[/H3]
+Un symbole de boulon d'éclair rouge sera illustré à côté du nom de l'emplacement si l'emplacement est considéré comme dangereux. Un emplacement est dangereux lorsqu'il y a des menaces non diffusées, comme des pirates ou des créatures spatiales mortelles.
+
+Les navires non militaires ne se rendront pas dans un endroit dangereux. Les menaces doivent d'abord être éliminées par des navires militaires ou par une flotte. Cela signifie que même si vous pouvez faire la queue de construction de nouveaux villégiature à un endroit dangereux, les navires de construction n'iront pas là-bas pour construire la nouvelle base tant que les menaces ne seront pas effacées.</MarkupText>
+        <RelatedControlNames>
+          <string>CivilianNewResortLocations_SubSection</string>
+        </RelatedControlNames>
+      </TourStep>
+    </Steps>
+  </TourItem>
+
+</ArrayOfTourItem>

@@ -1,0 +1,19 @@
+Les personnages de votre empire sont affichés dans cette liste. Par défaut, celle-ci est filtrée pour montrer uniquement les rôles de personnages non espions. Consultez les différentes options de tri et de filtrage en haut du panneau.
+
+Vous pouvez voir les détails de chaque personnage en survolant l'entrée de la liste et en cliquant pour verrouiller l'affichage du panneau à droite.
+
+Vous pouvez changer le nom d'un personnage en cliquant sur son nom sous le portrait et en tapant un nouveau nom.
+
+
+[H3]Localisation des Personnages[/H3]
+
+La plupart des personnages appliquent leurs compétences à leur emplacement actuel. Par exemple, un Amiral applique ses compétences militaires à la flotte dont il fait partie. Les scientifiques appliquent leurs compétences de recherche à la station de recherche où ils sont basés.
+
+Votre Leader applique ses compétences à l'ensemble de l'empire, améliorant ainsi votre empire de diverses manières. En revanche, lorsqu'il possède des niveaux de compétence négatifs, il peut être un désavantage pour votre empire dans ces domaines spécifiques.
+
+Pour déplacer un personnage vers un emplacement spécifique, utilisez la liste déroulante de localisation pour sélectionner l'endroit souhaité, puis cliquez sur le bouton 'Transférer' pour l'y envoyer.
+
+Si vous souhaitez automatiser complètement l'emplacement d'un personnage, vous pouvez utiliser le bouton 'Automatiser' sous le portrait du personnage à droite.
+
+[H3]Événements[/H3]
+Au bas du panneau de détail se trouve une liste de tous les événements auxquels le personnage a participé. Différents événements peuvent améliorer ou réduire ses compétences, ou lui attribuer de nouveaux traits de caractère.

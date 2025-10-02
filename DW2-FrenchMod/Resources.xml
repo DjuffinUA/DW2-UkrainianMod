@@ -1,0 +1,1220 @@
+<?xml version="1.0"?>
+<ArrayOfResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Resource>
+    <ResourceId>0</ResourceId>
+    <Name>Cristal d'Emeros</Name>
+    <Description>Le cristal d'Emeros est une pierre précieuse d'un vert brillant. On l'utilise souvent dans l'industrie de l'armement. Le cristal est extrait des planètes volcaniques et parfois des planètes carbonées.</Description>
+    <BaseCost>8</BaseCost>
+    <ImageFilename>Environment/Resources/EmerosCrystal</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>1</ResourceId>
+    <Name>Pierre de Nekros</Name>
+    <Description>La pierre de Nekros est une pierre précieuse d'un rouge profond utilisée dans l'industrie de l'armement. On trouve la pierre de Nekros sur les mondes volcaniques et parfois sur les planètes rocheuses désertiques.</Description>
+    <BaseCost>5</BaseCost>
+    <ImageFilename>Environment/Resources/NekrosStone</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>2</ResourceId>
+    <Name>Osalia</Name>
+    <Description>L'osalia est une pierre précieuse pourpre utilisée dans l'industrie de l'armement. Les pierres d'osalia sont extraites des planètes volcaniques, désertiques et continentales.</Description>
+    <BaseCost>11</BaseCost>
+    <ImageFilename>Environment/Resources/Osalia</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>3</ResourceId>
+    <Name>Cristal de Kaasian</Name>
+    <Description>Le cristal de Kaasian est une pierre précieuse rare de couleur bleu-cyan. Il est généralement utilisé dans l'industrie de l'armement de haute-technologie. On trouve le cristal de Kaasian sur les mondes océaniques.</Description>
+    <BaseCost>18</BaseCost>
+    <ImageFilename>Environment/Resources/KaasianCrystal</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>4</ResourceId>
+    <Name>Argon</Name>
+    <Description>L'argon est un gaz jaune inerte. On l'utilise dans les armements, boucliers et réacteurs. L'argon est extrait des géantes gazeuses ainsi que dans les géantes gazeuses glacées.</Description>
+    <BaseCost>7</BaseCost>
+    <ImageFilename>Environment/Resources/Argon</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>5</ResourceId>
+    <Name>Krypton</Name>
+    <Description>Le krypton est un gaz vert inerte. Il est souvent utilisé dans les armements, boucliers et réacteurs. On en trouve des traces dans les géantes gazeuses ainsi que dans les géantes gazeuses glacées.</Description>
+    <BaseCost>10</BaseCost>
+    <ImageFilename>Environment/Resources/Krypton</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>6</ResourceId>
+    <Name>Tyderios</Name>
+    <Description>Le tyderios est un gaz rare inerte utilisé dans l'armement, les boucliers et les réacteurs. Le tyderios a une teinte rosâtre. Il est plus lourd que l'air et repose au niveau du sol sauf s'il flotte sur d'autres gaz environnants. On en trouve des traces dans les planètes et les géantes gazeuses glacées.</Description>
+    <BaseCost>15</BaseCost>
+    <ImageFilename>Environment/Resources/Tyderios</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>7</ResourceId>
+    <Name>Silicium</Name>
+    <Description>Le silicium est la matière première de l'industrie électronique et des collecteurs d'énergie. On trouve du silicium dans les planètes rocheuses et dans les mondes désertiques.</Description>
+    <BaseCost>5</BaseCost>
+    <ImageFilename>Environment/Resources/Silicon</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>8</ResourceId>
+    <Name>Acier</Name>
+    <Description>L'acier est un matériau de construction très courant obtenu à partir du minerai de fer. La production de vaisseaux nécessite de grandes quantités d'acier. On trouve souvent du fer sur les planètes rocheuses métalliques et continentales, ainsi que dans les astéroîdes.</Description>
+    <BaseCost>5</BaseCost>
+    <ImageFilename>Environment/Resources/Steel</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>9</ResourceId>
+    <Name>Mebnar</Name>
+    <Description>Le Mebnar est un métal très dense obtenu par fusion du minerai du même nom. Il a un aspect terne, gris foncé, presque noir. Il est particulièrement utile comme blindage lourd dans les composants des réacteurs. On trouve souvent le Mebnar sur les planètes rocheuses métalliques et les astéroïdes</Description>
+    <BaseCost>6</BaseCost>
+    <ImageFilename>Environment/Resources/Mebnar</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>10</ResourceId>
+    <Name>Aculon</Name>
+    <Description>L'aculon est un métal bleu très solide et résistant à la chaleur, obtenu par fusion du minerai du même nom. Il est généralement utilisé dans les composants qui sont exposés à des températures extrêmes. Le minerai d'aculon se trouve sur les planètes volcaniques, les rocheuses métalliques, ainsi que dans les astéroïdes.</Description>
+    <BaseCost>12</BaseCost>
+    <ImageFilename>Environment/Resources/Aculon</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>11</ResourceId>
+    <Name>Cuprica</Name>
+    <Description>Le cuprica est un métal brillant obtenu par fusion du minerai du même nom. Il est extrêmement solide malgré sa legereté et a un aspect rouge-brun brillant. Le Cuprica est couramment utilisé dans les armes à faisceau et les torpilles. On le trouve sur certaines planètes rocheuses métalliques et sur les astéroïdes.</Description>
+    <BaseCost>18</BaseCost>
+    <ImageFilename>Environment/Resources/Cuprica</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>12</ResourceId>
+    <Name>Polymère</Name>
+    <Description>Les polymères sont différents types de plastiques raffinés à partir du pétrole. On l'utilise souvent dans les composants électroniques. Le pétrole se trouve sur les mondes océaniques, marécageux ainsi que les mondes continentaux.</Description>
+    <BaseCost>6</BaseCost>
+    <ImageFilename>Environment/Resources/Polymer</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>13</ResourceId>
+    <Name>Fibre de carbone</Name>
+    <Description>La fibre de carbone est un composé de carbone très résistant, produite à partir de charbon. On l'utilise dans les composants qui exigent une grande résistance aux températures élevées. Le charbon s'extrait des mondes marécageux, des forets de mangrove, ainsi que des mondes continentaux et carbonés.</Description>
+    <BaseCost>9</BaseCost>
+    <ImageFilename>Environment/Resources/Carbonite</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>14</ResourceId>
+    <Name>Caslon</Name>
+    <Description>Le caslon est un gaz commun utilisé universellement comme carburant. On en trouve dans les géantes gazeuses.</Description>
+    <BaseCost>3</BaseCost>
+    <ImageFilename>Environment/Resources/Caslon</ImageFilename>
+    <Bonuses />
+  </Resource>
+  
+  <Resource>
+    <ResourceId>15</ResourceId>
+    <Name>Fruit du Loros</Name>
+    <Description>Le fruit du loros est un mets sucré et rose extrêmement rare, cueilli sur un arbre, le loros. Il est très prisé pour ses propriétés revigorantes, son goût distinctif et sa texture veloutée. Le fruit du loros augmente considérablement la longévité. Il ralentit le processus de vieillissement habituel, ce qui permet à un individu de vivre bien plus longtemps. Toute colonie ayant accès aux fruits du loros obtiendra un grand bonus de développement, supérieur aux autres bonus. Une fois découverte, tout doit être mis en œuvre pour contrôler le commerce de cette ressource de grande valeur. Le fruit du loros ne pousse que sur les mondes marécageux.</Description>
+    <BaseCost>200</BaseCost>
+    <ImageFilename>Environment/Resources/LorosFruit</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.26</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>PlagueCuring</Type>
+        <Amount>0.15</Amount>
+        <AppliesTo>Empire</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>16</ResourceId>
+    <Name>Noix de Megallos</Name>
+    <Description>La noix de megallos est un fruit jaune et acidulé de l'arbre du même nom. Ces arbres ont une apparence noueuse et tortillée. Ils poussent très lentement, nécessitant jusqu'à 2000 ans pour atteindre leur taille adulte de 5 mètres. Leurs vastes systèmes de racines s'étendent jusqu'à 30 mètres dans toutes les directions. Ils poussent au plus profond des forêts des mondes continentaux.</Description>
+    <BaseCost>12</BaseCost>
+    <ImageFilename>Environment/Resources/MegallosNut</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>17</ResourceId>
+    <Name>Epice de Falajian</Name>
+    <Description>L'épice de falajian est un condiment brun sous forme de poudre, extrait d'une arbuste, le falajian. Il est hautement estimé pour son bouquet distinctif. L'épice de falajian est très utilisée dans la cuisine exotique. L'épice est produite à partir des feuilles de l'arbuste de falajian, que l'on sèche avant de les moudre. Ces plantes poussent dans les étangs stagnants des mondes marécageux.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/FalajianSpice</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>18</ResourceId>
+    <Name>Epice Korabbianne</Name>
+    <Description>L'épice korabbianne est une drogue cristallisée extrêmement rare et très estimée pour ses propriétés médicinales uniques. Sous certaines conditions, un dépôt d'épice se forme spontanément sur les parois de canyons rocheux. Le processus exact de formation de l'épice korabbienne n'a jamais été précisément compris. Une théorie avance que l'épice est le résultat d'une réaction chimique entre certains types de roches et les vents chauds et secs qui s'engouffrent parfois dans les canyons. La drogue améliore considérablement la capacité cérébrale et permet d'incroyables prouesses intellectuelles. Toute colonie ravitaillée en épice korabbienne reçoit donc un grand bonus de développement, supérieur aux autres bonus. Une fois découverte, tout doit être mis en oeuvre pour contrôler le commerce de cette ressource de grande valeur. L'épice korabbienne ne se trouve que sur les mondes désertiques.</Description>
+    <BaseCost>180</BaseCost>
+    <ImageFilename>Environment/Resources/KorabbianSpice</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.22</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.15</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ResearchAll</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Empire</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>19</ResourceId>
+    <Name>Viande d'Ekarus</Name>
+    <Description>La chair tendre d'ekarus est la viande de la bête du même nom. L'ekarus est un prédateur féroce des bourbiers aqueux sur les planètes marécageuses. Il demeure submergé sous l'eau pendant des heures, surgissant d'un coup lorsqu'il détecte des proies nageant au-dessus de lui.</Description>
+    <BaseCost>18</BaseCost>
+    <ImageFilename>Environment/Resources/EkarusMeat</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>20</ResourceId>
+    <Name>Vin Nepthysien</Name>
+    <Description>Le vin nepthysien est un vin fin obtenu par fermentation de l'algue de nepthys. De vastes forêts de nepthys peuvent pousser sous les océans. Les plantes peuvent atteindre 40 mètres de hauteur, parfois plus. La nepthys pousse uniquement sur les mondes océaniques.</Description>
+    <BaseCost>22</BaseCost>
+    <ImageFilename>Environment/Resources/NepthysWine</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>21</ResourceId>
+    <Name>Bière Rephidium</Name>
+    <Description>La bière rephidium est un délicieux breuvage très sec. Il existe plusieurs variations de bière rephidium, certaines utilisant des ingrédients secrets. Le composant principal provenant des feuilles et tiges d'un arbuste, le repha. La bière de rephidium est produite sur les mondes forestiers.</Description>
+    <BaseCost>8</BaseCost>
+    <ImageFilename>Environment/Resources/RephidiumAle</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>22</ResourceId>
+    <Name>Wiconium</Name>
+    <Description>Le wiconium est un alcool incroyablement doux produit à partir d'une plante, le wiconius. C'est une plante succulente aux allures de cactus, munie de feuilles spongieuses qui contiennent le jus riche du wiconium. La plante ne se cueille que dans la savane des mondes désertiques.</Description>
+    <BaseCost>19</BaseCost>
+    <ImageFilename>Environment/Resources/Wiconium</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>23</ResourceId>
+    <Name>Vodkol</Name>
+    <Description>Le vodkol est un puissant breuvage alcoolisé produit à partir des racines d'e la'une plante, la vodia. Cette plante robuste pousse dans la toundra des mondes glacés. En surface, la vodia est une broussaille aux larges feuilles jaune pâle. Sous terre, ses racines ont la forme de bulbes blancs.</Description>
+    <BaseCost>13</BaseCost>
+    <ImageFilename>Environment/Resources/Vodkol</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>24</ResourceId>
+    <Name>Peau Questurianne</Name>
+    <Description>La peau questurianne est le cuir doux et écailleux d'un énorme reptile aquatique. Les questurians sont des prédateurs féroces qui grandissent jusqu'à atteindre 100 mètres de long, parfois plus. Ils habitent des cavernes dans les profondeurs de vastes océans. On ne les trouve que sur les planètes océaniques.</Description>
+    <BaseCost>27</BaseCost>
+    <ImageFilename>Environment/Resources/QuesturianSkin</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>25</ResourceId>
+    <Name>Soie Bifurianne</Name>
+    <Description>La soie bifurianne est un tissu extrêmement fin d'un bleu chatoyant, produit par le ver de Bifuria. Les bifurias vivent dans l'obscurité des cavernes profondes sous les prairies des mondes continentaux. Ils s'accrochent aux parois et à la voûte des grottes et tissent de vastes toiles de fibrilles ultra-fines. Ces fibres peuvent être collectées et filées en soie bifurianne.</Description>
+    <BaseCost>33</BaseCost>
+    <ImageFilename>Environment/Resources/BifurianSilk</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.07</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>26</ResourceId>
+    <Name>Fourrure caguar</Name>
+    <Description>La fourrure de caguar est la toison luxuriante du caguar rayé. Le caguar est un énorme tigre à dents de sabre qui rôde dans les forêts tropicales des mondes marécageux. La longueur d'un caguar adulte, de la tête à la queue, est d'approximativement 4 mètres. Il capture sa proie avec des griffes aiguisées comme des lames de rasoir.</Description>
+    <BaseCost>31</BaseCost>
+    <ImageFilename>Environment/Resources/CaguarFur</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.08</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>27</ResourceId>
+    <Name>Duvet de Terrallion</Name>
+    <Description>Le duvet de terallion est l'ensemble des douces plumes blanches de la bête du même nom. Les terallions sont des oiseaux à quatre pattes qui peuplent la toundra des mondes glacés. Leur envergure peut atteindre 6 mètres de long. Ils chassent de petits rongeurs, et parfois des espèces douées de raison comme les jintus ou les ugnari.</Description>
+    <BaseCost>19</BaseCost>
+    <ImageFilename>Environment/Resources/TerallionDown</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>28</ResourceId>
+    <Name>Fourrure danthanne</Name>
+    <Description>La fourrure danthanne est la toison hirsute du dantha brun-blanc. Les danthas sont des animaux de grande taille qui vivent dans les plaines stériles des mondes désertiques. Ils se regroupent en hordes allant de 30 à 200 individus. Les danthas migrent à travers le désert à la recherche de nourriture. Leur met préféré est un champignon, le lopid, qui pousse à un demi-mètre en dessous des sables du désert. Les danthas sont munis d'un odorat très développé qui leur permet de localiser les pousses pleines d'eau des champignons, et de les déterrer.</Description>
+    <BaseCost>14</BaseCost>
+    <ImageFilename>Environment/Resources/DanthaFur</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>29</ResourceId>
+    <Name>Encens Aquasian</Name>
+    <Description>L'encens aquasian est un parfum d'un bleu intense. Il est produit à partir de composants que l'on trouve uniquement sur les mondes océaniques. L'ingrédient principal est l'épine empoisonnée des anémones de la mer de Dakhul ; un autre est le corail bleu d'Orkon, que l'on réduit en une fine poudre.</Description>
+    <BaseCost>29</BaseCost>
+    <ImageFilename>Environment/Resources/AquasianIncense</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>30</ResourceId>
+    <Name>Encens Natarran</Name>
+    <Description>L'encens natarran est un parfum doux et subtil extrait d'une plante, la natarril. Le natarril est une petite herbe aux feuilles bleu-vert et aux étonnantes fleurs multicolores. On la trouve accrochée aux falaises des planètes désertiques.</Description>
+    <BaseCost>26</BaseCost>
+    <ImageFilename>Environment/Resources/NatarranIncense</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.07</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>31</ResourceId>
+    <Name>Sécrétions zentabianes</Name>
+    <Description>Les sécrétions zentabianes forment un fluide fortement curatif provenant de la zentabia, une fleur rare. Ces fleurs poussent occasionnellement dans les crevasses protégées des mondes volcaniques. Leurs pétales sont d'un vert brillant. La plante apprécie les environnements très chauds. Les sécrétions zentabiane peuvent soigner quasiment n'importe quelle blessure ou maladie, et même réparer des membres ou organes endommagés. Toute colonie ayant accès au liquide zentabien recevra un grand bonus de développement supérieur aux autres bonus. Une fois découverte, tout doit être mis en oeuvre pour contrôler le commerce de cette ressource de grande valeur</Description>
+    <BaseCost>190</BaseCost>
+    <ImageFilename>Environment/Resources/ZentabiaFluid</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.24</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.1</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>TroopRecoveryRate</Type>
+        <Amount>0.5</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>PlagueCuring</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>32</ResourceId>
+    <Name>Jade Ilosianne</Name>
+    <Description>Le jade ilosianne est une pierre d'un vert translucide magnifique. Il s'extrait de grandes dalles dans les roches dans le lit des rivières. Le jade ilosien se trouve exclusivement dans les mondes marécageux.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/IlosianJade</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>33</ResourceId>
+    <Name>Opale d'Otandium</Name>
+    <Description>L'opale d'otandium est une pierre étincelante multicolore. Les opales d'otandium se trouvent sur les rives des lacs de laves des mondes volcaniques. Elles se forment par refroidissement rapide de certains types de laves.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/OtandiumOpal</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>34</ResourceId>
+    <Name>Ivoire de Jakanta</Name>
+    <Description>L'ivoire de jakanta vient des défenses des bêtes de glace du même nom. Les jakantas sont des créatures recluses qui vivent sur les montagnes des planètes glacées. Cet animal imposant ressemble à un ours muni de six pattes et d'une épaisse fourrure blanche. Ses défenses peuvent dépasser les 3 mètres de long.</Description>
+    <BaseCost>23</BaseCost>
+    <ImageFilename>Environment/Resources/JakantaIvory</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.07</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>35</ResourceId>
+    <Name>Perles d'Ucantium</Name>
+    <Description>Les perles d'ucantium sont d'énormes joyaux roses ou bleus qui poussent dans les palourdes du même nom. Ces crustacés vivent au plus profond des mers des mondes océaniques. La palourde peut vivre des milliers d'années et atteindre un diamètre de 5 mètres ou plus. Une seule palourde produit des centaines de perles.</Description>
+    <BaseCost>31</BaseCost>
+    <ImageFilename>Environment/Resources/UcantiumPearl</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.08</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>36</ResourceId>
+    <Name>Marbre Yarras</Name>
+    <Description>Le marbre yarras est une roche aux veines bleutées magnifiques. Ce marbre se forme de la rencontre entre une roche carbonée et des millions de tout petits cristaux d'agea. Elles sont généralement produites par les cours d'eau souterrains traversant les formations rocheuses pendant des milliers d'années. Le marbre yarras se trouve sur les mondes continentaux.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/YarrasMarble</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+
+  <Resource>
+    <ResourceId>37</ResourceId>
+    <Name>Racine de Podanthia</Name>
+    <Description>La racine de Podanthia est une plante médicinale qui aide à guérir de nombreuses maladies. Ses fines tiges fibreuses regorgent de puissants nutriments qui renforcent le système immunitaire. On la trouve dans les mondes volcaniques sulfureux.</Description>
+    <BaseCost>30</BaseCost>
+    <ImageFilename>Environment/Resources/PodanthiaRoot</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>38</ResourceId>
+    <Name>Encens Vofula</Name>
+    <Description>L'encens Vofula est un parfum enivrant qui provient des fleurs vertes et brillantes de la plante du même nom. La Vofula est un petit buisson qui pousse à côté des lacs d'hydrocarbures sur les mondes carbonés.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/VofulaScent</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>39</ResourceId>
+    <Name>Bois de Suculos</Name>
+    <Description>Le suculos est un bois exotique rare provenant d'un arbre, le Suculos. Le bois très dur de cet arbre a une couleur rouge profond avec un beau grain et une belle texture. Les suculos atteignent des hauteurs considérables de 400 mètres ou plus. On les trouve dans les vastes étendues de brousse des mondes de savane désertique.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/SucculosWood</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>40</ResourceId>
+    <Name>Copandil</Name>
+    <Description> Le Copandil est une liqueur très forte fermentée à partir des bulbes d'un buisson, la Copandil. Le liquide jaune concentré a une saveur intense et brûlante. On le trouve dans les mondes des prairies.</Description>
+    <BaseCost>25</BaseCost>
+    <ImageFilename>Environment/Resources/Copandil</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>41</ResourceId>
+    <Name>Oeufs de Norjak</Name>
+    <Description>Ces oeufs sont pondus par le Norjak - une énorme créature ressemblant à une loutre que l'on trouve sur les planètes glacées. Les oeufs de Norjak mesurent généralement 30 à 40 cm et sont de couleur bleue claire. Très nutritifs, ils sont appréciés pour leur saveur exquise.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/NorjakEggs</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>42</ResourceId>
+    <Name>Baies de Breqiian</Name>
+    <Description>Les baies de Breqiian sont les petits fruits violets de la vigne de Breqiian. Ces vignes poussent en hauteur dans la canopée des arbres des vastes jungles des mondes forestiers. La vigne de Breqiian tire ses nutriments de son arbre hôte, ce qui donne à chaque vigne et à ses baies un goût légèrement différent.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/BreqiianBerries</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>43</ResourceId>
+    <Name>Kasotti</Name>
+    <Description>Le kasotti est une boisson alcoolisée crémeuse qui provient des feuilles épaisses et juteuses de la plante Kasot, une herbe couvre-sol qui pousse dans les plaines côtières des basses terres des mondes gelés.</Description>
+    <BaseCost>15</BaseCost>
+    <ImageFilename>Environment/Resources/Kasotti</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>44</ResourceId>
+    <Name>Steak d'Oksunum</Name>
+    <Description>Les Oksunum sont des créatures au pied sûr, semblables à des chèvres, qui vivent dans les canyons isolés des mondes désertiques rocailleux. Ils se nourrissent de nombreuses mousses et lichens délicats qui poussent dans les ravins ombragés. Cela donne à leur viande tendre un goût délicieux.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/OksunumSteak</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>45</ResourceId>
+    <Name>Fourrure d'Attarion</Name>
+    <Description>Les attarions sont des chats prédateurs qui vivent au sommet des montagnes des mondes gelés. Ils peuvent atteindre 2 mètres de long et ont une belle fourrure gris-blanc. La fourrure est extrêmement douce et légère. Elle est appréciée pour sa chaleur et sa durabilité lorsqu'elle est utilisée dans la confection de vêtements.</Description>
+    <BaseCost>25</BaseCost>
+    <ImageFilename>Environment/Resources/AttarionFur</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>46</ResourceId>
+    <Name>Vin Muurion</Name>
+    <Description>Les muurions sont de hautes pousses ressemblant à des bambous qui peuvent atteindre 15 mètres de hauteur. Elles poussent sur les vastes plaines des mondes prairie. Les muurions ont de nombreuses petites fleurs parfumées. Les pétales jaunes de ces fleurs sont utilisées pour faire du vin.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/MuurionWine</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>47</ResourceId>
+    <Name>Fruits d'Inkasdia</Name>
+    <Description>Les fruits d'Inkasdia poussent sur de petits buissons dans les marécages de mangroves des mondes forestiers. Le fruit a une coque violette et résistante avec des pointes pelucheuses. Mais à l'intérieur se trouve une chair douce, riche et juteuse, appréciée pour sa saveur et sa texture délicieuse.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/InkasdiaFruit</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>48</ResourceId>
+    <Name>Pierre de feu feraxienne</Name>
+    <Description>On trouve parfois des pierres de feu feraxiennes sur les mondes volcaniques sulfureux. Elles se forment lorsqu'une partie du noyau planétaire est poussée vers le haut par des volcans de souffre actifs. Le noyau refroidi contient souvent des pierres de feu, nommées ainsi non seulement pour leur origine mais aussi parce qu'elles semblent briller de l'intérieur lorsqu'elles captent des rayons lumineux. Elles sont généralement d'une couleur jaune-or brillante, mais il existe également une rare pierre de feu naturellement bleu luminescent.</Description>
+    <BaseCost>35</BaseCost>
+    <ImageFilename>Environment/Resources/FeraxianFirestone</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.08</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>49</ResourceId>
+    <Name>Cristaux Vakala</Name>
+    <Description>Les cristaux Vakala peuvent produire un éblouissant panel de couleurs lorsque la lumière les traverse. Ils ont la capacité unique de convertir également la lumière non visible en spectre visible, rendant ainsi visibles les rayons infrarouges et ultraviolets. Les cristaux de Vakala se trouvent près des rives des lacs d'hydrocarbures sur les mondes carbonés.</Description>
+    <BaseCost>32</BaseCost>
+    <ImageFilename>Environment/Resources/VakalaCrystal</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.07</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>50</ResourceId>
+    <Name>Bière Decarion</Name>
+    <Description>La bière Decarion est un alcool fort, de couleur rouge vif, fabriqué dans la toundra des mondes glacées. Cet alcool provient d'un petit arbuste aux feuille jaune-rouge appelé Decaria. L'alcool est fabriqué à partir des racines de la plante, qui pénètrent profondément dans le sol. Il est récolté en été avant d'être replanté en automne.</Description>
+    <BaseCost>24</BaseCost>
+    <ImageFilename>Environment/Resources/DecarionAle</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>51</ResourceId>
+    <Name>Ambre d'Obrudan</Name>
+    <Description>L'ambre d'Obrudan est la résine rouge-orangée iridescente de l'arbre du même nom. Ces arbres poussent en petites touffes sur les mondes marécageux. L'écorce de cet arbre est très fragile et lorsqu'elle est endommagée, la résine s'écoule lentement et durcit sur le tronc, créant ainsi l'ambre. Il est souvent utilisé en bijouterie en raison de son aspect attrayant.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/ObrudanAmber</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>52</ResourceId>
+    <Name>Feuilles de Yapara</Name>
+    <Description>Le Yapara est un arbuste bas qui pousse au plus profond des terres arides et désertiques des mondes de savanes. Les feuilles sont d'une couleur vert jaunâtre. Le Yapara peut supporter une chaleur intense et survivre sans eau pendant près de 10 ans. Les feuilles de cette plante sont pleines de puissants phytonutriments qui protègent très efficacement contre les toxines et les agents pathogènes.</Description>
+    <BaseCost>30</BaseCost>
+    <ImageFilename>Environment/Resources/YaparaLeaf</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>PlagueCuring</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>53</ResourceId>
+    <Name>Nectar giraxien</Name>
+    <Description>Le nectar giraxien est un puissant médicament que l'on trouve sur les mondes continentaux. Le nectar est produit dans de grands tubes de fleurs de l'arbre giraxien. Le nectar a une couleur rose éclatante. Il est raffiné et combiné avec d'autres ingrédients pour créer un médicament qui aide à vaincre les fièvres.</Description>
+    <BaseCost>25</BaseCost>
+    <ImageFilename>Environment/Resources/GiraxianNectar</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>PlagueCuring</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>54</ResourceId>
+    <Name>Obsidienne de Hapek</Name>
+    <Description>Ce type rare d'obsidienne se trouve à la surface de certains mondes forestiers. Elle est bleu-vert. L'obsidienne de Hapek est particulièrement appréciée pour la fabrication de couteaux, car la lame en obsidienne peut avoir un tranchant bien plus aiguisé que les couteaux en métal. Sa belle couleur fait qu'elle est également appréciée comme pierre précieuse en bijouterie, ainsi que pour la fabrication d'outils et d'ornements.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/HapekObsidian</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>55</ResourceId>
+    <Name>Champignon Lukaarin</Name>
+    <Description>Le champignon Lukaarin est un délice rare qui pousse dans les eaux peu profondes autour des racines des mangroves. Des centaines de ces petits nodules bruns poussent ensemble en grandes masses. Ils sont très sucrés et ont un arôme intense. On les trouve exclusivement dans les mondes forestiers couverts de mangroves.</Description>
+    <BaseCost>25</BaseCost>
+    <ImageFilename>Environment/Resources/LukaarianFungus</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>56</ResourceId>
+    <Name>Rhylig</Name>
+    <Description>Le rhylig est un cristal qui projette naturellement des hologrammes en 3D lorsque la lumière le traverse. Le rhylig est créée par de la lave pure en fusion qui interagit avec la roche d'obsidienne. Il a une couleur orange foncé et on le trouve généralement sur les rives des rivières de lave en fusion des mondes volcaniques.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/RhyligCrystal</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>57</ResourceId>
+    <Name>Ecailles de Shudasta</Name>
+    <Description>Les écailles de Shudasta sont les peaux écailleuses extrêmement résistantes des lézards géants de Shudasta. Ces lézards solitaires vivent principalement dans les mondes désertiques rocheux et peuvent devenir très grands, certains pouvant atteindre 11 ou 12 mètres de long. Ils peuvent être difficiles à capturer et à tuer, mais leur peau est très précieuse, utilisée dans les vêtements et les revêtements de chaises. Les écailles sont d'une couleur gris argenté.</Description>
+    <BaseCost>30</BaseCost>
+    <ImageFilename>Environment/Resources/ShudastaScales</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyDefense</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>TroopGroundDefense</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>58</ResourceId>
+    <Name>Granit tebraakien</Name>
+    <Description>Le granit tebraakien ne se trouve que sur les mondes volcaniques. Il est formé par le magma qui se mélange au basalte et qui est forcé de s'enfoncer plus profondément dans le sol. Lorsque le magma refroidit, il forme des cristaux qui ont une lueur rouge éclatante. Le granit tebraakien se présente sous la forme d'un mélange de couleurs telles que le rouge, le blanc, le gris et le noir. C'est un granit très dur qui est utilisé pour décorer et construire des bâtiments.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/TebraakianGranite</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>59</ResourceId>
+    <Name>Xukantar</Name>
+    <Description>Le Xukantar est un parfum puissant distillé en partie à partir d'une rare algue des profondeurs de l'océan. Cette algue de couleur violette a des feuilles plates et froissées. Lorsqu'elles sont pressées, les feuilles excrètent un liquide pourpre profond qui dégage une belle odeur. Ce liquide est parfois utilisé pour teindre des tissus, mais il est plus souvent utilisé comme parfum. La raison de la rareté de ce parfum est la très petite quantité de liquide produite à partir de grandes quantités d'algues, et il est donc toujours très recherché.</Description>
+    <BaseCost>35</BaseCost>
+    <ImageFilename>Environment/Resources/Xukantar</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.09</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+
+  <Resource>
+    <ResourceId>60</ResourceId>
+    <Name>Céréale de Korduva</Name>
+    <Description>La céréale de Korduva est cultivée dans les mondes prairie. Ce grain pousse sur de très hautes tiges de 3-4 mètres de hauteur. Chaque tige peut avoir des millions de têtes, produisant ainsi des récoltes colossales. Le grain est de couleur beige et est apprécié pour sa haute valeur nutritive et sa saveur agréable.</Description>
+    <BaseCost>25</BaseCost>
+    <ImageFilename>Environment/Resources/KorduvaGrain</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.02</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>61</ResourceId>
+    <Name>Sirop de Losarn</Name>
+    <Description>Le sirop de Losarn est l'épaisse sève sucrée de l'arbre de Losarn. Les grandes forêts de Losarn sont cultivées sur les mondes continentaux. Le sirop de Losarn a une riche couleur dorée et il est universellement apprécié pour sa saveur délicieuse.</Description>
+    <BaseCost>18</BaseCost>
+    <ImageFilename>Environment/Resources/LosarnSyrup</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>62</ResourceId>
+    <Name>Ambre d'Akrasan</Name>
+    <Description>L'ambre d'Akrasan est la sève de l'arbre d'Akrasan, qui pousse dans les zones de brume dense des mangroves des planètes forestières. Les arbres d'Akrasan ont de grandes cavités creuses. Ces cavités à l'intérieur de l'arbre agissent comme des fours isolés, où la sève devient bouillante. Les sections faibles du tronc de l'arbre explosent souvent sous la pression de la sève chaude. Celle-ci suinte et les insectes sont attirés vers elle. Ils sont alors piégés dans la sève. La brume fraîche durcit la sève, formant sa belle couleur d'ambrée dorée.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/AkrasanAmber</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>63</ResourceId>
+    <Name>Thé de Doakan</Name>
+    <Description>Le thé de Doakan est fait à partir des feuilles de bambou de Doakan. Il pousse dans les zones ombragées des régions montagneuses des planètes de savane désertique. Il n'a pas besoin de beaucoup d'eau pour survivre, ce qui rend les feuilles friables et cassantes. Le thé fait à partir de ces feuilles a beaucoup de saveur.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/DoakanTea</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>64</ResourceId>
+    <Name>Onyx Yotapien</Name>
+    <Description>L'onyx Yotapien est une pierre précieuse d'un noir pourpre profond que l'on trouve dans des grottes souterraines peu profondes sur les planètes désertiques rocheuses. Elle est très appréciée pour son interaction avec d'autres pierres précieuses, intensifiant et approfondissant leurs couleurs. C'est pourquoi elle est souvent utilisée en joaillerie.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/YotapianOnyx</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>65</ResourceId>
+    <Name>Résine Hyutil</Name>
+    <Description>La résine Hyutil provient de plantes à bulbes des grands fonds marins. Ces plantes sécrètent la résine lorsqu'elles sont exposées à des rayons ultraviolets. La résine Hyutil est le plus souvent rouge ou violet translucide foncé, mais on a également trouvé de la résine Hyutil bleue et brune. Cette résine est extrêmement résistante et doit être exposée à des températures élevées pour être façonnée en ustensiles et ornements délicats, forme sous laquelle elle est la plus prisée. On la trouve exclusivement dans les profondeurs des mondes océaniques.</Description>
+    <BaseCost>21</BaseCost>
+    <ImageFilename>Environment/Resources/HyutilResin</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>66</ResourceId>
+    <Name>Tentacules de Darkhul</Name>
+    <Description>Les Darkhuls sont de formidables monstres marins qui habitent les tunnels sous-marins sans fond des profondeurs des mondes océaniques. Les Darkhuls peuvent atteindre une longueur de 100 mètres ou plus. Ce sont des prédateurs redoutables qui n'ont peur de rien. Chasser ces terrifiantes créatures est donc une tâche périlleuse, pleine de dangers. Les tentacules de Darkhul sont utilisés comme médicament ou comme une nourriture délicate et raffinée.</Description>
+    <BaseCost>45</BaseCost>
+    <ImageFilename>Environment/Resources/DarkhulTentacles</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.08</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyPopulationGrowthRate</Type>
+        <Amount>0.03</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>67</ResourceId>
+    <Name>Brandy de sokalien</Name>
+    <Description>Le brandy sokalien est distillé à partir de vin de prune sokalien. D'un rose profond, ces rares prunes permettent la fabrication de ce vin. Les pruniers sokaliens ne poussent que dans les régions montagneuses des mondes désertiques. Le brandy sokalien est largement réputé pour son goût de caramel et sa belle couleur rose. Il est généralement vieilli pendant plus de 50 ans pour enrichir sa saveur.</Description>
+    <BaseCost>30</BaseCost>
+    <ImageFilename>Environment/Resources/SokalianBrandy</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyHappiness</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>68</ResourceId>
+    <Name>Bois de Bartak</Name>
+    <Description>Le bois de Bartak est un bois très dense issu de l'arbre Bartak, que l'on trouve principalement dans les mondes forestiers. Il a un beau grain brun foncé et un fini très fin et lisse lorsqu'il est scié. Il peut être sculpté pour fabriquer des meubles ou être utilisé pour la construction. Les arbres Bartak peuvent atteindre des tailles gigantesques, mettant plusieurs siècles à atteindre des hauteurs allant jusqu'à 300 mètres.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/BartakWood</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>69</ResourceId>
+    <Name>Anémone Wruzos</Name>
+    <Description>L'anémone Wruzos se trouve en petits groupes flottant à la surface de l'océan. Elle est récoltée pour sa haute valeur nutritive. Une caractéristique intéressante de cette anémone rare est qu'elle se détend et se dilate à la lumière du soleil, mais se contracte lorsqu'elle est exposée aux tempêtes. Elle est considérée comme un grand délice et est généralement marinée dans diverses sauces ou épices avant d'être consommée. Elle est habituellement de couleur crème ou rose pâle. Les anémones Wruzos se trouvent exclusivement sur les mondes océaniques.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/WruzosAnemone</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>70</ResourceId>
+    <Name>Fibre de papillon de Tassont</Name>
+    <Description>Les gigantesques papillons de Tassont sont les plus grands de leur espèce. Ils vivent au fond de vastes grottes sur les mondes désertiques, là où le climat est le plus favorable pour eux. La fibre ingénieuse de leurs ailes peut supporter d'énormes charges bien qu'elle ne fasse que quelques microns d'épaisseur. Elle est très recherchée pour la confection de vêtements et de costumes de cérémonie. Mais elle est également utilisée pour les travaux de structure et de sécurité, comme l'escalade.</Description>
+    <BaseCost>27</BaseCost>
+    <ImageFilename>Environment/Resources/TassontMothFibre</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>71</ResourceId>
+    <Name>Coquillage d'Ordulos</Name>
+    <Description>Le rare coquillage d'Ordulos se trouve sur certains mondes océaniques. Les coquilles sont petites, de forme à peu près ovale, et de taille uniforme. L'extérieur est recouvert d'une substance iridescente qui offre une palette de couleurs chatoyantes, à l'image d'un prisme naturel imparfait. Les coquillages étaient autrefois largement utilisés comme monnaie d'échange dans certains mondes, mais ils sont aujourd'hui principalement utilisés comme ornements et pour la décoration des vêtements.</Description>
+    <BaseCost>24</BaseCost>
+    <ImageFilename>Environment/Resources/OrdulosShell</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.06</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+      <Bonus>
+        <Type>ColonyIncome</Type>
+        <Amount>0.01</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>72</ResourceId>
+    <Name>Mousse de Tebrullian</Name>
+    <Description>La mousse de Tebrullian pousse sur une espèce rare d'arbre qui pousse horizontalement sur les falaises gelées de certains mondes de glace. La mousse est de couleur gris pâle, et pousse en filaments qui s'accrochent aux troncs d'arbres. Elle est utilisée dans de nombreuses cuisines comme herbe ou garniture pour certains plats, et est réputée être d'une rare délicatesse.</Description>
+    <BaseCost>20</BaseCost>
+    <ImageFilename>Environment/Resources/TebrullianMoss</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.05</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>73</ResourceId>
+    <Name>Corail de Sarrobia</Name>
+    <Description>Le corail de Sarrobia est très dur et très pointu. Il pousse sous l'eau dans les zones côtières peu profondes des planètes océaniques. Il se présente sous différentes couleurs telles que le turquoise, le jade et le violet. La lumière du soleil provenant de certains types d'étoiles peut rendre le corail étincelant et magnifique.</Description>
+    <BaseCost>17</BaseCost>
+    <ImageFilename>Environment/Resources/SarrobiaCoral</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>74</ResourceId>
+    <Name>Haricots de Koruga</Name>
+    <Description>Les haricots Korhuga poussent sur un petit arbre épineux que l'on trouve sur les mondes désertiques et sablonneux. L'arbre met plusieurs décennies à atteindre sa maturité. Arrivé à maturité, il produit de petites cosses de haricots qui sont collectées et séchées. Les haricots de Korhuga sont un aliment savoureux mais très épicé utilisé comme ingrédient dans les plats de nombreuses cultures du désert. Il est également utilisé par de nombreux chefs cuisiniers dans toute la galaxie.</Description>
+    <BaseCost>16</BaseCost>
+    <ImageFilename>Environment/Resources/KorhugaBeans</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.04</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>75</ResourceId>
+    <Name>Tentacules d'Ardilus</Name>
+    <Description>Les Ardilus sont de grands monstres des profondeurs de l'espace qui se cachent généralement près des géantes gazeuses. Leur chasse permet l'obtention des très prisés tentacules d'Ardilus. Ces tentacules ont de nombreux usages: certaines parties peuvent être mangées, d'autres permettent de produire de la teinture. Les protubérances épineuses sont populaires dans la construction décorative.</Description>
+    <BaseCost>60</BaseCost>
+    <ImageFilename>Environment/Resources/ArdilusTentacles</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.15</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>76</ResourceId>
+    <Name>Cristaux Gravillex</Name>
+    <Description>Les Gravillex sont des monstres spatiaux cristallins qui vivent généralement proche de la couronne des étoiles exotiques. Leur chasse permet l'obtention de leurs structures cristallines uniques. Les cristaux peuvent avoir une gamme de couleurs éclatantes. Ils ont des propriétés holographiques et gravitométriques spéciales qui les rendent précieux dans un large éventail d'applications.</Description>
+    <BaseCost>45</BaseCost>
+    <ImageFilename>Environment/Resources/GravillexCrystal</ImageFilename>
+    <Bonuses>
+      <Bonus>
+        <Type>ColonyDevelopment</Type>
+        <Amount>0.11</Amount>
+        <AppliesTo>Item</AppliesTo>
+      </Bonus>
+    </Bonuses>
+  </Resource>
+  <Resource>
+    <ResourceId>77</ResourceId>
+    <Name>Quartz de dyrillium</Name>
+    <Description>Le quartz de dyrillium est utilisé dans les composants électroniques de pointe et les collecteurs d'énergie. On le trouve dans les mondes volcaniques sulfureux.</Description>
+    <BaseCost>12</BaseCost>
+    <ImageFilename>Environment/Resources/DyrilliumQuartz</ImageFilename>
+    <Bonuses />
+  </Resource>
+  <Resource>
+    <ResourceId>78</ResourceId>
+    <Name>Hexodorium</Name>
+    <Description>L'hexodorium est un type de polymère unique. Il est extrêmement solide et résistant aux dommages. Il a de nombreuses utilisations dans divers composants de pointe. L'hexodorium se trouve généralement dans les mondes gelés de glace, bien que d'autres planètes glacées puissent également avoir de petits dépôts.</Description>
+    <BaseCost>19</BaseCost>
+    <ImageFilename>Environment/Resources/Hexodorium</ImageFilename>
+    <Bonuses />
+  </Resource>
+</ArrayOfResource>

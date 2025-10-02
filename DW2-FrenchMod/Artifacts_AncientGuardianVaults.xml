@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Artifact>
+		<ArtifactId>48</ArtifactId> <!-- Priorities of Governance -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>false</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>true</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Priorités de Gouvernance</Name>
+		<Description>Au 9ᵉ siècle, selon l'ancien calendrier Teekan, le vaste Conglomérat Teekan commença à subir un déclin économique sans précédent. Leurs réseaux commerciaux restaient solides, mais une forte inflation, le chômage et la baisse des revenus créèrent une situation politique précaire pour le Conseil d'Administration dirigeant.
+
+		Une planète périphérique Teekan, appelée Nouveau Marché, fit sécession du Conglomérat sous la direction de Rugural Deknir, qui établit ses Priorités de Gouvernance. Tandis que le reste du Conglomérat Teekan continuait de dépérir, Nouveau Marché prospéra en tant que monde indépendant, attirant l'attention des Gardiens Anciens.
+
+		Environ trente ans après sa sécession, Nouveau Marché finit par réintégrer le Conglomérat Teekan, cette fois en tant que monde-capitale, avec Deknir comme nouvelle Officière Exécutive. Ses Priorités de Gouvernance devinrent la clé de la prospérité Teekan pour les siècles à venir, jusqu'à ce que ces méthodes soient diluées, déformées ou détournées par une série d'Officiers Exécutifs poursuivant des agendas personnels. Ainsi va l'évolution de toutes les cultures. Bien qu'ils méprisent l'accumulation de richesses pour elle-même, la considérant comme une quête dénuée de sens, les Gardiens Anciens reconnaissent que les civilisations ne prospèrent pas sans économies solides. C'est pourquoi ils ont jugé les méthodes de Deknir dignes d'être préservées.</Description>
+		<ImageFilename>Artifacts/priorities of governance</ImageFilename>
+
+	</Artifact>
+	<Artifact>
+		<ArtifactId>49</ArtifactId> <!-- Zenox Fertility Treatment -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyPopulationGrowthRate</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Traitement de Fertilité Zenox</Name>
+		<Description>L'Extinction, comme le virus fut plus tard nommé, se propagea pendant des années avant d'être détecté. La maladie s'adaptait au code génétique de toute forme de vie rencontrée, quelle que soit l'espèce. Ce n'est que lorsque les démographes commencèrent à observer un déclin généralisé de la population à travers la galaxie – non seulement chez les espèces sentientes, mais aussi chez les animaux et certaines plantes – que la recherche d'un virus trans-espèces débuta.
+
+Une fois découvert, il devint rapidement évident que l'Extinction représentait une menace existentielle, non seulement pour la civilisation, mais pour la vie elle-même. Heureusement, l'Extinction ne s'attaquait qu'aux systèmes reproducteurs, et seulement selon un taux déterminé. La galaxie avait encore des années, voire des siècles, avant que la population ne diminue au point d'entraîner l'effondrement des civilisations. Néanmoins, la sensation d'une fin inéluctable envahit la plupart des cultures, menant à une période connue sous le nom de Grand Déclin.
+
+Environ soixante-dix ans après la découverte du virus, l'Institut Zenox de Médecine Avancée annonça le développement d'un vaccin. Sa diffusion marqua le début d'une nouvelle ère d'optimisme et de coopération galactique, et les années qui suivirent furent les plus paisibles de l'histoire enregistrée. À l'insu du reste de la galaxie, les Zenox conservèrent pour eux-mêmes un traitement de fertilité supplémentaire qu'ils avaient découvert comme solution alternative face au virus. Cela leur permit, et à eux seuls, de retrouver plus rapidement que toute autre civilisation leur niveau démographique d'avant l'Extinction.
+
+Les Gardiens Anciens parvinrent à obtenir un échantillon de ce sérum remarquable en échange d'autres secrets.</Description>
+		<ImageFilename>Artifacts/zenox fertility treatment</ImageFilename>
+
+	</Artifact>
+	<Artifact>
+		<ArtifactId>50</ArtifactId> <!-- Kiraditu's Principles of Colonial Defense -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Les Principes de Défense Coloniale de Kiraditu</Name>
+		<Description>L'histoire a des allures de mythe, mais les anciens Gardiens en ont vérifié l'authenticité (bien que les mythes méritent souvent d'être préservés). Deux frères, issus de la pauvreté et sans amis dans les bas-fonds de Port Greataxe, parvinrent d'une manière ou d'une autre à gagner la faveur de la milice locale et finirent par devenir étudiants à la prestigieuse Académie Militaire de Grand Mortalen.
+
+Jamais auparavant l'Académie n'avait accepté des étudiants issus d'une famille insignifiante, encore moins deux en même temps. Les deux frères obtinrent leur diplôme avec une "distinction violente" et gravirent rapidement les échelons durant le Second Soulèvement Haakonish. Le même jour, ils furent tous deux promus au rang d'amiral. Il n'existe aucun récit définitif sur la cause de leur rupture, mais la plupart des historiens pensent qu'elle provient d'une plaisanterie amicale mal interprétée, perçue comme une insulte cruelle et délibérée, du genre impardonnable dans la culture Mortalen. Les frères devinrent des ennemis jurés, chacun recrutant des mondes Mortalen pour sa cause. Peut-être que cela n'aurait eu que peu d'impact si le Protectorat Interstellaire Mortalen n'avait pas déjà grandi trop vite et trop largement, au point de commencer à s'effondrer sous son propre poids administratif. Ainsi, les deux frères finirent par diriger les deux factions principales dans la guerre civile naissante.
+
+Kiraditu, l'aîné, se révéla clairement supérieur dans l'élaboration de tactiques situationnelles, tandis que Hudnar, le cadet, excellait dans la stratégie globale. Rapidement, Kiraditu et ses forces furent acculés et durent se réfugier sur la planète reculée et bien nommée de Crête Désertique. Hudnar s'attendait à écraser les forces de son frère en quelques jours, mais, sous l'œil discret des Anciens Gardiens, le siège de Crête Désertique dura plus de deux ans. Kiraditu défia toutes les attentes, malgré les pénuries et les difficultés. Il mit au point un programme qu'il enregistra, conçu pour maximiser et amplifier toutes les mesures défensives disponibles, ce qui retarda l'inévitable.
+
+Lorsque Kiraditu tomba finalement, Hudnar se lança immédiatement dans la destruction des Principes de Défense Coloniale de son frère, craignant que son nom ne devienne immortel. Il redoutait également que ce travail ne rende ses futures conquêtes plus difficiles s'il tombait entre de mauvaises mains. Ce qu'il ignorait, c'est que les Anciens Gardiens avaient déjà préservé l'œuvre de son frère.</Description>
+		<ImageFilename>Artifacts/kiraditu's principles of colonial defence</ImageFilename>
+
+	</Artifact>
+	<Artifact>
+		<ArtifactId>51</ArtifactId> <!-- Laughter and Leadership -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Rire et Leadership</Name>
+		<Description>De nombreuses espèces utilisent diverses formes d'humour, dont certaines peuvent même être comprises entre différentes cultures. Parmi toutes les espèces connues, les humains comptent parmi les rares à avoir fait de la production d'humour un véritable métier à plein temps (bien qu'un débat existe sur le fait que certains bourreaux publics Dhayut remplissent un rôle similaire).
+
+Ces travailleurs de l'humour humain sont appelés comédiens. Si leur travail était généralement ignoré par les autres espèces, la comédienne Trang Pham atteignit une renommée galactique lorsqu'elle se retrouva piégée sur une colonie isolée en pleine crise inattendue. Les détails restent flous, mais il fut question d'une épidémie, d'une famine, et d'une guerre massive contre les Boskarans qui mobilisait toutes les forces disponibles, empêchant tout secours d’atteindre les habitants de Bandar IV.
+
+Bien qu’étrangère à ce monde et sans expérience en leadership, Pham utilisa sa renommée interstellaire en tant qu'humoriste pour rassembler les citoyens de Bandar IV. Grâce à elle, ils non seulement survécurent jusqu'à l'arrivée des secours, mais le firent avec un moral intact et un bon rire. Pham relata plus tard son expérience dans un ouvrage intitulé *Rire et Leadership*. Même des dirigeants non humains affirmèrent en avoir tiré de précieuses leçons.
+
+Malgré une analyse approfondie, les Anciens Gardiens n’ont jamais réussi à quantifier le succès de l'humour de Pham ni, parfois, à distinguer les passages humoristiques des passages sérieux. Néanmoins, plusieurs espèces biologiques ont démontré qu'elles pouvaient tirer une grande valeur de cet ouvrage.</Description>
+		<ImageFilename>Artifacts/laughter at leadership</ImageFilename>
+
+	</Artifact>
+	<Artifact>
+		<ArtifactId>52</ArtifactId> <!-- Thoughtful Retreat Archives -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ShieldRechargeRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>HyperjumpSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Archives de la Retraite Réfléchie</Name>
+		<Description>Le monde Zenox de la Retraite Réfléchie fut initialement établi comme une base de recherche, destinée à accueillir seulement quelques milliers de scientifiques, ainsi que leurs familles et le personnel secondaire nécessaire à l’entretien du poste avancé. Au fil d’un siècle, il devint le principal centre de recherche scientifique expérimentale des Zenox, explorant de nombreuses pistes qui suscitèrent à la fois l'intérêt et l'inquiétude des Anciens Gardiens.
+
+Parmi ses projets les plus secrets figuraient des expérimentations sur la technologie des trous de ver dans le but d’explorer d’autres galaxies. La faisabilité d’une telle technologie était toujours incertaine, mais elle aboutit néanmoins à des développements et innovations dans des domaines connexes. Par exemple, la tentative d'utiliser une fréquence de bouclier alternée pour créer un générateur de trou de ver à usage individuel échoua lamentablement, mais permit la découverte d’une nouvelle méthode pour augmenter la vitesse de recharge des boucliers.
+
+Les Anciens Gardiens débattirent longuement pour savoir si les Archives de la Retraite Réfléchie méritaient d’être préservées, ou si elles étaient trop dangereuses pour l’être en raison de [CONTENU SUPPRIMÉ]. Lors de la bataille de Dactilla VII durant la guerre contre les Shakturi, alors que le destin de toute vie dans la galaxie était en jeu (même si les participants ignoraient qu’il s’agissait d’un tournant décisif), ce furent les taux de recharge des boucliers Zenox qui permirent aux forces de l’Alliance de la Liberté de survivre. C’est pour cette raison qu’une version soigneusement éditée des Archives de la Retraite Réfléchie fut sélectionnée pour être conservée dans la Voûte.</Description>
+		<ImageFilename>Artifacts/thoughtful retreat archives</ImageFilename>
+
+	</Artifact>
+	<Artifact>
+		<ArtifactId>53</ArtifactId> <!-- The Maditor Method -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>La Méthode Maditor</Name>
+		<Description>Les Teekans étaient célèbres à travers la galaxie pour leur expertise en exploitation minière, une compétence que d'autres cultures cherchaient à imiter. Leur réputation en tant qu'ingénieurs miniers était méritée, mais elle fut aussi largement exagérée, au point que certains en vinrent à supposer que tous les Teekans étaient naturellement doués dans ce domaine.
+
+Les Anciens Gardiens ont observé que les formes de vie biologiques sont sujettes aux généralisations. À cause de ces préjugés, le Teekan Birtum Maditor, simple marchand de pièces détachées pour vaisseaux, fut enlevé par des pirates et vendu à un monde indépendant Boskaran, en difficulté pour extraire des ressources de ses mines. Les Boskarans envoyèrent Maditor dans une colonie pénitentiaire minière avec seulement trente jours de vivres. Si la production minière ne s'améliorait pas dans ce délai, l'ensemble de la colonie serait condamné à mourir de faim.
+
+Bien qu'il ait protesté en affirmant qu'il ne connaissait rien à l'exploitation minière, les autorités refusèrent de l'écouter. La légende raconte que Maditor puisa dans son savoir génétique teekan pour améliorer la production, mais ceci est faux. En réalité, il s’appuya sur un prisonnier boskaran, véritable ingénieur qualifié. En suivant ses conseils, Maditor parvint à augmenter la production et à atteindre les quotas imposés. Il fut alors libéré et nommé responsable de toutes les opérations minières de la planète boskarane. Il protesta une fois encore, répétant qu'il ne connaissait rien à l'exploitation minière et suppliant les autorités de libérer le prisonnier qui l’avait réellement aidé, mais les Boskarans refusèrent de le croire.
+
+Lorsqu'il échoua à remplir les quotas suivants, il fut exécuté. Des années plus tard, le prisonnier boskaran parvint à s’évader de la colonie minière, retrouva d'autres Teekans et publia leurs techniques d’exploitation minière sous le nom d’emprunt de Birtum Maditor. Il s’agissait peut-être d’un hommage au Teekan, bien que nous soupçonnions une forme d'ironie boskarane que nous ne comprenons pas entièrement. Quoi qu'il en soit, les Anciens Gardiens estiment que la Méthode Maditor est trop précieuse pour être oubliée.</Description>
+		<ImageFilename>Artifacts/the maditor method</ImageFilename>
+
+	</Artifact>
+	<Artifact>
+		<ArtifactId>54</ArtifactId> <!-- Diplomacy and Other Means -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>La Diplomatie et d'Autres Moyens</Name>
+		<Description>Dans l'ancienne galaxie, les humains étaient souvent considérés comme les diplomates les plus doués. Le Corps Diplomatique Humain envoyait ses représentants dans les grands conflits galactiques lorsqu’ils pensaient qu’une résolution pacifique était possible. Il était largement soupçonné (et les recherches des Anciens Gardiens confirment ces soupçons) que le Corps Diplomatique Humain orientait également ses interventions de manière à favoriser les intérêts humains.
+
+Les humains excellent particulièrement dans la poursuite simultanée d’objectifs parfois contradictoires. L’exemple de la Grande Confrontation Boskara-Haakonish est particulièrement révélateur. Les Boskarans et les Haakonish s’étaient livrés à des escarmouches le long de leurs frontières pendant des décennies avant qu’une guerre ouverte n’éclate, menaçant de plonger tout le secteur dans le chaos. La présence de plusieurs grandes installations minières humaines de Caslon dans cette région rendait ce conflit d’une importance capitale pour les intérêts humains. Toutefois, ni les Boskarans ni les Haakonish ne souhaitaient collaborer avec les humains ou accepter un cessez-le-feu. Pour eux, cette guerre était devenue une affaire de vengeance.
+
+Déterminés à protéger leurs intérêts tout en consolidant leur réputation de diplomates chevronnés, les humains décidèrent de réunir les deux factions belligérantes à la table des négociations. Leur succès leur valut l’admiration d’une grande partie de la galaxie. Il attira aussi l’attention des Anciens Gardiens, qui doutaient que les Boskarans et les Haakonish puissent être aussi facilement convaincus d’abandonner leurs différends. Une enquête plus approfondie révéla que l’espionnage humain était presque aussi impressionnant que leur diplomatie. Des agents infiltrèrent les deux camps, diffusant le message que leurs ennemis étaient prêts à s’allier aux humains.
+
+Les Boskarans et les Haakonish, persuadés qu’ils n’avaient pas le choix, acceptèrent de participer aux négociations. À première vue, cette histoire pourrait suggérer que les humains étaient davantage des manipulateurs que des diplomates. Cependant, il convient de noter qu’une fois les négociations engagées, les humains réussirent, après de longs mois, à obtenir un cessez-le-feu. Leurs principes diplomatiques, une fois les conditions réunies pour les appliquer, furent jugés solides et dignes d’être préservés.</Description>
+		<ImageFilename>Artifacts/diplomacy and other means</ImageFilename>
+
+	</Artifact>
+	<Artifact>
+		<ArtifactId>55</ArtifactId> <!-- Hattir's Training Manual -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Le Manuel d'Entraînement de Hattir</Name>
+		<Description>En l'espace d’un demi-siècle, trois mondes Mortalen furent assiégés par des armées envahissantes largement supérieures. En infériorité numérique et dépassés, ces mondes survécurent à des situations presque impossibles. Ainsi, les Mortalen acquirent une réputation non seulement de redoutables guerriers, mais aussi de défenseurs inégalés.
+
+Dans chacun de ces cas, la survie des Mortalen fut le fruit d’un enchaînement de circonstances uniques et de hasards favorables. Autrement dit, aucune stratégie ou méthode reproductible ne pouvait garantir un succès similaire dans des circonstances comparables. Pourtant, lorsque Hattir, empereur du Grand Domaine Mortalen, anticipa l’effondrement économique imminent de son empire, il y vit une opportunité d’exploiter la réputation de son peuple, bien que celle-ci fût imméritée. Hattir commença à vendre les services de ses armées comme défenseurs de mondes assiégés. Cette initiative allégea temporairement ses difficultés financières, mais elle engendra de nouveaux problèmes.
+
+À chaque monde défendu par le Grand Domaine Mortalen, un nouvel ennemi apparaissait. Rapidement, une confédération de plus de huit factions unies assiégea le monde trône de Hattir, déterminée à détruire le mythe des grands défenseurs Mortalen. La plupart de ses armées étant dispersées aux quatre coins de la galaxie au service du plus offrant, Hattir faisait face non seulement à la mort et à la perte de son empire, mais aussi au déshonneur d’être exposé comme un imposteur.
+
+Plutôt que d’admettre sa faiblesse, Hattir entreprit de forger une stratégie inspirée des enseignements de brillants mais oubliés penseurs militaires de l’histoire Mortalen. S’il ne pouvait survivre au siège, il était déterminé à offrir une défense héroïque qui préserverait sa réputation. Les Anciens Gardiens se rendirent dans le Grand Domaine Mortalen pour observer la bataille, où Hattir optimisa les capacités défensives de sa planète et résista suffisamment longtemps pour permettre à ses flottes mercenaires de revenir et de repousser les envahisseurs. Bien qu’il se soit appuyé sur des idées qui n’étaient pas les siennes, Hattir sut combiner ces stratégies de manière unique et souvent ingénieuse, rendant ses méthodes dignes d’être préservées par les Anciens Gardiens.</Description>
+		<ImageFilename>Artifacts/hattir's training manual</ImageFilename>
+
+	</Artifact>
+	<Artifact>
+		<ArtifactId>56</ArtifactId> <!-- The Itimai Method -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>La Méthode Itimai</Name>
+		<Description>« Ils sont avec Hadi Itimai. » C'est une vieille expression Ackdarienne signifiant que quelqu’un est perdu et ne sera jamais retrouvé. Mais qui était Hadi Itimai ?
+
+Dans les années précédant la Guerre Shakturi, Hadi Itimai s’imposa comme le concepteur de vaisseaux le plus brillant d’une culture déjà réputée pour l’excellence de ses conceptions navales. Son nom devint rapidement célèbre parmi les Ackdariens, puis dans toute la galaxie, alors que nombreux étaient ceux qui souhaitaient apprendre de ce maître incontesté. Pourtant, Itimai refusa toutes les invitations à donner des conférences ou à rencontrer un public admiratif, préférant se consacrer à un projet visant à améliorer la vitesse des vaisseaux Ackdariens au-delà de ce que l’on croyait possible. Puis, Itimai disparut.
+
+Cette disparition devint un véritable phénomène culturel. Rumeurs, théories du complot et fausses apparitions se multiplièrent. Des holovids fictifs prétendant expliquer le sort d’Itimai connurent un grand succès auprès de nombreuses espèces. Lorsque la Guerre Shakturi éclata, l’Alliance de la Liberté regretta de ne pas pouvoir bénéficier du savoir d’Itimai. Ce n’est qu’après la guerre que les Anciens Gardiens découvrirent la vérité : Hadi Itimai avait été enlevé par les Shakturi et contraint d’améliorer leur flotte. Un sort tragique pour un esprit si brillant, mais les découvertes d’Itimai demeurent fascinantes et précieuses.</Description>
+		<ImageFilename>Artifacts/the itimai method</ImageFilename>
+
+	</Artifact>
+	<Artifact>
+		<ArtifactId>57</ArtifactId> <!-- The Jhahtu Reforms -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.02</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Les Réformes Jhahtu</Name>
+		<Description>Lorsque la Guerre Shakturi éclata et que la pleine puissance des envahisseurs se révéla, une mobilisation massive débuta pour accroître la taille des flottes de l’Alliance de la Liberté. Même les gouvernements qui avaient cru leurs défenses largement suffisantes réalisèrent qu’ils étaient désespérément mal préparés face à la menace d’extinction qui pesait sur eux.
+
+Dans cet effort pour augmenter la production de vaisseaux, l’Alliance de la Liberté reçut l’aide d’une source inattendue : un ingénieur Dhayut et transfuge nommé Jhahtu. Cet esprit singulier, par la seule force de sa volonté, s’était détaché du réseau mental de son peuple dès son plus jeune âge.
+
+Rejetant également les valeurs de sa propre espèce, il trouva refuge sur le monde natal des Ikkuro, où il entama une carrière dans la construction navale. Là-bas, il se maria mais, en raison de l’incompatibilité génétique entre les Ikkuro et les Dhayut, il pleura l’impossibilité d’avoir des enfants. Il se consacra alors entièrement à son travail.
+
+À l’époque, des rumeurs circulaient selon lesquelles la nature "non-Dhayut" de Jhahtu serait le résultat d’expériences secrètes de manipulation génétique, mais cette allégation n’a jamais été prouvée. Les Anciens Gardiens connaissent la vérité, mais la jugent sans importance. Pour eux, seule compte l’influence décisive de Jhahtu, dont les réformes en matière de construction navale permirent à l’Alliance de la Liberté de tenir aussi longtemps qu’elle l’a fait.</Description>
+		<ImageFilename>Artifacts/the jhahtu reforms</ImageFilename>
+
+	</Artifact>
+</ArrayOfArtifact>

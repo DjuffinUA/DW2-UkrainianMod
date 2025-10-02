@@ -1,0 +1,841 @@
+<?xml version="1.0"?>
+<ArrayOfArtifact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Artifact>
+		<ArtifactId>0</ArtifactId> <!-- Stele of Takdun -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyDefense</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopGroundDefense</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Stèle de Takdun</Name>
+		<Description>La Stèle de Takdun est un pilier de 3 mètres de haut en obsidienne Hapek, marqué d'inscriptions indéchiffrables qui contiendraient des détails importants sur l'histoire galactique ancienne. Les Quameno révèrent profondément cette stèle et ont un engagement écrasant, presque irrationnel, à la protéger.</Description>
+		<ImageFilename>Artifacts/Stele of Takdun</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>1</ArtifactId> <!-- Scroll of Generations -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Parchemin des Générations</Name>
+		<Description>Le Parchemin des Générations est un long rouleau de parchemin couvert d'écritures denses. Ce parchemin ancien est particulier car les Atuuks n'ont acquis l'écriture que récemment, et leur script moderne ne ressemble en rien à celui du parchemin. Ainsi, les Atuuks ne peuvent pas le lire, mais ils supposent qu'il décrit leurs généalogies tribales étendues des temps anciens.</Description>
+		<ImageFilename>Artifacts/Scroll of Generations</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>2</ArtifactId> <!-- Rekarrun Crystal -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchReactor</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Le Cristal Rekarrun</Name>
+		<Description>Le Cristal Rekarrun est un immense joyau vert ancien. Ce cristal a été taillé avec une précision atomique et semble capable de focaliser de grandes quantités d’énergie. Il émet une lueur constante et pulse lorsque de la lumière vive est dirigée sur lui. Ses origines sont perdues dans les brumes du temps – les Wekkarus ignorent qui l’a fabriqué, mais supposent qu’il est d’origine extraterrestre.</Description>
+		<ImageFilename>Artifacts/Rekarrun Crystal</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>3</ArtifactId> <!-- Tablet of Aksorra -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>CharacterQualityScientist</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Tablette d'Aksorra</Name>
+		<Description>La Tablette d'Aksorra est une plaque de 40 cm en onyx Yotapien recouverte de marquages angulaires complexes. Personne ne connaît la signification de ces étranges inscriptions, mais l’incroyable détail et la précision du travail indiquent qu’elles renferment des informations d’une importance capitale. Étudier ces marquages confère inexplicablement une augmentation de l’intelligence, même si leur signification demeure inconnue.</Description>
+		<ImageFilename>Artifacts/Tablet of Aksorra</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>4</ArtifactId> <!-- Harp of Karidas -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Scenery</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Harpe de Karidas</Name>
+		<Description>La Harpe de Karidas est un instrument à cordes gigantesque fabriqué à partir du plus fin bois de Suculos. Les notes jouées sur cette harpe couvrent une gamme de fréquences plus large que ce que la plupart des espèces conscientes peuvent entendre. Elles possèdent une résonance unique et étonnante, qui ne peut être pleinement appréciée qu'en performance live.</Description>
+		<ImageFilename>Artifacts/Harp of Karidas</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>5</ArtifactId> <!-- Final Orders for 8th Fleet -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>688</short> <!-- Basic Diplomacy: Human Language and Expressions -->
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Ordres Finaux pour la 8ème Flotte</Name>
+		<Description>Un enregistrement partiel endommagé des derniers ordres donnés à la 8ème Flotte de la République Solaire humaine, engagée contre des forces ennemies alliées à une entité appelée "Axe Shaktur". L'importance stratégique du secteur de la 8ème Flotte pour l'effort de guerre global est soulignée. L’extrait indique qu’aucun renfort supplémentaire ne peut être attendu en raison d’une opération combinée massive et, espérons-le, décisive contre le centre de gravité principal des Shakturi. Jusqu’à la fin de cette opération, la 8ème Flotte est ordonnée de ralentir les actions ennemies et d’empêcher le bombardement ou l’assaut des colonies clés de sa zone d’opérations, à tout prix.</Description>
+		<ImageFilename>Artifacts/final orders for 8th fleet</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>6</ArtifactId> <!-- "The Frontier" -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>688</short> <!-- Basic Diplomacy: Human Language and Expressions -->
+			<short>689</short> <!-- Effective Diplomacy: Human Culture and Customs -->
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>La Frontière</Name>
+		<Description>Un ancien casque contenant l’enregistrement d’un chef-d’œuvre en réalité virtuelle, racontant l’histoire d’Etan Wardo, vétéran d’une rébellion coloniale avortée à la frontière de la République Solaire humaine. Sa famille est ensuite assassinée par des bandes de rebelles devenus des bandits, et il finit par s’allier à ses anciens ennemis, les Rangers de Terra, pour sauver certains de ses proches survivants. Un aperçu fascinant de l’ancienne culture humaine, de ses coutumes et de la nature impitoyable de la justice à la frontière.</Description>
+		<ImageFilename>Artifacts/the frontier</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>7</ArtifactId> <!-- Constitution Crystal (Solar Republic) -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>688</short> <!-- Basic Diplomacy: Human Language and Expressions -->
+			<short>692</short> <!-- Basic Diplomacy: Ackdarian Language and Expressions -->
+		</ResearchProjectCompleteIds>
+		<GovernmentUnlockIds>
+			<short>9</short> <!-- Way of the Ancients -->
+		</GovernmentUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Cristal de la Constitution (République Solaire)</Name>
+		<Description>Un dispositif de stockage cristallin contenant peut-être la seule copie originale survivante de la Constitution de l’ancienne Alliance de la Liberté. Premier document ayant unifié plusieurs espèces extraterrestres sous un même gouvernement, il constitue une pièce unique et inestimable de l’histoire de la galaxie. Cette copie aurait été conservée sur l’ancienne planète natale des Humains, Terra.</Description>
+		<ImageFilename>Artifacts/human constitution crystal</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>8</ArtifactId> <!-- "Eternity and the Art of Maintenance" -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchConstruction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>« L'Éternité et l'Art de l'Entretien »</Name>
+		<Description>Un ancien holo-parchemin Ackdarien à l’orientation étonnamment philosophique, mettant en avant la beauté d’une technologie correctement entretenue. Rempli d’un savoir pratique aujourd’hui perdu, il cherche également à inculquer au lecteur un profond respect pour la préservation et l’amélioration des objets, plutôt que leur abandon ou leur remplacement.</Description>
+		<ImageFilename>Artifacts/eternity and the art of maintenance</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>9</ArtifactId> <!-- The Pearl of the Deep -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Scenery</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>La Perle des Profondeurs</Name>
+		<Description>Une ancienne Perle d’Ucantium d’une qualité parfaite et d’une taille extraordinaire. Trésor rare des anciens Ackdariens, on dit qu’elle élève son porteur à son plein potentiel.</Description>
+		<ImageFilename>Artifacts/the pearl of the deep</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>10</ArtifactId> <!-- Constitution Crystal (Ackdara) -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>688</short> <!-- Basic Diplomacy: Human Language and Expressions -->
+			<short>692</short> <!-- Basic Diplomacy: Ackdarian Language and Expressions -->
+		</ResearchProjectCompleteIds>
+		<GovernmentUnlockIds>
+			<short>9</short> <!-- Way of the Ancients -->
+		</GovernmentUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Cristal de la Constitution (Ackdara)</Name>
+		<Description>Un dispositif de stockage cristallin contenant peut-être la seule copie originale survivante de la Constitution de l’ancienne Alliance de la Liberté. Premier document ayant unifié plusieurs espèces extraterrestres sous un même gouvernement, il constitue une pièce unique et inestimable de l’histoire de la galaxie. Cette copie aurait été conservée sur l’ancienne planète natale des Ackdariens, Ackdara.</Description>
+		<ImageFilename>Artifacts/ackdarian constitution crystal</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>11</ArtifactId> <!-- Experimental Flux Drive -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchEngines</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>604</short> <!-- Super Engine -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Moteur à Flux Expérimental</Name>
+		<Description>Les vestiges d’un moteur expérimental sur lequel les anciens Ackdariens semblaient travailler. Il paraît avoir été presque achevé avant que leurs recherches et développements ne soient brusquement interrompus.</Description>
+		<ImageFilename>Environment/Components/Ackdarian_ExperimentalFluxDrive</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>12</ArtifactId> <!-- The Spear of the First King -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityLeader</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>704</short> <!-- Basic Diplomacy: Mortalen Language and Expressions -->
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>La Lance du Premier Roi</Name>
+		<Description>Une ancienne arme d’hast énergisée d’une taille et d’un tranchant remarquables, fabriquée à partir d’alliages exceptionnellement résistants et encore dans un état presque parfait. Selon ses inscriptions, elle fut maniée par le premier Monarque des Mortalen et transmise à travers la lignée des Rois Mortalen jusqu’à ce qu’un ancien cataclysme interrompe cette succession. Gravé sur son manche se trouve également l’ancien Code Mortalen, demeuré intact malgré le passage du temps.</Description>
+		<ImageFilename>Artifacts/the spear of the first king</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>13</ArtifactId> <!-- The Glaive of Mor -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityTroopGeneral</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityFleetAdmiral</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Le Glaive de Mor</Name>
+		<Description>Une arme inhabituelle, de style Mortalen mais de fabrication Zenox, conçue dans un alliage extrêmement avancé. Elle est composée de plusieurs lames angulaires autour d’un disque central et semble avoir été conçue et équilibrée pour le lancer. Comme d’autres armes anciennes des Mortalen, elle contient un générateur miniature qui alimente les lames en énergie, accélère le disque vers sa cible et le ramène rapidement à son porteur, qui porte un bracelet assorti permettant l’interconnexion avec l’arme. De plus, le champ énergétique qui l’entoure semble également accroître l’agressivité dans un rayon remarquable, affectant même la majeure partie de la surface d’une planète.</Description>
+		<ImageFilename>Artifacts/The Glaive of Mor</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>14</ArtifactId> <!-- Experimental Stellar Armor -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchArmor</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>606</short> <!-- Super Armor -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Armure Stellaire Expérimentale</Name>
+		<Description>Les vestiges d’un alliage d’armure expérimental sur lequel les anciens Mortalen semblaient travailler. Les premiers tests indiquent qu’il nécessite une chaleur équivalente à celle d’une étoile pour être correctement forgé. Il semble avoir été presque achevé avant que leurs recherches et développements ne soient brusquement interrompus.</Description>
+		<ImageFilename>Environment/Components/Mortalen_ExperimentalStellarArmor</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>15</ArtifactId> <!-- Experimental Planetary Exterminator -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>249</short> <!-- Super Exterminator -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Exterminateur Planétaire Expérimental</Name>
+		<Description>Les vestiges de ce qui semble être une ancienne arme de destruction massive. Les premiers tests indiquent qu’elle est d’une puissance terrifiante et extrêmement instable. Elle porte la marque des anciens Mortalen, qui semblaient sur le point de l’achever avant que leurs recherches et développements ne soient brusquement interrompus.</Description>
+		<ImageFilename>Environment/Components/Mortalen_ExperimentalPlanetaryExterminator</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>16</ArtifactId> <!-- Experimental Supernova Torpedo -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>247</short> <!-- Super Torpedo -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Torpille Supernova Expérimentale</Name>
+		<Description>Les vestiges de ce qui semble être une ancienne arme expérimentale Mortalen de type torpille énergétique. Les premiers tests révèlent un niveau de confinement du plasma exceptionnel. Il semble qu’elle ait été presque achevée avant que leurs recherches et développements ne soient brusquement interrompus.</Description>
+		<ImageFilename>Environment/Components/Mortalen_ExperimentalSupernovaTorpedo</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>17</ArtifactId> <!-- Experimental Death Ray -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>242</short> <!-- Super Array -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Rayon de la Mort Expérimental</Name>
+		<Description>Les vestiges d’une arme expérimentale à impulsions énergétiques d’une puissance et d’une portée colossales. Elle est gravement endommagée et nécessite de nombreuses études, mais semble avoir été conçue par les anciens Boskarans.</Description>
+		<ImageFilename>Environment/Components/Boskaran_ExperimentalDeathRay</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>18</ArtifactId> <!-- Experimental Wormhole Drive -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchHyperDrive</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>603</short> <!-- Super Drive -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Moteur à Trou de Ver Expérimental</Name>
+		<Description>Les vestiges d’un moteur hyperspatial à la conception unique et incroyablement étrangère. Il est gravement endommagé et nécessite de nombreuses études, mais des marquages suggèrent qu’il a été fabriqué par les anciens Boskarans.</Description>
+		<ImageFilename>Environment/Components/Boskaran_ExperimentalWormholeDrive</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>19</ArtifactId> <!-- Experimental Inertialess Thruster -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchEngines</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>605</short> <!-- Super Maneuvering -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Propulseur Inertiel Expérimental</Name>
+		<Description>Les vestiges d’un propulseur expérimental sur lequel les anciens Humains semblaient travailler. Il paraît avoir été presque achevé avant que leurs recherches et développements ne soient brusquement interrompus.</Description>
+		<ImageFilename>Environment/Components/Human_ExperimentalInertialessThruster</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>20</ArtifactId> <!-- University of Terra Databank -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>688</short> <!-- Basic Diplomacy: Human Language and Expressions -->
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Banque de Données de l'Université de Terra</Name>
+		<Description>Une banque de données, endommagée mais en grande partie fonctionnelle, contenant une portion des archives de l’ancienne université humaine de Terra. Bien qu’incomplète, elle renferme encore suffisamment d’informations pour inspirer d’innombrables nouvelles découvertes.</Description>
+		<ImageFilename>Artifacts/university of terra databank</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>21</ArtifactId> <!-- The Cube of Law -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>716</short> <!-- Basic Diplomacy: Zenox Language and Expressions -->
+			<short>717</short> <!-- Effective Diplomacy: Zenox Culture and Customs -->
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Le Cube de la Loi</Name>
+		<Description>Un cube de données fabriqué à partir d’un cristal métallique pratiquement indestructible. Il contient un traité complet sur tous les aspects de l’ancienne loi Zenox, incluant des concepts à la fois étrangers et des principes universellement applicables, tous expliqués avec une logique et une clarté remarquables.</Description>
+		<ImageFilename>Artifacts/cube of law</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>22</ArtifactId> <!-- "The Epic of the Betrayal" -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>716</short> <!-- Basic Diplomacy: Zenox Language and Expressions -->
+			<short>717</short> <!-- Effective Diplomacy: Zenox Culture and Customs -->
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>« L'Épopée de la Trahison »</Name>
+		<Description>Un ancien poème épique Zenox contenu dans un projecteur holographique en forme de pyramide, qui, une fois activé, affiche et raconte l’histoire à travers une lecture audio-visuelle dramatique. À première vue, il relate une grande et ancienne tragédie sous deux perspectives : un frère, confronté à des circonstances désespérées, trahit et assassine son propre frère pour sauver sa propre vie. L’épopée commence du point de vue du frère assassiné, mais expose ensuite avec une froide précision le raisonnement du traître, si bien qu’à la fin, l’auditeur se retrouve tiraillé, ne sachant plus à qui faire confiance ni ce qui est juste. Pour les anciens Zenox, cette œuvre représentait un sommet artistique, illustrant parfaitement la complexité et la nuance qu’ils percevaient dans la moralité et les interactions entre êtres conscients.</Description>
+		<ImageFilename>Artifacts/the epic of the betrayal</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>23</ArtifactId> <!-- The Wander Map -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>Scenery</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>HyperjumpSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>696</short> <!-- Basic Diplomacy: Teekan Language and Expressions -->
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>La Carte du Vagabond</Name>
+		<Description>Une tablette de données ancienne et fissurée, encore à peine fonctionnelle, ayant autrefois appartenu à un ancien clan marchand Teekan. Elle contient une carte des systèmes stellaires qu’ils ont traversés, ainsi que des notes sur l’instabilité gravitationnelle croissante qu’ils ont rencontrée avant qu’un ancien cataclysme ne les frappe. Les observations de ces anomalies gravitationnelles, ainsi que les descriptions détaillées des techniques employées par les anciens Teekans pour les contourner en toute sécurité, restent inestimables pour tout scientifique ou navigateur hyperspatial d’aujourd’hui.</Description>
+		<ImageFilename>Artifacts/the wander map</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>24</ArtifactId> <!-- "The Appraiser" -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>696</short> <!-- Basic Diplomacy: Teekan Language and Expressions -->
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>« L'Évaluateur »</Name>
+		<Description>Une intelligence artificielle ancienne, contenue dans un androïde conçu pour ressembler à un Teekan. Conçu pour être un administrateur et un assistant brillant dans tous les domaines liés au commerce et à la comptabilité, sa programmation ne s’étend guère au-delà de ces domaines.</Description>
+		<ImageFilename>Artifacts/the appraiser</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>25</ArtifactId> <!-- The Monolith of Gastronomy and Guile -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>700</short> <!-- Basic Diplomacy: Haakonish Language and Expressions -->
+			<short>701</short> <!-- Effective Diplomacy: Haakonish Culture and Customs -->
+		</ResearchProjectCompleteIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Le Monolithe de la Gastronomie et de la Ruse</Name>
+		<Description>Un ancien dispositif monolithique de stockage de données, usé par le temps mais encore fonctionnel. Les anciens Haakonish semblent y avoir conservé une partie importante de leurs œuvres culturelles sur l’art de la cuisine raffinée ainsi que sur la tromperie et la manipulation. Les auteurs haakonish de ces écrits estimaient qu’en croisant ces deux arts, ils pouvaient exploiter les faiblesses des cultures inférieures en analysant leurs préférences et coutumes culinaires. Tout au long de ces œuvres, la supériorité de la gastronomie haakonish, en grande partie due à leur biologie avancée, est régulièrement affirmée comme une évidence. Peut-être le plus fascinant, plusieurs des plats haakonish les plus raffinés utilisent l’Épice Korabbienne, et ce monolithe répertorie plusieurs anciennes localisations où elle pourrait encore être trouvée.</Description>
+		<ImageFilename>Artifacts/the monolith of gastronomy and guile</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>26</ArtifactId> <!-- Cloning Chamber -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchHighTech</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>139</short> <!-- Basic Chimeras -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Chambre de Clonage</Name>
+		<Description>Une chambre de manipulation génétique remarquablement avancée, apparemment conçue par les anciens Haakonish pour s’adapter à leur biologie, mais pouvant être adaptée à d’autres espèces. Elle est capable de créer des clones à un rythme rapide et de guérir toutes les blessures, à l’exception des plus graves. Le seul inconvénient est qu’un élément du code génétique de base, impossible à altérer, fait que toute personne utilisant la chambre de manière répétée adopte progressivement des caractéristiques haakonish.</Description>
+		<ImageFilename>Artifacts/cloning chamber</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>27</ArtifactId> <!-- Altar of Darkness -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ColonyDevelopment</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Item</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectCompleteIds>
+			<short>712</short> <!-- Basic Diplomacy: Boskara Language and Expressions -->
+		</ResearchProjectCompleteIds>
+		<GovernmentUnlockIds>
+			<short>8</short> <!-- Way of Darkness -->
+		</GovernmentUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Autel des Ténèbres</Name>
+		<Description>Un puissant artefact ancien en forme d’autel, fabriqué dans un alliage absorbant la lumière, à l’exception de « veines » d’énergie violette qui parcourent sa surface en pulsant. Il semble totalement intact, et toute personne s’en approchant perçoit immédiatement qu’il est habité par une forme de conscience dotée de capacités télépathiques. Ceux qui restent trop longtemps à proximité deviennent mentalement asservis à une nouvelle idéologie appelée la Voie des Ténèbres. Les esclaves de l’autel servent ensuite de relais à son influence télépathique, lui permettant d’atteindre d’autres esprits. Sans un moyen de confinement psychique, son emprise peut rapidement s’étendre à une planète entière.</Description>
+		<ImageFilename>Artifacts/altar of darkness</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>28</ArtifactId> <!-- Experimental Citadel Shields -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchShields</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>602</short> <!-- Super Shields -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Boucliers de Citadelle Expérimentaux</Name>
+		<Description>Les vestiges d’un générateur de bouclier expérimental d’une résistance incroyable, sur lequel les anciens Zenox semblaient travailler. Il paraît avoir été presque achevé avant que leurs recherches et développements ne soient brusquement interrompus.</Description>
+		<ImageFilename>Environment/Components/Zenox_ExperimentalCitadelShields</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>29</ArtifactId> <!-- Experimental Void Sensors -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchSensors</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>610</short> <!-- Super Sensors -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Capteurs du Vide Expérimentaux</Name>
+		<Description>Les vestiges d’un capteur expérimental d’une sensibilité extrême et d’une puissance extraordinaire, sur lequel les anciens Zenox semblaient travailler. Il paraît avoir été presque achevé avant que leurs recherches et développements ne soient brusquement interrompus.</Description>
+		<ImageFilename>Environment/Components/Zenox_ExperimentalVoidSensors</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>30</ArtifactId> <!-- Experimental Quantum Burst -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>244</short> <!-- Super Ion Blast -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Explosion Quantique Expérimentale</Name>
+		<Description>Les vestiges d’une arme expérimentale à base d’ions d’une puissance phénoménale, sur laquelle les anciens Teekans semblaient travailler. Il paraît avoir été presque achevée avant que leurs recherches et développements ne soient brusquement interrompus.</Description>
+		<ImageFilename>Environment/Components/Teekan_ExperimentalQuantumBurst</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>31</ArtifactId> <!-- Experimental i-Space Generator -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchSensors</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>609</short> <!-- Super Stealth -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Générateur i-Espace Expérimental</Name>
+		<Description>Les vestiges d’un générateur expérimental capable de dissimuler un vaisseau en le décalant partiellement dans une autre dimension. Les anciens Haakonish semblaient travailler sur cette technologie, qui paraît avoir été presque achevée avant que leurs recherches et développements ne soient brusquement interrompus.</Description>
+		<ImageFilename>Environment/Components/Haakonish_ExperimentalI-SpaceGenerator</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>32</ArtifactId> <!-- Experimental Black Hole Projector -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<ResearchProjectUnlockIds>
+			<short>246</short> <!-- Super Singularity -->
+		</ResearchProjectUnlockIds>
+		<QualityBoost>0</QualityBoost>
+		<Name>Projecteur de Trou Noir Expérimental</Name>
+		<Description>Les vestiges d’une arme gravitationnelle expérimentale d’une puissance telle qu’elle peut générer un phénomène équivalent à un trou noir. Les anciens Haakonish semblaient travailler sur cette technologie, qui paraît avoir été presque achevée avant que leurs recherches et développements ne soient brusquement interrompus.</Description>
+		<ImageFilename>Environment/Components/Haakonish_ExperimentalBlackHoleProjector</ImageFilename>
+	</Artifact>
+	<Artifact>
+		<ArtifactId>33</ArtifactId> <!-- The Book of Commerce -->
+		<DiscoveryLevel>0</DiscoveryLevel>
+		<BonusesOnlyWhenAtColony>true</BonusesOnlyWhenAtColony>
+		<BonusesOnlyWhenAtCapital>false</BonusesOnlyWhenAtCapital>
+		<BonusesToOwner>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</BonusesToOwner>
+		<QualityBoost>0</QualityBoost>
+		<Name>Le Livre du Commerce</Name>
+		<Description>Un ancien ouvrage décrivant les pratiques commerciales astucieuses et trompeuses qui guidaient l’ancien Guilde Stellaire Haakonish. La sagesse contenue dans ces pages offrira aux lecteurs des stratégies pour déjouer même les partenaires commerciaux les plus prudents.</Description>
+		<ImageFilename>Artifacts/The Book of Commerce</ImageFilename>
+	</Artifact>
+</ArrayOfArtifact>

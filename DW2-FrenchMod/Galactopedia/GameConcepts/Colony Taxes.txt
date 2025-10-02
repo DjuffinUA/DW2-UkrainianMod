@@ -1,0 +1,38 @@
+Taxes sur les colonies de votre empire sont votre principale source de revenus.
+
+La population de chaque colonie vaque à ses affaires privées, générant de la richesse. Votre empire taxe ensuite ces revenus générés par vos citoyens privés.
+
+[H3]Revenu Privé des Colonies[/H3]
+Cette relation entre le revenu privé et le revenu fiscal de l'État est affichée dans l'écran Économie (F2). 
+
+La section Économie Privée > Revenus Annuels contient la ligne 'Revenu Privé des Colonies', qui indique combien de revenus globaux vos colonies génèrent.
+
+La section Économie de l'État > Revenus Annuels contient la ligne 'Taxe sur les Colonies', qui indique combien de revenus fiscaux vous percevez de vos colonies. Ce prélèvement fiscal est une partie du 'Revenu Privé des Colonies' mentionné ci-dessus.
+
+[H3]Formule du Revenu des Colonies[/H3]
+Le revenu privé des colonies est calculé comme suit :
+
+Revenu de la Colonie = Population Totale x Niveau de Développement
+
+Ce revenu privé des colonies est ce que votre empire taxe, générant ainsi des revenus pour votre empire. Ainsi, pour maximiser les revenus fiscaux, vous devez aider à développer vos colonies, en maximisant à la fois la population et le développement de chaque colonie.
+
+[H3]Définir les taux d'imposition[/H3]
+Les taux d'imposition des colonies peuvent être fixés de zéro à 100 %. Si les citoyens de la colonie estiment que le taux d'imposition est trop élevé, cela diminuera leur approbation à votre égard, les rendant plus mécontents.
+
+Vous pouvez choisir d'avoir vos taux d'imposition des colonies contrôlés automatiquement (paramètre par défaut). Dans ce cas, le taux sera défini à un niveau approprié en fonction de la taille et du développement de la colonie. Voir la section 'Colonies et Taux d'Imposition' dans l'écran Politique de l'Empire (touche P).
+
+Vous pouvez également décider d'automatiser ou non le contrôle des taxes sur une base par colonie en utilisant les paramètres d'automatisation des colonies. Pour ce faire, sélectionnez l'une de vos colonies et cliquez sur le bouton 'Définir l'Automatisation de la Colonie' dans le panneau de sélection. Ensuite, cliquez sur le bouton 'Automatiser les Taux d'Imposition' pour basculer la gestion des taux d'imposition pour cette colonie.
+
+[H3]Taxes et Croissance des Colonies[/H3]
+Lorsqu'une colonie est nouvellement établie, le taux d'imposition est généralement très faible. Cela rend la population de la colonie plus heureuse et encourage une croissance plus rapide.
+
+À mesure qu'une colonie grandit en taille et en développement, le taux d'imposition peut être augmenté et vous pouvez commencer à percevoir un revenu fiscal décent de la colonie.
+
+[H3]Corruption[/H3]
+À mesure que votre colonie se développe, un niveau inévitable de corruption s'installe. La corruption réduit le revenu privé global généré par la colonie, et donc diminue également le montant des taxes que vous percevez.
+
+Certains types de gouvernement peuvent réduire la corruption dans les colonies : République, Technocratie et Esprit de Ruche.
+
+D'autres gouvernements augmentent la corruption : Guildes Marchandes, Féodalisme, Monarchie et Dictature Militaire.
+
+Les infrastructures d'Administration Planétaire peuvent également réduire les pertes dues à la corruption.

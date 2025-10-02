@@ -1,0 +1,5585 @@
+<?xml version="1.0"?>
+<ArrayOfRace xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Race>
+		<RaceId>0</RaceId> <!-- Human -->
+		<BundleName>Human</BundleName>
+		<FlagFilename>UserInterface/Flags/Human_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Human_2</string>
+			<string>UserInterface/Flags/Human_3</string>
+			<string>UserInterface/Flags/Human_4</string>
+			<string>UserInterface/Flags/Human_5</string>
+			<string>UserInterface/Flags/Human_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>176</B>
+			<A>255</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			<A>255</A>
+		</SecondaryColor>
+		<ReproductionRate>1.06</ReproductionRate>
+		<MigrationFactor>1.1</MigrationFactor>
+		<Aggression>1.2</Aggression>
+		<Caution>1.1</Caution>
+		<IsPlayable>true</IsPlayable>
+		<PreferredGovernmentIds>
+			<short>2</short> <!-- Democracy -->
+			<short>0</short> <!-- Republic -->
+		</PreferredGovernmentIds>
+		<AllowableGovernmentIds>
+			<short>0</short> <!-- Republic -->
+			<short>2</short> <!-- Democracy -->
+			<short>3</short> <!-- Feudalism -->
+			<short>4</short> <!-- Monarchy -->
+			<short>5</short> <!-- Military Dictatorship -->
+			<short>32759</short> <!-- Refugee Fleet -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId> <!-- Continental -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId> <!-- Forest -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId> <!-- Grasslands -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<StartingResearchProjectIds>
+			<short>4</short> <!-- Missile Weapons -->
+			<short>6</short> <!-- Ground Combat -->
+			<short>5</short> <!-- Kinetic Weapons -->
+			<short>254</short> <!-- Starship Maneuvering -->
+			<short>394</short> <!-- Basic Recreation Systems -->
+		</StartingResearchProjectIds>
+		<PreferredWeaponComponentIds>
+			<short>5</short> <!-- Seeking Missile [S] -->
+			<short>197</short> <!-- Seeking Missile [Ftr] -->
+			<short>17</short> <!-- Concussion Missile [S] -->
+			<short>201</short> <!-- Concussion Missile [Ftr] -->
+			<short>203</short> <!-- Concussion Missile [M] -->
+			<short>228</short> <!-- Concussion Missile [L] -->
+			<short>20</short> <!-- Rail Gun [S] -->
+			<short>27</short> <!-- Heavy Rail Gun [L] -->
+			<short>202</short> <!-- Rail Gun [Ftr] -->
+			<short>204</short> <!-- Rail Gun [M] -->
+			<short>301</short> <!-- Heavy Rail Gun [M] -->
+			<short>39</short> <!-- Phaser Lance [L] -->
+			<short>50</short> <!-- Bulwark Missile Battery [S] -->
+			<short>45</short> <!-- Hail Cannon [Ftr] -->
+			<short>298</short> <!-- Hail Cannon [S] -->
+		</PreferredWeaponComponentIds>
+		<Biases>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+		</Biases>
+		<DesignNames>
+			<string>Excelsior</string>
+			<string>Titan</string>
+			<string>Colossia</string>
+			<string>Striker</string>
+			<string>Thunder</string>
+			<string>Royale</string>
+			<string>Centurion</string>
+			<string>Consul</string>
+			<string>Senator</string>
+			<string>Praetor</string>
+			<string>Quaestor</string>
+			<string>Imperator</string>
+			<string>Maximus</string>
+			<string>Praefectus</string>
+			<string>Tetrarch</string>
+			<string>Decimator</string>
+			<string>Argossia</string>
+			<string>Apulon</string>
+			<string>Battleaxe</string>
+			<string>Javelin</string>
+			<string>Trident</string>
+			<string>Shadow</string>
+			<string>Cossack</string>
+			<string>Minotaur</string>
+			<string>Medusa</string>
+			<string>Victory</string>
+			<string>Vengeance</string>
+			<string>Eclipse</string>
+			<string>Enforcer</string>
+			<string>Sovereign</string>
+			<string>Executor</string>
+			<string>Venator</string>
+			<string>Dominator</string>
+			<string>Allegiance</string>
+			<string>Decurion</string>
+			<string>Sabre</string>
+		</DesignNames>
+		<VictoryConditions>
+			<VictoryCondition>
+				<Type>ControlPlanetTypePercentage</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>0.2</Amount>
+				<Id>7</Id> <!-- Continental -->
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>MostDefenseTreaties</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>DestroyMoreShipsThanLoseTimesFactor</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>HighestTradeVolume</Type>
+				<Proportion>0.1</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>MostTourismIncome</Type>
+				<Proportion>0.1</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>ResearchMostAdvanced</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+		</VictoryConditions>
+		<CharacterFirstNames>
+			<string>Donato</string>
+			<string>Gudan</string>
+			<string>Juran</string>
+			<string>Lorien</string>
+			<string>Matthia</string>
+			<string>Paedri</string>
+			<string>Than</string>
+			<string>Yuri</string>
+			<string>Kevian</string>
+			<string>Laurus</string>
+			<string>Caran</string>
+			<string>Keryn</string>
+			<string>Thassun</string>
+			<string>Kasto</string>
+			<string>Derras</string>
+			<string>Loras</string>
+			<string>Mishku</string>
+			<string>Obidar</string>
+			<string>Indo</string>
+			<string>Gerrin</string>
+			<string>Luc</string>
+			<string>San</string>
+			<string>Dak</string>
+			<string>Kor</string>
+			<string>Tiko</string>
+			<string>Cobi</string>
+			<string>Peet</string>
+			<string>Yan</string>
+			<string>Basant</string>
+			<string>Hugo</string>
+			<string>Esari</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Ikkuros</string>
+			<string>Nothris</string>
+			<string>Hassari</string>
+			<string>Walkin</string>
+			<string>Mankara</string>
+			<string>Jaksun</string>
+			<string>Undulian</string>
+			<string>Dobachi</string>
+			<string>Trebulo</string>
+			<string>Tarfan</string>
+			<string>Callosk</string>
+			<string>Lukadi</string>
+			<string>Bendu</string>
+			<string>Kesky</string>
+			<string>Berallia</string>
+			<string>Obarria</string>
+			<string>Nesalio</string>
+			<string>Xanaria</string>
+			<string>Allaria</string>
+			<string>Dokari</string>
+			<string>Marteri</string>
+			<string>Okkoros</string>
+			<string>Zoberia</string>
+			<string>Zotri</string>
+			<string>Kalan</string>
+			<string>Redan</string>
+		</CharacterLastNames>
+		<SpaceportAmbientSoundEffectFilenames>
+			<string>Sounds/Ambient/chatter1</string>
+			<string>Sounds/Ambient/chatter2</string>
+			<string>Sounds/Ambient/chatter3</string>
+			<string>Sounds/Ambient/chatter4</string>
+			<string>Sounds/Ambient/chatter5</string>
+			<string>Sounds/Ambient/chatter6</string>
+			<string>Sounds/Ambient/chatter7</string>
+			<string>Sounds/Ambient/chatter8</string>
+			<string>Sounds/Ambient/chatter9</string>
+			<string>Sounds/Ambient/chatter10</string>
+			<string>Sounds/Ambient/chatter11</string>
+			<string>Sounds/Ambient/chatter12</string>
+		</SpaceportAmbientSoundEffectFilenames>
+		<ColonizationOrbTypeIds>
+			<unsignedByte>7</unsignedByte> <!-- Continental -->
+		</ColonizationOrbTypeIds>
+		<ColonizationOrbTypeGameEventNames>
+			<string>New Worlds Continental Colonization (Human)</string>
+		</ColonizationOrbTypeGameEventNames>
+		<ColonyConquestOrbTypeIds>
+			<unsignedByte>7</unsignedByte> <!-- Continental -->
+		</ColonyConquestOrbTypeIds>
+		<ColonyConquestOrbTypeGameEventNames>
+			<string>New Worlds Continental Conquest (Human)</string>
+		</ColonyConquestOrbTypeGameEventNames>
+		<ShipRoleBuiltRoles>
+			<ShipRole>ResortBase</ShipRole>
+		</ShipRoleBuiltRoles>
+		<ShipRoleBuiltColonyEventDefinitionIds>
+			<short>-1</short> <!-- N/A -->
+		</ShipRoleBuiltColonyEventDefinitionIds>
+		<ShipRoleBuiltColonySelections>
+			<ColonySelection>HighestDevelopment</ColonySelection>
+		</ShipRoleBuiltColonySelections>
+		<ShipRoleBuiltGameEventNames>
+			<string>Great Art Exposition from Resort Base Built (Human)</string>
+		</ShipRoleBuiltGameEventNames>
+		<TreatySignedTypes>
+			<EmpireRelationType>FreeTrade</EmpireRelationType>
+			<EmpireRelationType>Defense</EmpireRelationType>
+		</TreatySignedTypes>
+		<TreatySignedColonyEventDefinitionIds>
+			<short>-1</short> <!-- N/A -->
+			<short>-1</short> <!-- N/A -->
+		</TreatySignedColonyEventDefinitionIds>
+		<TreatySignedColonySelections>
+			<ColonySelection>HighestDevelopment</ColonySelection>
+			<ColonySelection>Capital</ColonySelection>
+		</TreatySignedColonySelections>
+		<TreatySignedGameEventNames>
+			<string>Great Art Exposition from Free Trade (Human)</string>
+			<string>Internal Debates Trigger (Human)</string>
+		</TreatySignedGameEventNames>
+		<WarStartedByOtherGameEventName>Hero of the Hour Trigger (Human)</WarStartedByOtherGameEventName>
+		<ForeignIntelligenceMissionSuccessGameEventName>Heightened Security Trigger (Human)</ForeignIntelligenceMissionSuccessGameEventName>
+		<AdditionalCharacterTraits>
+			<CharacterTraitType>AllianceBuilder</CharacterTraitType>
+			<CharacterTraitType>Entrepreneur</CharacterTraitType>
+			<CharacterTraitType>IndustrialAgent</CharacterTraitType>
+			<CharacterTraitType>Destructive</CharacterTraitType>
+		</AdditionalCharacterTraits>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<FeatureExplanations>
+			<string>[HL]Grande Exposition d'Art :[/HL] Lorsque vous signez un accord de libre-échange ou construisez une nouvelle station touristique, vous obtenez une augmentation de 2 ans des revenus du commerce et du tourisme dans tout votre empire, ainsi qu’une augmentation des revenus de la colonie et du tourisme pour la colonie où se déroule la Grande Exposition d'Art. Ne peut être déclenchée plus d'une fois tous les 5 ans.</string>
+			<string>[HL]Héros du Moment :[/HL] Lorsqu’une guerre vous est déclarée, vous pouvez choisir soit un nouvel Amiral, soit un nouveau Général possédant deux traits positifs.</string>
+			<string>[HL]Débats Internes :[/HL] Lorsque vous signez un nouveau traité de défense, vous obtenez un nouvel Ambassadeur compétent, mais la satisfaction des colonies diminue pendant 2 ans dans tout votre empire.</string>
+			<string>[HL]Sécurité Renforcée :[/HL] Lorsqu’une mission d’espionnage étrangère contre vous réussit (mais est détectée), vous pouvez choisir de sacrifier un Espion pour obtenir une augmentation de 2 ans de la Contre-espionnage, au prix d’une baisse de la satisfaction des colonies dans tout votre empire.</string>
+			<string>[HL]Nouveaux Mondes :[/HL] Lorsque vous colonisez ou conquérez une planète continentale, vous obtenez gratuitement une avancée technologique aléatoire en colonisation.</string>
+			<string>[HL]Porte-vaisseaux Agrandis :[/HL] Toutes les coques de vaisseaux porte-vaisseaux gagnent +50 en taille.</string>
+			<string>[HL]Trait de Leader unique - Bâtisseur d'Alliance :[/HL] +10% Diplomatie.</string>
+			<string>[HL]Trait d'Ambassadeur unique - Entrepreneur :[/HL] +10% Revenus Commerciaux.</string>
+			<string>[HL]Trait d'Espion unique - Agent Industriel :[/HL] +5% Espionnage.</string>
+			<string>[HL]Trait de Scientifique unique - Destructeur :[/HL] +10% Recherche en Armement.</string>
+		</FeatureExplanations>
+		<DefaultInfantryId>2</DefaultInfantryId> <!-- Strike Trooper Brigade -->
+		<Name>Humains</Name>
+		<Description>Les humains sont une espèce contradictoire, brutale en temps de guerre, mais avide de fraternité. La voie qu'ils suivront dépendra sans doute de leurs dirigeants et des dangers ou opportunités qu'ils rencontreront en s'étendant dans les étoiles. De nombreuses espèces sont prisonnières de leur nature, mais les humains sont notoirement imprévisibles.
+
+		Bien qu'ils ne soient pas la race la plus axée sur la recherche, les humains sont naturellement curieux et créatifs, ce qui leur confère un léger avantage dans leurs investigations scientifiques. Ce sont aussi d’habiles marchands et négociateurs. Mais leurs véritables forces résident dans la diplomatie, l’espionnage et (si les autres options échouent) la guerre.
+
+		Les humains aiment partager leur culture et découvrir les traditions des autres espèces, ce qui les pousse à rechercher activement de nouveaux partenaires pour le commerce et les échanges culturels. Ils ont également un fort désir d’expansion, et chaque nouveau monde colonisé les incite à aller encore plus loin dans l’inconnu. C’est peut-être ce qui les rend les plus dangereux : une fois qu’ils ont goûté au succès, ils n’aspirent qu’à en obtenir davantage.
+
+		Lorsque la guerre devient inévitable (ou simplement désirable), ils peuvent compter sur leurs immenses vaisseaux et leurs chefs talentueux pour les mener à la victoire. Ils cherchent aussi la force dans l’union et sont toujours prêts à conclure des traités de défense.
+
+		Les humains peuvent ne pas posséder les atouts caractéristiques de certaines espèces voyageant dans l’espace, mais leur capacité à apprendre, s’adapter, commercer et négocier en fait des alliés précieux et des ennemis redoutables. Il ne faut jamais les sous-estimer.</Description>
+		<ImageFilename>UserInterface/Races/Human</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>1</RaceId> <!-- Ackdarian -->
+		<BundleName>Ackdarian</BundleName>
+		<FlagFilename>UserInterface/Flags/Ackdarian_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Ackdarian_2</string>
+			<string>UserInterface/Flags/Ackdarian_3</string>
+			<string>UserInterface/Flags/Ackdarian_4</string>
+			<string>UserInterface/Flags/Ackdarian_5</string>
+			<string>UserInterface/Flags/Ackdarian_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>0</R>
+			<G>255</G>
+			<B>255</B>
+			<A>255</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>64</G>
+			<B>232</B>
+			<A>255</A>
+		</SecondaryColor>
+		<ReproductionRate>1.06</ReproductionRate>
+		<Aggression>0.9</Aggression>
+		<Caution>1.2</Caution>
+		<Dependability>1.05</Dependability>
+		<ImportanceOfOthersReputations>1.3</ImportanceOfOthersReputations>
+		<IsPlayable>true</IsPlayable>
+		<PreferredGovernmentIds>
+			<short>6</short> <!-- Technocracy -->
+			<short>0</short> <!-- Republic -->
+		</PreferredGovernmentIds>
+		<AllowableGovernmentIds>
+			<short>0</short> <!-- Republic -->
+			<short>2</short> <!-- Democracy -->
+			<short>3</short> <!-- Feudalism -->
+			<short>4</short> <!-- Monarchy -->
+			<short>5</short> <!-- Military Dictatorship -->
+			<short>6</short> <!-- Technocracy -->
+			<short>32759</short> <!-- Refugee Fleet -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchConstruction</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipEnergyUsage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
+				<Factor>0.3</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> <!-- Deep Ocean -->
+				<Factor>0.25</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<StartingResearchProjectIds>
+			<short>3</short> <!-- Early Torpedo Weapons -->
+			<short>6</short> <!-- Ground Combat -->
+			<short>0</short> <!-- Early Beam Weapons -->
+			<short>254</short> <!-- Starship Maneuvering -->
+		</StartingResearchProjectIds>
+		<PreferredWeaponComponentIds>
+			<short>227</short> <!-- Shatterforce Beam [L] -->
+			<short>29</short> <!-- Shatterforce Beam [M] -->
+			<short>28</short> <!-- Sentinel Multi-Beam Defense [PD] -->
+			<short>31</short> <!-- Impact Assault Blaster [S] -->
+			<short>225</short> <!-- Impact Assault Blaster [M] -->
+			<short>233</short> <!-- Impact Assault Blaster [Ftr] -->
+		</PreferredWeaponComponentIds>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+		</Biases>
+		<DesignNames>
+			<string>Deliverance</string>
+			<string>Axos</string>
+			<string>Arcadia</string>
+			<string>Atlantis</string>
+			<string>Equinox</string>
+			<string>Epsilon</string>
+			<string>Meridian</string>
+			<string>Nimitz</string>
+			<string>Phoenix</string>
+			<string>Raptor</string>
+			<string>Rekallios</string>
+			<string>Sentinel</string>
+			<string>Tarassian</string>
+			<string>Vortex</string>
+			<string>Verossus</string>
+			<string>Xeros</string>
+			<string>Corellos</string>
+			<string>Cantras</string>
+			<string>Challenger</string>
+			<string>Discovery</string>
+			<string>Enterprise</string>
+			<string>Falcon</string>
+			<string>Giraxon</string>
+			<string>Hercules</string>
+			<string>Lapricus</string>
+			<string>Portia</string>
+			<string>Eagle</string>
+			<string>Osprey</string>
+			<string>Pegasus</string>
+			<string>Sentry</string>
+			<string>Viper</string>
+			<string>Liberty</string>
+			<string>Archaea</string>
+			<string>Condor</string>
+			<string>Iridos</string>
+			<string>Independence</string>
+		</DesignNames>
+		<VictoryConditions>
+			<VictoryCondition>
+				<Type>MostResearchTreaties</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>ControlLargestColoniesByType</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>1</Amount>
+				<Id>9</Id> <!-- Ocean -->
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>ResearchMostAdvanced</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>OwnLargestCapitalShip</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+		</VictoryConditions>
+		<CharacterFirstNames>
+			<string>Equia</string>
+			<string>Senaris</string>
+			<string>Udy</string>
+			<string>Olbar</string>
+			<string>Cudas</string>
+			<string>Chozul</string>
+			<string>Wesda</string>
+			<string>Nachis</string>
+			<string>Secho</string>
+			<string>Sorrit</string>
+			<string>Uki</string>
+			<string>Raqi</string>
+			<string>Ebo</string>
+			<string>Yorpa</string>
+			<string>Jukri</string>
+			<string>Ossan</string>
+			<string>Gyut</string>
+			<string>Lutar</string>
+			<string>Xu</string>
+			<string>Aki</string>
+			<string>Vos</string>
+			<string>Xo</string>
+			<string>Xa</string>
+			<string>Osu</string>
+			<string>Wod</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Wassoga</string>
+			<string>Qendo</string>
+			<string>Lapuri</string>
+			<string>Serafu</string>
+			<string>Paklidu</string>
+			<string>Unkaro</string>
+			<string>Opanko</string>
+			<string>Corras</string>
+			<string>Zabros</string>
+			<string>Ebuta</string>
+			<string>Wodos</string>
+			<string>Gokaal</string>
+			<string>Thanda</string>
+			<string>Matado</string>
+			<string>Edari</string>
+			<string>Nobriy</string>
+			<string>Possari</string>
+			<string>Haksur</string>
+			<string>Assari</string>
+			<string>Banasa</string>
+		</CharacterLastNames>
+		<SpaceportAmbientSoundEffectFilenames>
+			<string>Sounds/Ambient/chatter1</string>
+			<string>Sounds/Ambient/chatter2</string>
+			<string>Sounds/Ambient/chatter3</string>
+			<string>Sounds/Ambient/chatter4</string>
+			<string>Sounds/Ambient/chatter5</string>
+			<string>Sounds/Ambient/chatter6</string>
+			<string>Sounds/Ambient/chatter7</string>
+			<string>Sounds/Ambient/chatter8</string>
+			<string>Sounds/Ambient/chatter9</string>
+			<string>Sounds/Ambient/chatter10</string>
+			<string>Sounds/Ambient/chatter11</string>
+			<string>Sounds/Ambient/chatter12</string>
+		</SpaceportAmbientSoundEffectFilenames>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<DefaultInfantryId>27</DefaultInfantryId> <!-- Defender Brigade -->
+		<Name>Ackdariens</Name>
+		<Description>Les Ackdariens sont des mammifères marins semi-aquatiques extrêmement industrieux. Ils possèdent de grandes mains et pieds palmés, ce qui en fait d'excellents nageurs. Cependant, leurs mains sont aussi très agiles, leur permettant de vivre aussi bien hors de l'eau.
+
+		Les Ackdariens sont intelligents, pacifiques et amicaux. Leur culture riche est centrée sur la dualité de leur environnement de vie, qui mêle à la fois l’eau et la terre.
+
+		Ils excellent dans la construction de vaisseaux stellaires hautement fiables et faciles à entretenir. Leur technologie comprend le moteur avancé TurboThruster, un composant extrêmement économe en carburant, permettant aux vaisseaux ackdariens de consommer moins de carburant et de parcourir de plus grandes distances.
+
+		Les Ackdariens sont célèbres pour la culture de l’algue Nepthys, à partir de laquelle ils produisent le vin de Nepthys. Ils cultivent d’immenses forêts d’algues au plus profond des océans, les récoltent régulièrement et les fermentent lentement pour obtenir un vin d’une douceur exquise.
+
+		Ils sont également maîtres dans l’art de la construction sous-marine, bâtissant des cités immergées vastes et élaborées. Ces cités comportent de nombreux niveaux, certains s’enfonçant profondément dans les abysses de leurs océans natals. Aux profondeurs les plus extrêmes, les Ackdariens recherchent des ressources précieuses, comme la rare perle d’Ucantium.
+
+		Les Ackdariens habitent également les petites îles et les zones côtières peu profondes des planètes océaniques.</Description>
+		<ImageFilename>UserInterface/Races/Ackdarian</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>2</RaceId> <!-- Teekan -->
+		<BundleName>Teekan</BundleName>
+		<FlagFilename>UserInterface/Flags/Teekan_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Teekan_2</string>
+			<string>UserInterface/Flags/Teekan_3</string>
+			<string>UserInterface/Flags/Teekan_4</string>
+			<string>UserInterface/Flags/Teekan_5</string>
+			<string>UserInterface/Flags/Teekan_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>96</R>
+			<G>64</G>
+			<B>0</B>
+			<A>255</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>255</R>
+			<G>103</G>
+			<B>28</B>
+			<A>255</A>
+		</SecondaryColor>
+		<ReproductionRate>1.07</ReproductionRate>
+		<AssimilationRate>1.2</AssimilationRate>
+		<MigrationFactor>1.3</MigrationFactor>
+		<Aggression>0.9</Aggression>
+		<Caution>0.9</Caution>
+		<IsPlayable>true</IsPlayable>
+		<PreferredGovernmentIds>
+			<short>1</short> <!-- Mercantile Guild -->
+			<short>4</short> <!-- Monarchy -->
+		</PreferredGovernmentIds>
+		<AllowableGovernmentIds>
+			<short>0</short> <!-- Republic -->
+			<short>1</short> <!-- Mercantile Guild -->
+			<short>2</short> <!-- Democracy -->
+			<short>3</short> <!-- Feudalism -->
+			<short>4</short> <!-- Monarchy -->
+			<short>5</short> <!-- Military Dictatorship -->
+			<short>32759</short> <!-- Refugee Fleet -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>DamageControl</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>RepairRate</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId> <!-- Continental -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId> <!-- Marshy Swamp -->
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>0.3</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId> <!-- Forest -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId> <!-- Grasslands -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.25</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> <!-- Deep Ocean -->
+				<Factor>-0.2</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId> <!-- Mangrove Forest -->
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
+		<StartingResearchProjectIds>
+			<short>2</short> <!-- Early Area Weapons -->
+			<short>6</short> <!-- Ground Combat -->
+			<short>1</short> <!-- Early Ion Weapons -->
+			<short>35</short> <!-- Tractor Beams -->
+		</StartingResearchProjectIds>
+		<PreferredWeaponComponentIds>
+			<short>12</short> <!-- Ion Bomb [L] -->
+			<short>1</short> <!-- Ion Field Projector [S] -->
+			<short>2</short> <!-- Wave Bomb [M] -->
+		</PreferredWeaponComponentIds>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+		</Biases>
+		<DesignNames>
+			<string>Lusaka</string>
+			<string>Bindura</string>
+			<string>Sofala</string>
+			<string>Lobito</string>
+			<string>Zanzibar</string>
+			<string>Mombasa</string>
+			<string>Mahajanga</string>
+			<string>Comoros</string>
+			<string>Kinshasa</string>
+			<string>Cabinda</string>
+			<string>Nairobi</string>
+			<string>Axum</string>
+			<string>Senanga</string>
+			<string>Ubundu</string>
+			<string>Aketi</string>
+			<string>Turkana</string>
+			<string>Nyasa</string>
+			<string>Asmera</string>
+			<string>Atbara</string>
+			<string>Calabar</string>
+			<string>Sokoto</string>
+			<string>Takoradi</string>
+			<string>Abidjan</string>
+			<string>Monrovia</string>
+			<string>Bamako</string>
+			<string>Dakar</string>
+			<string>Ibadan</string>
+			<string>Tripoli</string>
+			<string>Aswan</string>
+			<string>Cairo</string>
+			<string>Giza</string>
+			<string>Suez</string>
+			<string>Casablanca</string>
+			<string>Tangiers</string>
+			<string>Agadir</string>
+			<string>Kaduna</string>
+		</DesignNames>
+		<VictoryConditions>
+			<VictoryCondition>
+				<Type>MostNonAggressionPacts</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>HighestTradeVolume</Type>
+				<Proportion>0.3</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>LeastWarsStarted</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>MostResearchFromSalvage</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>DestroyMostCreaturesByType</Type>
+				<Proportion>0.1</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id> <!-- Vordikar -->
+			</VictoryCondition>
+		</VictoryConditions>
+		<CharacterFirstNames>
+			<string>Darrat</string>
+			<string>Kibul</string>
+			<string>Ruty</string>
+			<string>Zephry</string>
+			<string>Kweeki</string>
+			<string>Chorpi</string>
+			<string>Jindak</string>
+			<string>Repta</string>
+			<string>Wunta</string>
+			<string>Zacha</string>
+			<string>Dekshi</string>
+			<string>Sawa</string>
+			<string>Sunja</string>
+			<string>Wudri</string>
+			<string>Tek</string>
+			<string>Wia</string>
+			<string>Lerz</string>
+			<string>Faz</string>
+			<string>Rek</string>
+			<string>Iko</string>
+			<string>Yaka</string>
+			<string>Asan</string>
+			<string>Wozi</string>
+			<string>Dex</string>
+			<string>Karg</string>
+			<string>Asunka</string>
+			<string>Jundo</string>
+			<string>Randul</string>
+			<string>Edi</string>
+			<string>Arl</string>
+			<string>Wek</string>
+			<string>Oro</string>
+			<string>Lashar</string>
+			<string>Nashan</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Uktab</string>
+			<string>Woppit</string>
+			<string>Owak</string>
+			<string>Ebarrik</string>
+			<string>Okel</string>
+			<string>Okari</string>
+			<string>Odechy</string>
+			<string>Gachuz</string>
+			<string>Qytian</string>
+			<string>Larrant</string>
+			<string>Noskri</string>
+			<string>Raktan</string>
+			<string>Hanari</string>
+			<string>Diitak</string>
+			<string>Oseri</string>
+			<string>Machka</string>
+			<string>Fossit</string>
+			<string>Shokia</string>
+			<string>Varqi</string>
+			<string>Losit</string>
+			<string>Xetry</string>
+			<string>Tasran</string>
+			<string>Ixito</string>
+			<string>Echigo</string>
+			<string>Poldan</string>
+			<string>Wradu</string>
+			<string>Sartora</string>
+			<string>Nassiki</string>
+			<string>Yablik</string>
+			<string>Urtion</string>
+		</CharacterLastNames>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<DefaultInfantryId>7</DefaultInfantryId> <!-- Trapper Group -->
+		<Name>Teekan</Name>
+		<Description>Les Teekans sont une petite race de rongeurs à fourrure dotée de trois yeux.
+
+		Ils ne voient aucun intérêt à se laver régulièrement et ont donc tendance à dégager une forte odeur.
+
+		Les Teekans ont un intérêt particulier pour l’accumulation de toutes sortes de débris mécaniques. Ils passent leur temps à démonter, réparer et recycler les objets qu’ils collectent. Ils disposent de très peu de technologies réellement originales, mais peuvent parfois progresser jusqu’à devenir une civilisation spatiale.
+
+		Les Teekans sont des marchands nés, vendant leurs marchandises avec profit à travers la galaxie. Ils sont également d’excellents mineurs, exploitant rapidement toutes les ressources naturelles qu’ils découvrent.
+
+		Bien qu’assez renfermés sur eux-mêmes, ils sont très pacifiques et deviennent des alliés fidèles pour ceux qui cherchent leur amitié.
+
+		Les Teekans sont semi-nomades ; certains vivent dans des colonies permanentes, mais beaucoup préfèrent résider dans des camps temporaires, migrant périodiquement vers de nouveaux lieux.
+
+		Les tribus nomades Teekans sont obsédées par la chasse au Bakdur, aussi appelé la Limace des Sables. Alors que les troupeaux de Bakdurs migrent à travers les déserts arides, les camps Teekans les suivent.
+
+		Les Teekans habitent les vastes étendues désertiques des planètes Désert Sablonneux, Désert Rocheux et Savane Désertique.</Description>
+		<ImageFilename>UserInterface/Races/Teekan</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>3</RaceId> <!-- Haakonish -->
+		<BundleName>Haakonish</BundleName>
+		<FlagFilename>UserInterface/Flags/Haakonish_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Haakonish_2</string>
+			<string>UserInterface/Flags/Haakonish_3</string>
+			<string>UserInterface/Flags/Haakonish_4</string>
+			<string>UserInterface/Flags/Haakonish_5</string>
+			<string>UserInterface/Flags/Haakonish_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>160</R>
+			<G>255</G>
+			<B>0</B>
+			<A>255</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>144</R>
+			<G>112</G>
+			<B>48</B>
+			<A>255</A>
+		</SecondaryColor>
+		<ReproductionRate>1.05</ReproductionRate>
+		<AssimilationRate>0.7</AssimilationRate>
+		<MigrationFactor>0.9</MigrationFactor>
+		<Aggression>1.15</Aggression>
+		<Caution>1.05</Caution>
+		<Dependability>0.8</Dependability>
+		<ImportanceOfOthersReputations>0.9</ImportanceOfOthersReputations>
+		<IsPlayable>true</IsPlayable>
+		<PreferredGovernmentIds>
+			<short>3</short> <!-- Feudalism -->
+			<short>1</short> <!-- Mercantile Guild -->
+		</PreferredGovernmentIds>
+		<AllowableGovernmentIds>
+			<short>0</short> <!-- Republic -->
+			<short>1</short> <!-- Mercantile Guild -->
+			<short>2</short> <!-- Democracy -->
+			<short>3</short> <!-- Feudalism -->
+			<short>4</short> <!-- Monarchy -->
+			<short>5</short> <!-- Military Dictatorship -->
+			<short>32759</short> <!-- Refugee Fleet -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchEngines</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchHyperDrive</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>HyperjumpSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipEnergyUsage</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId> <!-- Marshy Swamp -->
+				<Factor>0.25</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId> <!-- Ice -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId> <!-- Forest -->
+				<Factor>0.05</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId> <!-- Mangrove Forest -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<StartingResearchProjectIds>
+			<short>2</short> <!-- Early Area Weapons -->
+			<short>6</short> <!-- Ground Combat -->
+			<short>768</short> <!-- Early Pulse Weapons -->
+			<short>35</short> <!-- Tractor Beams -->
+		</StartingResearchProjectIds>
+		<PreferredWeaponComponentIds>
+			<short>239</short> <!-- Dealbreaker Beam [L] -->
+			<short>293</short> <!-- Dealbreaker Beam [M] -->
+			<short>341</short> <!-- Dealbreaker Beam [S] -->
+			<short>3</short> <!-- Graviton Flux Projector [L] -->
+			<short>313</short> <!-- Grapple Beam [S] -->
+		</PreferredWeaponComponentIds>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.6</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.6</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+		</Biases>
+		<DesignNames>
+			<string>Medan</string>
+			<string>Pattani</string>
+			<string>Malacca</string>
+			<string>Letong</string>
+			<string>Tenasserim</string>
+			<string>Tavoy</string>
+			<string>Henzada</string>
+			<string>Chon Buri</string>
+			<string>Vung Tau</string>
+			<string>Chiang Mai</string>
+			<string>Mandalay</string>
+			<string>Haiphong</string>
+			<string>Saigon</string>
+			<string>Bangkok</string>
+			<string>Kelang</string>
+			<string>Singapore</string>
+			<string>Lumpur</string>
+			<string>Jakarta</string>
+			<string>Sarawak</string>
+			<string>Andaman</string>
+			<string>Surabaya</string>
+			<string>Bandar Seri</string>
+			<string>Semarang</string>
+			<string>Kalimanta</string>
+			<string>Surakarta</string>
+			<string>Sumbawa</string>
+			<string>Telok</string>
+			<string>Saravane</string>
+			<string>Samarinda</string>
+			<string>Kandangan</string>
+			<string>Phan Thiet</string>
+			<string>Mekong</string>
+			<string>Sumatra</string>
+			<string>Hanoi</string>
+			<string>Kuantan</string>
+			<string>Sanggau</string>
+		</DesignNames>
+		<VictoryConditions>
+			<VictoryCondition>
+				<Type>HighestTradeVolume</Type>
+				<Proportion>0.5</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>ControlRestrictedResourceSupply</Type>
+				<Proportion>0.5</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id> <!-- Emeros Crystal -->
+			</VictoryCondition>
+		</VictoryConditions>
+		<CharacterFirstNames>
+			<string>Equia</string>
+			<string>Senaris</string>
+			<string>Udy</string>
+			<string>Olbar</string>
+			<string>Cudas</string>
+			<string>Chozul</string>
+			<string>Wesda</string>
+			<string>Nachis</string>
+			<string>Secho</string>
+			<string>Sorrit</string>
+			<string>Uki</string>
+			<string>Raqi</string>
+			<string>Ebo</string>
+			<string>Yorpa</string>
+			<string>Jukri</string>
+			<string>Ossan</string>
+			<string>Gyut</string>
+			<string>Lutar</string>
+			<string>Xu</string>
+			<string>Aki</string>
+			<string>Vos</string>
+			<string>Xo</string>
+			<string>Xa</string>
+			<string>Osu</string>
+			<string>Wod</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Wassoga</string>
+			<string>Qendo</string>
+			<string>Lapuri</string>
+			<string>Serafu</string>
+			<string>Paklidu</string>
+			<string>Unkaro</string>
+			<string>Opanko</string>
+			<string>Corras</string>
+			<string>Zabros</string>
+			<string>Ebuta</string>
+			<string>Wodos</string>
+			<string>Gokaal</string>
+			<string>Thanda</string>
+			<string>Matado</string>
+			<string>Edari</string>
+			<string>Nobriy</string>
+			<string>Possari</string>
+			<string>Haksur</string>
+			<string>Assari</string>
+			<string>Banasa</string>
+		</CharacterLastNames>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<DefaultInfantryId>12</DefaultInfantryId> <!-- Battlematon Brigade -->
+		<Name>Haakonish</Name>
+		<Description>Les Haakonish sont une race reptilienne bipède. Ils possèdent une large tête plate avec des excroissances proéminentes de chaque côté. Ces excroissances sont en réalité des cavités nasales qui confèrent aux Haakonish un sens de l’odorat inégalé. Leur vue est extrêmement médiocre, mais ils compensent cette faiblesse par leur excellent odorat et goût.
+
+		Les Haakonish sont intelligents et plutôt agressifs. Ils sont également très prétentieux et ont une forte conviction de leur propre supériorité raciale. Par conséquent, ils n’apprécient guère la compagnie des autres espèces et ont une nette tendance à la xénophobie.
+
+		Les Haakonish sont naturellement attirés par les technologies complexes. Ils prennent un immense plaisir à concevoir et fabriquer des équipements dotés de nombreuses fonctionnalités avancées, même si certaines d’entre elles sont inutiles ou superflues.
+
+		Leur avarice naturelle les a conduits à développer la Cellule de Carburant à Haute Densité, un réservoir de carburant de grande capacité. Grâce à cela, les vaisseaux Haakonish bénéficient d’une plus grande autonomie et d’une portée étendue.
+
+		Les Haakonish vivent généralement dans des biosphères entièrement fermées, situées dans les zones côtières des planètes Marécageuses et des Forêts de Mangrove.</Description>
+		<ImageFilename>UserInterface/Races/Haakonish</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>4</RaceId> <!-- Mortalen -->
+		<BundleName>Mortalen</BundleName>
+		<FlagFilename>UserInterface/Flags/Mortalen_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Mortalen_2</string>
+			<string>UserInterface/Flags/Mortalen_3</string>
+			<string>UserInterface/Flags/Mortalen_4</string>
+			<string>UserInterface/Flags/Mortalen_5</string>
+			<string>UserInterface/Flags/Mortalen_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>135</R>
+			<G>0</G>
+			<B>0</B>
+			<A>255</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			<A>255</A>
+		</SecondaryColor>
+		<ReproductionRate>1.06</ReproductionRate>
+		<AssimilationRate>0.5</AssimilationRate>
+		<Aggression>1.3</Aggression>
+		<Caution>0.9</Caution>
+		<Dependability>1.4</Dependability>
+		<ImportanceOfOthersReputations>0.6</ImportanceOfOthersReputations>
+		<IsPlayable>true</IsPlayable>
+		<PreferredGovernmentIds>
+			<short>5</short> <!-- Military Dictatorship -->
+			<short>3</short> <!-- Feudalism -->
+		</PreferredGovernmentIds>
+		<AllowableGovernmentIds>
+			<short>0</short> <!-- Republic -->
+			<short>2</short> <!-- Democracy -->
+			<short>3</short> <!-- Feudalism -->
+			<short>4</short> <!-- Monarchy -->
+			<short>5</short> <!-- Military Dictatorship -->
+			<short>32759</short> <!-- Refugee Fleet -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchArmor</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipManeuvering</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopExperienceGain</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>DamageControl</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId> <!-- Continental -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId> <!-- Forest -->
+				<Factor>-0.05</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>0.3</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.25</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
+		<StartingResearchProjectIds>
+			<short>3</short> <!-- Early Torpedo Weapons -->
+			<short>5</short> <!-- Kinetic Weapons -->
+			<short>6</short> <!-- Ground Combat -->
+			<short>254</short> <!-- Starship Maneuvering -->
+			<short>384</short> <!-- Basic Target Tracking -->
+			<short>266</short> <!-- Armor Plating -->
+		</StartingResearchProjectIds>
+		<PreferredWeaponComponentIds>
+			<short>342</short> <!-- Pulse Torpedo [S] -->
+			<short>253</short> <!-- Pulse Torpedo [L] -->
+			<short>258</short> <!-- Pulse Torpedo [M] -->
+			<short>296</short> <!-- Pulse Torpedo [Ftr] -->
+			<short>202</short> <!-- Rail Gun [Ftr] -->
+			<short>204</short> <!-- Rail Gun [M] -->
+			<short>20</short> <!-- Rail Gun [S] -->
+			<short>27</short> <!-- Heavy Rail Gun [L] -->
+		</PreferredWeaponComponentIds>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+		</Biases>
+		<DesignNames>
+			<string>Isfahan</string>
+			<string>Shiraz</string>
+			<string>Bushehr</string>
+			<string>Tabriz</string>
+			<string>Mashhad</string>
+			<string>Ashkhabad</string>
+			<string>Hamadan</string>
+			<string>Yerevan</string>
+			<string>Ahvaz</string>
+			<string>Sanandaj</string>
+			<string>Kashan</string>
+			<string>Ankara</string>
+			<string>Trabzon</string>
+			<string>Istanbul</string>
+			<string>Tarsus</string>
+			<string>Adana</string>
+			<string>Mersin</string>
+			<string>Izmir</string>
+			<string>Iskenderun</string>
+			<string>Sarikamis</string>
+			<string>Hakkari</string>
+			<string>Ordu</string>
+			<string>Mosul</string>
+			<string>Nasiriyah</string>
+			<string>Aleppo</string>
+			<string>Malatya</string>
+			<string>Baku</string>
+			<string>Baqubah</string>
+			<string>Abadan</string>
+			<string>Rutbah</string>
+			<string>Ramadi</string>
+			<string>Bubiyan</string>
+			<string>Astara</string>
+			<string>Latakia</string>
+			<string>Zagros</string>
+			<string>Arak</string>
+		</DesignNames>
+		<VictoryConditions>
+			<VictoryCondition>
+				<Type>MostExperiencedAdmiral</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>MostExperiencedGeneral</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>WinWarsProportion</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>0.6</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>ConquerMostEnemyColonies</Type>
+				<Proportion>0.3</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>MostSubjugatedDominions</Type>
+				<Proportion>0.1</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+		</VictoryConditions>
+		<CharacterFirstNames>
+			<string>Balluk</string>
+			<string>Doktan</string>
+			<string>Kutar</string>
+			<string>Yurkan</string>
+			<string>Yentor</string>
+			<string>Maztar</string>
+			<string>Danpo</string>
+			<string>Jattub</string>
+			<string>Cwedo</string>
+			<string>Sarriq</string>
+			<string>Bakra</string>
+			<string>Xadry</string>
+			<string>Gartra</string>
+			<string>Zekan</string>
+			<string>Zhatar</string>
+			<string>Wokor</string>
+			<string>Haki</string>
+			<string>Gar</string>
+			<string>Kuut</string>
+			<string>Mok</string>
+			<string>Uza</string>
+			<string>Vok</string>
+			<string>Yaz</string>
+			<string>Raak</string>
+			<string>Zeek</string>
+			<string>Dekshi</string>
+			<string>Bherat</string>
+			<string>Ghoran</string>
+			<string>Wunta</string>
+			<string>Zacha</string>
+			<string>Sabri</string>
+			<string>Ebari</string>
+			<string>Suntaj</string>
+			<string>Fhasha</string>
+			<string>Yepta</string>
+			<string>Yudar</string>
+			<string>Gobar</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Bhulkadin</string>
+			<string>Zhukziban</string>
+			<string>Rustov</string>
+			<string>Jandirrosk</string>
+			<string>Makarius</string>
+			<string>Daghrun</string>
+			<string>Takruan</string>
+			<string>Halskut</string>
+			<string>Gepkiy</string>
+			<string>Hakhra</string>
+			<string>Jukelos</string>
+			<string>Yemodo</string>
+			<string>Yskllor</string>
+			<string>Kazzdi</string>
+			<string>Erakto</string>
+			<string>Makkatar</string>
+			<string>Akshat</string>
+			<string>Ghazzik</string>
+			<string>Argria</string>
+			<string>Tzarak</string>
+			<string>Hudall</string>
+			<string>Fushti</string>
+			<string>Taghran</string>
+			<string>Ruuntul</string>
+			<string>Kawass</string>
+			<string>Pazdaris</string>
+			<string>Frokaal</string>
+			<string>Shiddai</string>
+			<string>Cutsan</string>
+		</CharacterLastNames>
+		<WarStartedByUsGameEventName>Warrior Wave Trigger (Mortalen)</WarStartedByUsGameEventName>
+		<WarStartedByOtherGameEventName>Patriotic Wave Trigger (Mortalen)</WarStartedByOtherGameEventName>
+		<ColonyConquestGameEventName>Know Your Enemy Trigger (Mortalen)</ColonyConquestGameEventName>
+		<CharacterProvingChancePerYear>0.08</CharacterProvingChancePerYear>
+		<AdditionalCharacterTraits>
+			<CharacterTraitType>Warmaster</CharacterTraitType>
+			<CharacterTraitType>GrandAdmiral</CharacterTraitType>
+			<CharacterTraitType>DiscipleOfWar</CharacterTraitType>
+			<CharacterTraitType>IntimidatingPresence</CharacterTraitType>
+		</AdditionalCharacterTraits>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<FeatureExplanations>
+			<string>[HL]Vague Guerrière :[/HL] Lorsque vous déclarez la guerre, vous obtenez une augmentation de 2 ans de la croissance de la population Mortalen ainsi qu’un choix entre une forte augmentation du taux de recrutement des troupes ou une amélioration de la puissance d’attaque des troupes.</string>
+			<string>[HL]Vague Patriotique :[/HL] Lorsqu’une guerre vous est déclarée, vous obtenez une augmentation de 2 ans de la croissance de la population Mortalen ainsi qu’un choix entre une réduction de la corruption des colonies ou une diminution de l'épuisement de guerre.</string>
+			<string>[HL]Connaître Son Ennemi :[/HL] Lorsque vous envahissez et conquérez un monde ennemi, vous pouvez choisir une augmentation de 2 ans soit de l’espionnage et de la contre-espionnage, soit du ciblage et des contre-mesures.</string>
+			<string>[HL]Prouvez Votre Valeur :[/HL] Périodiquement, choisissez entre 2 personnages (parmi un Leader, un Amiral ou un Général) pour subir une épreuve par les armes. En cas de succès, le personnage sélectionné obtient un trait positif, sinon il gagne un trait négatif.</string>
+			<string>[HL]Coques Renforcées :[/HL] Toutes les coques de vaisseaux et de spatioports bénéficient d’un bonus de +1 en Armure Réactive.</string>
+			<string>[HL]Trait de Leader unique - Maître de Guerre :[/HL] +10% d’économie sur l’entretien des troupes, +20% d’économie sur l’entretien des vaisseaux.</string>
+			<string>[HL]Trait d’Amiral unique - Grand Amiral :[/HL] +10% de dégâts d’armes, +10% de ciblage.</string>
+			<string>[HL]Trait de Général unique - Disciple de la Guerre :[/HL] +20% de puissance d’attaque des troupes, +10% d’économie sur l’entretien des troupes.</string>
+			<string>[HL]Trait d’Ambassadeur unique - Présence Intimidante :[/HL] +10% en diplomatie.</string>
+		</FeatureExplanations>
+		<DefaultInfantryId>17</DefaultInfantryId> <!-- Conqueror Force -->
+		<Name>Mortalen</Name>
+		<Description>Alors que certaines espèces tournent leur regard vers l’avenir, les Mortalen, eux, se réfèrent à leur passé. Mais voir dans leurs traditions un signe de faiblesse serait une grave erreur. Les Mortalen placent l'honneur, la loyauté et la victoire au-dessus de tout, faisant d’eux des alliés convoités et des ennemis redoutables.
+
+		Ancrés dans leurs anciennes coutumes, ils sont désormais prêts à porter ces traditions jusqu’aux étoiles. Parmi leurs valeurs fondamentales, la suprématie du combat est primordiale. Individuellement, les Mortalen cherchent l’honneur à travers des épreuves de volonté, la traque de créatures redoutables et des duels mortels.
+
+		En tant que société, ils prospèrent grâce aux compétitions qui leur permettent de démontrer leur discipline et leur supériorité culturelle. Lorsqu’ils désignent un ennemi, la population tout entière se consacre à la victoire. Contrairement à d’autres espèces, les Mortalen se lassent rarement des conflits. Ils ne renoncent jamais et se battent même lorsque la défaite est certaine. Une mort glorieuse vaut bien mieux qu’une survie honteuse.
+
+		Cette agressivité innée inspire la crainte chez leurs adversaires, mais elle a aussi un prix au sein de leur propre culture. Fidèles à leurs traditions ancestrales, les Mortalen s'affrontent régulièrement dans des épreuves de courage et de compétence, et même les dirigeants de haut rang peuvent se laisser emporter par des vendettas personnelles.
+
+		Les Mortalen sont connus pour leurs vaisseaux lourdement blindés, d’une agilité unique. De parfaits outils pour assouvir leur soif de conquête. En quête de grandeur et d’honneur, leurs chefs militaires rêvent d’une domination galactique, capturant toujours plus de mondes et soumettant toujours plus de peuples que leurs rivaux.
+
+		Pour les Mortalen, l’honneur est suprême, et la galaxie elle-même est leur champ d’épreuve.</Description>
+		<ImageFilename>UserInterface/Races/Mortalen</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>5</RaceId> <!-- Ikkuro -->
+		<FlagFilename>UserInterface/Flags/Ikkuro_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Ikkuro_2</string>
+			<string>UserInterface/Flags/Ikkuro_3</string>
+			<string>UserInterface/Flags/Ikkuro_4</string>
+			<string>UserInterface/Flags/Ikkuro_5</string>
+			<string>UserInterface/Flags/Ikkuro_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>21</R>
+			<G>80</G>
+			<B>21</B>
+			<A>255</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>255</R>
+			<G>255</G>
+			<B>28</B>
+			<A>255</A>
+		</SecondaryColor>
+		<ReproductionRate>1.05</ReproductionRate>
+		<MigrationFactor>1.1</MigrationFactor>
+		<Aggression>0.8</Aggression>
+		<Caution>1.11</Caution>
+		<Dependability>1.5</Dependability>
+		<ImportanceOfOthersReputations>0.96</ImportanceOfOthersReputations>
+		<IsPlayable>false</IsPlayable>
+		<Bonuses>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>DamageControl</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlagueCuring</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlagueContainment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId> <!-- Continental -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId> <!-- Marshy Swamp -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId> <!-- Forest -->
+				<Factor>0.16</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId> <!-- Grasslands -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> <!-- Ice Tundra -->
+				<Factor>0.05</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId> <!-- Mangrove Forest -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+		</Biases>
+		<DefaultInfantryId>37</DefaultInfantryId> <!-- Sentinel Force -->
+		<Name>Ikkuro</Name>
+		<Description>Les Ikkuro sont de grands primates musclés à la fourrure courte brun-rouge.
+
+		Ils possèdent de larges oreilles très espacées, leur permettant de localiser précisément les sons. Cette capacité leur confère des compétences sonar rudimentaires, leur permettant de "voir" dans l'obscurité.
+
+		Les Ikkuro sont généralement intelligents et agressifs, bien que prudents. Ils ont un tempérament souvent explosif et peuvent rapidement devenir violents lorsqu’ils sont provoqués ou menacés. Pourtant, ils se montrent généralement doux et affectueux envers ceux qu'ils connaissent bien.
+
+		Ce sont des mécaniciens extrêmement talentueux. Les Ikkuro sont capables de réparer presque n'importe quel type de machine et sont particulièrement habiles à rétroconcevoir les dispositifs qu'ils découvrent. En réalité, ils améliorent souvent les machines qu'ils remontent.
+
+		Cette prédisposition naturelle à la mécanique a également conduit les Ikkuro à développer le S2F7 RepairBot, un robot de réparation avancé capable de réparer rapidement les dommages des vaisseaux stellaires, même en plein combat.
+
+		Les Ikkuro ont une grande fascination pour les arbres et les plantes, et possèdent une connaissance approfondie des différentes espèces végétales à travers la galaxie. Grâce à cette expertise, ils sont capables de créer une gamme de médicaments à base de plantes particulièrement efficaces.
+
+		Ils vivent généralement dans des habitats perchés au sommet des forêts denses, sur des planètes forestières, continentales ou de prairies.</Description>
+		<ImageFilename>UserInterface/Races/Ikkuro</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>6</RaceId> <!-- Boskara -->
+		<BundleName>Boskara</BundleName>
+		<FlagFilename>UserInterface/Flags/Boskara_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Boskara_2</string>
+			<string>UserInterface/Flags/Boskara_3</string>
+			<string>UserInterface/Flags/Boskara_4</string>
+			<string>UserInterface/Flags/Boskara_5</string>
+			<string>UserInterface/Flags/Boskara_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>112</R>
+			<G>32</G>
+			<B>204</B>
+			<A>255</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			<A>255</A>
+		</SecondaryColor>
+		<ReproductionRate>1.08</ReproductionRate>
+		<AssimilationRate>0.6</AssimilationRate>
+		<Aggression>1.4</Aggression>
+		<Caution>0.8</Caution>
+		<Dependability>0.6</Dependability>
+		<ImportanceOfOthersReputations>0.4</ImportanceOfOthersReputations>
+		<IsPlayable>true</IsPlayable>
+		<PreferredGovernmentIds>
+			<short>7</short> <!-- Hive Mind -->
+			<short>5</short> <!-- Military Dictatorship -->
+		</PreferredGovernmentIds>
+		<AllowableGovernmentIds>
+			<short>0</short> <!-- Republic -->
+			<short>2</short> <!-- Democracy -->
+			<short>3</short> <!-- Feudalism -->
+			<short>4</short> <!-- Monarchy -->
+			<short>5</short> <!-- Military Dictatorship -->
+			<short>7</short> <!-- Hive Mind -->
+			<short>32759</short> <!-- Refugee Fleet -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopGroundAttack</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WeaponsDamage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId> <!-- Continental -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId> <!-- Marshy Swamp -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId> <!-- Ice -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId> <!-- Volcanic -->
+				<Factor>0.35</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId> <!-- Forest -->
+				<Factor>-0.2</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId> <!-- Grasslands -->
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> <!-- Ice Tundra -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId> <!-- Frozen Ice -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> <!-- Deep Ocean -->
+				<Factor>-0.2</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId> <!-- Mangrove Forest -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId> <!-- Carbonaceous -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId> <!-- Sulphur Volcanic -->
+				<Factor>0.2</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId> <!-- Volcanic -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId> <!-- Carbonaceous -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId> <!-- Sulphur Volcanic -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
+		<StartingResearchProjectIds>
+			<short>3</short> <!-- Early Torpedo Weapons -->
+			<short>768</short> <!-- Early Pulse Weapons -->
+			<short>6</short> <!-- Ground Combat -->
+		</StartingResearchProjectIds>
+		<PreferredWeaponComponentIds>
+			<short>245</short> <!-- Plasma Blaster [Ftr] -->
+			<short>247</short> <!-- Plasma Blaster [S] -->
+			<short>250</short> <!-- Plasma Blaster [M] -->
+			<short>24</short> <!-- Firestorm Torpedo [Ftr] -->
+			<short>161</short> <!-- Firestorm Torpedo [L] -->
+			<short>235</short> <!-- Firestorm Torpedo [S] -->
+			<short>3</short> <!-- Graviton Flux Projector [L] -->
+			<short>4</short> <!-- Plasma Torpedo [S] -->
+			<short>15</short> <!-- Epsilon Torpedo [S] -->
+			<short>59</short> <!-- Epsilon Torpedo [M] -->
+			<short>198</short> <!-- Epsilon Torpedo [Ftr] -->
+		</PreferredWeaponComponentIds>
+
+		<ColonizationOrbTypeIds>
+			<unsignedByte>12</unsignedByte>
+		</ColonizationOrbTypeIds>
+		<ColonizationOrbTypeGameEventNames>
+			<string>Underlords (Boskara)</string>
+		</ColonizationOrbTypeGameEventNames>
+		<HomeworldConquestGameEventName>We Reign Supreme (Boskara)</HomeworldConquestGameEventName>
+		<PeacetimeColonyGameEvents>
+			<string>Crazed Cannibalism (Boskara)</string>
+		</PeacetimeColonyGameEvents>
+		<PeacetimeColonyGameEventsAnnualChance>
+			<float>0.1</float>
+		</PeacetimeColonyGameEventsAnnualChance>
+		<WarStartedByUsGameEventName>Warspawn (Boskara)</WarStartedByUsGameEventName>
+
+		<AdditionalCharacterTraits>
+			<CharacterTraitType>Underlord</CharacterTraitType>
+			<CharacterTraitType>Malicious</CharacterTraitType>
+			<CharacterTraitType>Warspawn</CharacterTraitType>
+			<CharacterTraitType>WorldScorcher</CharacterTraitType>
+		</AdditionalCharacterTraits>
+
+		<GrowthResources>
+			<ResourceQuantity>
+				<ResourceId>58</ResourceId> <!-- Tebraakian Granite -->
+				<Amount>0.06</Amount>
+			</ResourceQuantity>
+		</GrowthResources>
+		
+		<FeatureExplanations>
+			<string>[HL]Mauvais contrôle des dégâts :[/HL] toutes les coques de vaisseaux et de bases ont -10 % de réduction des dégâts, augmentant les dégâts qui pénètrent les boucliers et blindages</string>
+			<string>[HL]Générations de guerre :[/HL] possibilité d'obtenir un nouvel amiral ou général [CHARACTER]'Généré pour la guerre'[/CHARACTER] lorsque vous déclarez la guerre à une autre faction, mais au prix de [BAD]relations fortement dégradées[/BAD] avec toutes les autres factions sans pacte de non-agression ou traité de défense. Avoir un personnage Généré pour la guerre active aussi la fonctionnalité [B]Génération de guerre[/B] (voir ci-dessous). Ne se déclenche pas si vous avez déjà un personnage de ce type</string>
+			<string>[HL]Seigneurs Inférieurs :[/HL] découvrez une ressource supplémentaire en établissant une nouvelle colonie volcanique</string>
+			<string>[HL]Nous régnons en maîtres :[/HL] lorsque vous conquérez le monde natal d’un autre empire, vous obtenez +20 % de bonheur d’empire pendant 10 ans</string>
+			<string>[HL]Cannibalisme frénétique :[/HL] en temps de paix, l'une de vos colonies Boskara peut périodiquement entrer dans une frénésie cannibale hyper-agressive, perdant environ 10 % de sa population</string>
+			<string>[HL]Guerre totale :[/HL] en temps de paix, le joueur peut mobiliser une colonie pour la production de guerre pendant 2 ans. Pendant ce temps, la colonie bénéficie de +50 % de vitesse de construction de vaisseaux et +50 % de taux de recrutement des troupes. Cependant, la colonie subira aussi [BAD]5 points de dégâts par an[/BAD]</string>
+			<string>[HL]Génération de guerre :[/HL] lorsqu’un personnage 'Généré pour la guerre' existe dans l’empire, le joueur peut initier la génération de guerre dans toute colonie Boskara de plus d’un milliard d’habitants. Cela convertira immédiatement 10 % de la population de la colonie en 10 nouvelles unités de troupes d’infanterie, gratuitement</string>
+			<string>[HL]Méga-laboratoire d’armes reliées au noyau :[/HL] installation unique Boskara offrant des bonus à la recherche en armement et à la recherche générale, mais réduisant la qualité de la planète où elle est construite</string>
+			<string>[HL]Trait de leader unique - Seigneur Infernal :[/HL] +10 % de taux d’extraction minière. Forte chance de l’obtenir en établissant une nouvelle colonie volcanique</string>
+			<string>[HL]Trait d’espion unique - Malveillant :[/HL] +10 % de sabotage, +10 % d’assassinat. Forte chance de l’obtenir après avoir accompli avec succès une mission d’espionnage de sabotage ou d’assassinat</string>
+			<string>[HL]Trait unique d’amiral ou de général - Généré pour la guerre :[/HL] +20 % de force d’attaque terrestre, +10 % de dégâts des armes, +10 % de visée. Acquis en choisissant d’assigner un personnage Généré pour la guerre après avoir déclaré une guerre</string>
+			<string>[HL]Trait unique d’amiral - Ravageur de mondes :[/HL] +20 % de dégâts de bombardement. Acquis en détruisant complètement une colonie via bombardement</string>
+		</FeatureExplanations>
+
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.9</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.6</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+		</Biases>
+		<DesignNames>
+			<string>Jaipur</string>
+			<string>Kathmandu</string>
+			<string>Varanasi</string>
+			<string>Guntur</string>
+			<string>Agra</string>
+			<string>Kochi</string>
+			<string>Dhaka</string>
+			<string>Karachi</string>
+			<string>Kashmir</string>
+			<string>Delhi</string>
+			<string>Orissa</string>
+			<string>Pradesh</string>
+			<string>Dehra Dun</string>
+			<string>Bhopal</string>
+			<string>Jamnagar</string>
+			<string>Bhavnagar</string>
+			<string>Kanpur</string>
+			<string>Bihar</string>
+			<string>Bhatpara</string>
+			<string>Akola</string>
+			<string>Hyderabad</string>
+			<string>Bangalore</string>
+			<string>Tenali</string>
+			<string>Proddatur</string>
+			<string>Sira</string>
+			<string>Bhatkal</string>
+			<string>Badagara</string>
+			<string>Imphal</string>
+			<string>Alwar</string>
+			<string>Gurkha</string>
+			<string>Simikot</string>
+			<string>Bengal</string>
+			<string>Ratlam</string>
+			<string>Sikar</string>
+			<string>Ranchi</string>
+			<string>Srinagar</string>
+		</DesignNames>
+		<VictoryConditions>
+			<VictoryCondition>
+				<Type>DestroyMostShips</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>ExterminateOrEnslaveMostPopulation</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>MostHomeworlds</Type>
+				<Proportion>0.3</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>DestroyMostTroops</Type>
+				<Proportion>0.25</Proportion>
+				<Amount>0.2</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+		</VictoryConditions>
+		<CharacterFirstNames>
+			<string>Qarg</string>
+			<string>Cwedo</string>
+			<string>Rardi</string>
+			<string>Falok</string>
+			<string>Jedok</string>
+			<string>Mavoq</string>
+			<string>Buzdi</string>
+			<string>Tubek</string>
+			<string>Vallu</string>
+			<string>Bhalod</string>
+			<string>Gwudo</string>
+			<string>Jovuk</string>
+			<string>Vakuz</string>
+			<string>Terak</string>
+			<string>Wokku</string>
+			<string>Bakra</string>
+			<string>Bhenta</string>
+			<string>Suutan</string>
+			<string>Xadry</string>
+			<string>Ishmat</string>
+			<string>Gex</string>
+			<string>Kaz</string>
+			<string>Zok</string>
+			<string>Yorg</string>
+			<string>Krebo</string>
+			<string>Udriul</string>
+			<string>Xha</string>
+			<string>Pok</string>
+			<string>Jaka</string>
+			<string>Erut</string>
+			<string>Mek</string>
+			<string>Azdun</string>
+			<string>Dyr</string>
+			<string>Nerg</string>
+			<string>Seg</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Boshak</string>
+			<string>Teklor</string>
+			<string>Zaddaty</string>
+			<string>Rakkarid</string>
+			<string>Rokaas</string>
+			<string>Kuutsian</string>
+			<string>Mokkodis</string>
+			<string>Narrit</string>
+			<string>Menkar</string>
+			<string>Exotun</string>
+			<string>Summorak</string>
+			<string>Puksha</string>
+			<string>Tobbat</string>
+			<string>Hezzok</string>
+			<string>Hektor</string>
+			<string>Vretok</string>
+			<string>Roxilli</string>
+			<string>Varkiy</string>
+			<string>Jattub</string>
+			<string>Sarriq</string>
+			<string>Pruggu</string>
+			<string>Prokari</string>
+			<string>Callax</string>
+			<string>Fimto</string>
+			<string>Tannax</string>
+			<string>Yurkan</string>
+			<string>Koomiel</string>
+			<string>Yhekhri</string>
+			<string>Dhziry</string>
+			<string>Mhegrhi</string>
+		</CharacterLastNames>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<DefaultInfantryId>22</DefaultInfantryId> <!-- Executioner Hive -->
+		<Name>Boskara</Name>
+		<Description>Les Boskara sont une race insectoïde féroce, dotée d’un exosquelette brun particulièrement résistant.
+
+		Ils sont la race la plus violente et agressive de la galaxie connue. Experts en combat, ils utilisent ruse et tromperie pour prendre l'avantage. Les Boskara sont des alliés peu fiables.
+
+		Leur soif instinctive de conquête et d’expansion est sans égal. La plupart des autres races les considèrent comme totalement dénués de scrupules et préfèrent les éviter autant que possible. Cependant, les Boskara trouvent un allié naturel chez les Sluken, leurs proches cousins légèrement plus raisonnables.
+
+		Leur technologie inclut le redoutable Shaktur FireStorm, une arme torpille d’une puissance destructrice colossale. Ce système d’armement confère aux vaisseaux boskarans des capacités d’assaut planétaire redoutables, leur permettant de détruire rapidement les spatioports ennemis. Le Shaktur FireStorm possède également une capacité de bombardement planétaire, permettant aux Boskara d’anéantir les populations de colonies ennemies.
+
+		Les Boskara habitent généralement les terrains hostiles des planètes volcaniques. On peut parfois retrouver certaines de leurs communautés dans les montagnes rocailleuses des planètes carbonées.</Description>
+		<ImageFilename>UserInterface/Races/Boskara</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>7</RaceId> <!-- Zenox -->
+		<BundleName>Zenox</BundleName>
+		<FlagFilename>UserInterface/Flags/Zenox_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Zenox_2</string>
+			<string>UserInterface/Flags/Zenox_3</string>
+			<string>UserInterface/Flags/Zenox_4</string>
+			<string>UserInterface/Flags/Zenox_5</string>
+			<string>UserInterface/Flags/Zenox_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>132</R>
+			<G>51</G>
+			<B>120</B>
+			<A>255</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>255</R>
+			<G>255</G>
+			<B>255</B>
+			<A>255</A>
+		</SecondaryColor>
+		<ReproductionRate>1.05</ReproductionRate>
+		<AssimilationRate>0.9</AssimilationRate>
+		<Caution>1.4</Caution>
+		<ImportanceOfOthersReputations>1.4</ImportanceOfOthersReputations>
+		<IsPlayable>true</IsPlayable>
+		<PreferredGovernmentIds>
+			<short>4</short> <!-- Monarchy -->
+			<short>6</short> <!-- Technocracy -->
+		</PreferredGovernmentIds>
+		<AllowableGovernmentIds>
+			<short>0</short> <!-- Republic -->
+			<short>2</short> <!-- Democracy -->
+			<short>3</short> <!-- Feudalism -->
+			<short>4</short> <!-- Monarchy -->
+			<short>5</short> <!-- Military Dictatorship -->
+			<short>6</short> <!-- Technocracy -->
+			<short>32759</short> <!-- Refugee Fleet -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ShieldRechargeRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchShields</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsyOps</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+
+			<Bonus>
+				<Type>ScanExplorationTimeReduction</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ScanSurveyTimeReduction</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>HyperDriveJumpAccuracy</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>BombardmentResistance</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>GroundCombatResistance</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>7</OrbTypeId> <!-- Continental -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId> <!-- Marshy Swamp -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId> <!-- Ice -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId> <!-- Forest -->
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId> <!-- Grasslands -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> <!-- Ice Tundra -->
+				<Factor>0.25</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId> <!-- Frozen Ice -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> <!-- Deep Ocean -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId> <!-- Mangrove Forest -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId> <!-- Ice -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> <!-- Ice Tundra -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId> <!-- Frozen Ice -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
+		<StartingResearchProjectIds>
+			<short>4</short> <!-- Missile Weapons -->
+			<short>0</short> <!-- Early Beam Weapons -->
+			<short>251</short> <!-- Early Energy Deflectors -->
+			<short>6</short> <!-- Ground Combat -->
+		</StartingResearchProjectIds>
+		<PreferredWeaponComponentIds>
+			<short>244</short> <!-- Star Beam [Ftr] -->
+			<short>246</short> <!-- Star Beam [S] -->
+			<short>255</short> <!-- Star Beam [L] -->
+			<short>249</short> <!-- Star Beam [M] -->
+			<short>0</short> <!-- Laser Cannon [S] -->
+			<short>7</short> <!-- Laser Cannon [Ftr] -->
+		</PreferredWeaponComponentIds>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+		</Biases>
+		<DesignNames>
+			<string>Constantia</string>
+			<string>Stara Zagora</string>
+			<string>Oradea</string>
+			<string>Foscani</string>
+			<string>Satu Mare</string>
+			<string>Napoca</string>
+			<string>Zalau</string>
+			<string>Rimnicu</string>
+			<string>Varna</string>
+			<string>Negru Voda</string>
+			<string>Medias</string>
+			<string>Venezia</string>
+			<string>Rovigo</string>
+			<string>Rimini</string>
+			<string>Brindisi</string>
+			<string>Cosenza</string>
+			<string>Capri</string>
+			<string>Livorno</string>
+			<string>Alassio</string>
+			<string>Macerata</string>
+			<string>Taranto</string>
+			<string>Salerno</string>
+			<string>Bergamo</string>
+			<string>Imperia</string>
+			<string>Barcelona</string>
+			<string>Valencia</string>
+			<string>Cartagena</string>
+			<string>Zaragoza</string>
+			<string>Lerida</string>
+			<string>Montblanc</string>
+			<string>Toledo</string>
+			<string>Portalegre</string>
+			<string>Sintra</string>
+			<string>Segovia</string>
+			<string>Legrono</string>
+			<string>Agricento</string>
+		</DesignNames>
+
+		<RuinsExploredGameEventNames>
+			<string>Merveilles du passé (Zenox)</string>
+			<string>Histoire prédictive (Zenox)</string>
+		</RuinsExploredGameEventNames>
+		<ColonizeWorldWithRuinsGameEventName>Preserve the Ruins (Zenox)</ColonizeWorldWithRuinsGameEventName>
+
+		<AdditionalCharacterTraits>
+			<CharacterTraitType>Archivist</CharacterTraitType>
+			<CharacterTraitType>AncientLineage</CharacterTraitType>
+			<CharacterTraitType>LivingInThePast</CharacterTraitType>
+			<CharacterTraitType>Manipulator</CharacterTraitType>
+			<CharacterTraitType>Secretive</CharacterTraitType>
+		</AdditionalCharacterTraits>
+
+		<GrowthResources>
+			<ResourceQuantity>
+				<ResourceId>43</ResourceId> <!-- Kasotti -->
+				<Amount>0.07</Amount>
+			</ResourceQuantity>
+		</GrowthResources>
+
+		<FeatureExplanations>
+			<string>[HL]Furtivité intégrée :[/HL] la plupart des coques de vaisseaux militaires et des bases ont +10 en furtivité</string>
+			<string>[HL]Cartes stellaires antiques :[/HL] les vaisseaux d’exploration scannent et sondent 20 % plus vite. Tous les vaisseaux ont une précision de saut hyperespace améliorée de 20 %, les faisant sortir plus près de la cible (dans les lieux étrangers)</string>
+			<string>[HL]Merveilles du passé :[/HL] lorsqu’une ruine est explorée, il est possible de choisir entre +10 % de bonheur d’empire ou +10 % de recherche globale pendant un an</string>
+			<string>[HL]Histoire prédictive :[/HL] lorsqu’une ruine est explorée, possibilité de choisir un gain en diplomatie et renseignement pendant deux ans, mais au prix d’une réduction de la recherche</string>
+			<string>[HL]Préserver les ruines :[/HL] lors de la fondation d’une colonie sur un site contenant des ruines, possibilité de convertir la ruine en une installation de gouvernance gratuite, ou de la conserver avec des bonus accrus</string>
+			<string>[HL]Villes souterraines :[/HL] toutes les installations planétaires bénéficient de +25 % de résistance au bombardement et +25 % de résistance au combat terrestre</string>
+			<string>[HL]Fouiller les archives :[/HL] possibilité de payer pour effectuer une révision approfondie de toutes les données dans les archives Zenox. Cette révision peut fournir un avantage aléatoire : un bonus temporaire de bonheur, de recherche, ou même les coordonnées d’un lieu galactique important…</string>
+			<string>[HL]Trait de leader unique - Archiviste :[/HL] +5 % de recherche globale, -5 % en diplomatie. Acquis lors de l’exploration d’une ruine avec un bonus de 10 % ou plus</string>
+			<string>[HL]Trait de leader unique - Lignée ancestrale :[/HL] garantit que le personnage n’aura que des traits positifs. Tout trait négatif sera remplacé par un trait positif. Forte chance d’acquisition lors de l’exploration d’une ruine avec un bonus de type 'recherche globale'</string>
+			<string>[HL]Trait de scientifique unique - Vivant dans le passé :[/HL] -5 % de recherche globale, mais chances fortement accrues de percées critiques en recherche. Acquis lors de l’exploration des coffres des Anciens Gardiens</string>
+			<string>[HL]Trait d’ambassadeur unique - Manipulateur :[/HL] -10 % en diplomatie, +10 % en opérations psychologiques. Acquis en signant un traité avec un autre empire</string>
+			<string>[HL]Trait d’espion unique - Secret :[/HL] +5 % en contre-espionnage, +5 % en dissimulation. Acquis en interceptant un espion ennemi</string>
+		</FeatureExplanations>
+		
+		<VictoryConditions>
+			<VictoryCondition>
+				<Type>ControlMostRuins</Type>
+				<Proportion>0.3</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>ExploreGalaxyPercentage</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>BuildFacility</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>1</Amount>
+				<Id>73</Id> <!-- Galactic Archives -->
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>LoseFewestShips</Type>
+				<Proportion>0.2</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+			<VictoryCondition>
+				<Type>LoseFewestTroops</Type>
+				<Proportion>0.1</Proportion>
+				<Amount>1</Amount>
+				<Id>0</Id>
+			</VictoryCondition>
+		</VictoryConditions>
+		<CharacterFirstNames>
+			<string>Lebon</string>
+			<string>Arridan</string>
+			<string>Essaf</string>
+			<string>Jundo</string>
+			<string>Randul</string>
+			<string>Kupi</string>
+			<string>Gordas</string>
+			<string>Kodias</string>
+			<string>Yuros</string>
+			<string>Ubi</string>
+			<string>Yusan</string>
+			<string>Gudan</string>
+			<string>Thassun</string>
+			<string>Derras</string>
+			<string>Mishku</string>
+			<string>Gerrin</string>
+			<string>Jarus</string>
+			<string>Bam</string>
+			<string>Ko</string>
+			<string>Yok</string>
+			<string>Bant</string>
+			<string>Garuk</string>
+			<string>Koti</string>
+			<string>Coz</string>
+			<string>Mak</string>
+			<string>Arramy</string>
+			<string>Klopis</string>
+			<string>Col</string>
+			<string>Usu</string>
+			<string>Eda</string>
+			<string>Het</string>
+			<string>Yuros</string>
+			<string>Copian</string>
+			<string>Kupi</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Atthanchi</string>
+			<string>Kodansta</string>
+			<string>Saxxul</string>
+			<string>Vuulior</string>
+			<string>Xatara</string>
+			<string>Napulon</string>
+			<string>Orridan</string>
+			<string>Mekorta</string>
+			<string>Icarri</string>
+			<string>Jaxsta</string>
+			<string>Halan</string>
+			<string>Bechido</string>
+			<string>Dokari</string>
+			<string>Ulari</string>
+			<string>Haachut</string>
+			<string>Nissuri</string>
+			<string>Assari</string>
+			<string>Metrii</string>
+			<string>Eksari</string>
+			<string>Atsios</string>
+			<string>Suppari</string>
+			<string>Serraby</string>
+			<string>Arridan</string>
+			<string>Idantia</string>
+			<string>Glapir</string>
+			<string>Lobas</string>
+			<string>Profarian</string>
+			<string>Lincarz</string>
+		</CharacterLastNames>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<DefaultInfantryId>32</DefaultInfantryId> <!-- Robo-Guard Force -->
+		<Name>Zenox</Name>
+		<Description>Les Zenox sont une ancienne race féline à l’épaisse fourrure dorée.
+
+		Ils sont extrêmement prudents et n’entrent jamais à la légère dans un accord avec d’autres races. Tout nouveau traité implique généralement une période de négociation extrêmement longue, chaque étape des discussions étant soumise à une analyse approfondie. Les Zenox s’assurent de comprendre parfaitement chaque détail d’un accord avant de l’approuver.
+
+		Les Zenox accordent une importance particulière à l’enregistrement et à la préservation de l’histoire galactique. Ils recherchent des artefacts et des objets d’importance historique à travers toute la galaxie.
+
+		Ils sont également d’excellents conteurs épiques. Puisant dans leur immense répertoire de mythes et de légendes anciennes, ils produisent des récits uniques et captivants. Les Zenox prétendent être les gardiens de connaissances secrètes sur l’histoire de la galaxie, dont certaines sont dévoilées à travers leurs histoires.
+
+		En réalité, certaines de leurs recherches historiques ont abouti à des affirmations peu orthodoxes sur le passé galactique. L’une de leurs légendes raconte que toutes les races insectoïdes auraient autrefois trahi le reste de la galaxie en pactisant avec un envahisseur venu d’ailleurs. Cependant, la plupart des autres civilisations considèrent ces récits comme de simples contes sans fondement.
+
+		La technologie Zenox comprend un composant de bouclier avancé, le Megatron. Ces boucliers puissants confèrent une défense exceptionnelle aux vaisseaux et bases Zenox.
+
+		Les Zenox habitent les vastes étendues glacées des planètes Toundra Gelée, Glace ou Glace Éternelle. Ils construisent généralement d’immenses cités souterraines dans de vastes cavernes et tunnels de glace.</Description>
+		<ImageFilename>UserInterface/Races/Zenox</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>8</RaceId> <!-- Wekkarus -->
+		<FlagFilename>UserInterface/Flags/wekkarus_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/wekkarus_2</string>
+			<string>UserInterface/Flags/wekkarus_3</string>
+			<string>UserInterface/Flags/wekkarus_4</string>
+			<string>UserInterface/Flags/wekkarus_5</string>
+			<string>UserInterface/Flags/wekkarus_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.04</ReproductionRate>
+		<AssimilationRate>0.8</AssimilationRate>
+		<MigrationFactor>0.7</MigrationFactor>
+		<Caution>1.2</Caution>
+		<Dependability>0.9</Dependability>
+		<IsPlayable>false</IsPlayable>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsyOps</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchEngines</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipSpeed</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceScientist</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceIntelligenceAgent</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceAmbassador</Type>
+				<Amount>-0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<GrowthResources>
+			<ResourceQuantity>
+				<ResourceId>24</ResourceId> <!-- Questurian Skin -->
+				<Amount>0.05</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>3</ResourceId> <!-- Kaasian Crystal -->
+				<Amount>0.03</Amount>
+			</ResourceQuantity>
+		</GrowthResources>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> <!-- Deep Ocean -->
+				<Factor>0.25</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>-0.05</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> <!-- Deep Ocean -->
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
+		<Biases>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+		</Biases>
+		<StartingArtifactIds>
+			<int>2</int> <!-- Rekarrun Crystal -->
+		</StartingArtifactIds>
+		<DefaultInfantryId>42</DefaultInfantryId> <!-- Guardian Brigade -->
+		<Name>Wekkarus</Name>
+		<Description>Les Wekkarus sont de grands crustacés dotés de mandibules faciales distinctives.
+
+		Ils vivent dans les profondeurs des océans des planètes océaniques. Bien qu’ils puissent survivre hors de l’eau pendant de longues périodes, ils préfèrent un environnement humide.
+
+		Les Wekkarus construisent d’immenses cités sous-marines dans les vastes cavernes et tunnels des mondes océaniques qu’ils habitent. Ces cités sont des centres de technologie et d’industrie, spécialisées dans la fabrication d’équipements sous-marins avancés utilisés à travers toute la galaxie.
+
+		Les tunnels sous-marins qu’ils occupent regorgent également d’une faune marine abondante, dont certaines créatures sont particulièrement hostiles. Parmi elles, un prédateur terrifie plus que tout les Wekkarus : le Darkhul, un monstrueux léviathan des abysses pouvant atteindre plus de 100 mètres de long.
+
+		Pour faire face à ces menaces, les Wekkarus ont développé de puissants champs de force protégeant les entrées de leurs colonies sous-marines.
+
+		Les Wekkarus possèdent également une connaissance approfondie des armes à faisceau énergétique spécialisées. Cela les a conduits à concevoir la redoutable arme PulseWave, un type unique de canon à énergie projetant de puissantes vagues d’énergie vers ses cibles.
+
+		Les Wekkarus sont une espèce généralement pacifique, préférant vivre en retrait des affaires galactiques.</Description>
+		<ImageFilename>UserInterface/Races/Wekkarus</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>9</RaceId> <!-- Atuuk -->
+		<FlagFilename>UserInterface/Flags/Atuuk_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Atuuk_2</string>
+			<string>UserInterface/Flags/Atuuk_3</string>
+			<string>UserInterface/Flags/Atuuk_4</string>
+			<string>UserInterface/Flags/Atuuk_5</string>
+			<string>UserInterface/Flags/Atuuk_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.09</ReproductionRate>
+		<AssimilationRate>1.3</AssimilationRate>
+		<MigrationFactor>1.5</MigrationFactor>
+		<Aggression>1.05</Aggression>
+		<Caution>0.5</Caution>
+		<Dependability>1.25</Dependability>
+		<IsPlayable>false</IsPlayable>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsyOps</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingDefense</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlagueCuring</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlagueContainment</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>DamageControl</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>RepairRate</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ConstructionSpeedAllShips</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceAmbassador</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceScientist</Type>
+				<Amount>-0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<GrowthResources>
+			<ResourceQuantity>
+				<ResourceId>26</ResourceId> <!-- Caguar Fur -->
+				<Amount>0.05</Amount>
+			</ResourceQuantity>
+			<ResourceQuantity>
+				<ResourceId>21</ResourceId> <!-- Rephidium Ale -->
+				<Amount>0.03</Amount>
+			</ResourceQuantity>
+		</GrowthResources>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId> <!-- Forest -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId> <!-- Grasslands -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId> <!-- Mangrove Forest -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+		</Biases>
+		<StartingArtifactIds>
+			<int>1</int> <!-- Scroll of Generations -->
+		</StartingArtifactIds>
+		<DefaultInfantryId>43</DefaultInfantryId> <!-- Hunting Party -->
+		<Name>Atuuk</Name>
+		<Description>Les Atuuks sont une race primitive et trapue, ressemblant à de petits ours au pelage doré-vert.
+
+		Très amicaux, les Atuuks développent rarement une technologie suffisante pour devenir une civilisation spatiale. Cependant, leur taux de reproduction élevé leur permet de voir leurs communautés croître rapidement.
+
+		Ils ont conservé une riche histoire orale remontant à des centaines de générations et ont développé au fil du temps un ordre social complexe. Chaque individu doit accepter le rôle qui lui est destiné au sein de la communauté, sous peine d’être rejeté.
+
+		Leur intolérance à toute forme de pensée novatrice a conduit leur culture et leur technologie à stagner à un niveau relativement primitif.
+
+		Par-dessus tout, les Atuuks aiment chasser dans les jungles de leurs mondes natals. Leur proie favorite est le Caguar Rayé, un gigantesque félin à dents de sabre doté de griffes acérées comme des rasoirs. Chasser cette créature est une entreprise extrêmement périlleuse. Les Atuuks traquent généralement les Caguars en groupes de 30 à 40 individus, armés uniquement de lances rudimentaires à pointe de pierre.
+
+		Les Atuuks vivent dans des cabanes rudimentaires perchées dans les arbres des planètes forestières ou continentales.</Description>
+		<ImageFilename>UserInterface/Races/Atuuk</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>10</RaceId> <!-- Dhayut -->
+		<FlagFilename>UserInterface/Flags/Dhayut_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Dhayut_2</string>
+			<string>UserInterface/Flags/Dhayut_3</string>
+			<string>UserInterface/Flags/Dhayut_4</string>
+			<string>UserInterface/Flags/Dhayut_5</string>
+			<string>UserInterface/Flags/Dhayut_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.04</ReproductionRate>
+		<AssimilationRate>0.8</AssimilationRate>
+		<MigrationFactor>0.9</MigrationFactor>
+		<Aggression>1.19</Aggression>
+		<Caution>0.95</Caution>
+		<Dependability>0.7</Dependability>
+		<ImportanceOfOthersReputations>0.76</ImportanceOfOthersReputations>
+		<IsPlayable>false</IsPlayable>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchHyperDrive</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopGroundAttack</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.25</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.6</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.6</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.6</Factor>
+			</RaceFactor>
+		</Biases>
+		<DefaultInfantryId>44</DefaultInfantryId> <!-- Mercenary Brigade -->
+		<Name>Dhayut</Name>
+		<Description>Les Dhayuts sont une race arachnide imposante et redoutable. Leur tête massive et distendue est marquée de taches rouges proéminentes et ornée de grands yeux orange-jaune perçants.
+
+		Les Dhayuts sont extrêmement agressifs et foncièrement hostiles. Ils peuvent également se révéler être des partenaires traîtres, n'hésitant pas à trahir leurs alliés dès que cela sert leurs intérêts.
+
+		Leur taux de reproduction est faible, ce qui ralentit la croissance de leur population.
+
+		Lorsqu'ils sont en colère, les Dhayuts peuvent entrer dans une frénésie incontrôlable, sombrant temporairement dans la folie. Dans ces moments-là, ils deviennent extrêmement dangereux et attaquent sans la moindre peur ni retenue.
+
+		Les Dhayuts sont également célèbres pour leur impitoyabilité. Ils n’éprouvent aucun scrupule à voler, tromper ou assassiner si cela sert leur cause. Il est donc recommandé d’exercer une extrême prudence lorsqu’on traite avec eux.
+
+		Leur fascination naturelle pour la technologie hyperspatiale les a conduits à développer le VelocityDrive ST3, un moteur hyperdrive extrêmement rapide et efficace.
+
+		Les Dhayuts vivent principalement dans des retraites rocheuses situées sur des planètes de type Savane Désertique, Désert Rocheux ou Désert Sablonneux.</Description>
+		<ImageFilename>UserInterface/Races/Dhayut</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>11</RaceId> <!-- Gizurean -->
+		<FlagFilename>UserInterface/Flags/Gizurean_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Gizurean_2</string>
+			<string>UserInterface/Flags/Gizurean_3</string>
+			<string>UserInterface/Flags/Gizurean_4</string>
+			<string>UserInterface/Flags/Gizurean_5</string>
+			<string>UserInterface/Flags/Gizurean_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.09</ReproductionRate>
+		<AssimilationRate>0.5</AssimilationRate>
+		<MigrationFactor>1.2</MigrationFactor>
+		<Aggression>1.4</Aggression>
+		<Caution>0.85</Caution>
+		<Dependability>0.9</Dependability>
+		<IsPlayable>false</IsPlayable>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>-0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>BoardingDefense</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchConstruction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchTroops</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>RepairRate</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceAmbassador</Type>
+				<Amount>-0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceFleetAdmiral</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceTroopGeneral</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceScientist</Type>
+				<Amount>-0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
+				<Factor>-0.05</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId> <!-- Volcanic -->
+				<Factor>0.25</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>0.3</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> <!-- Deep Ocean -->
+				<Factor>-0.05</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+		</Biases>
+		<DefaultInfantryId>45</DefaultInfantryId> <!-- War Swarm -->
+		<Name>Gizurean</Name>
+		<Description>Les Gizureans sont une race insectoïde dotée de quatre bras. Leurs petites ailes leur permettent également de parcourir de courtes distances en vol.
+
+		Ils sont agressifs et hostiles, bien que peu intelligents. Les Gizureans sont naturellement belliqueux et revendiquent fréquemment la supériorité de leur propre tribu, allant jusqu’à ridiculiser et insulter violemment les autres. Ces provocations entraînent de fréquents conflits inter-tribaux.
+
+		Les Gizureans éprouvent une profonde aversion pour les autres races, en particulier celles qui ne sont pas insectoïdes. Cette caractéristique rend leur assimilation pacifique extrêmement difficile au sein d’un empire.
+
+		Leur taux de reproduction est extrêmement élevé, ce qui leur permet de croître et de s’étendre très rapidement.
+
+		Les Gizureans construisent généralement leurs vastes habitats souterrains dans les régions rocheuses des planètes désertiques rocheuses ou sablonneuses, mais on peut parfois les trouver sur des planètes de type Savane Désertique ou Volcanique.</Description>
+		<ImageFilename>UserInterface/Races/Gizurean</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>12</RaceId> <!-- Ketarov -->
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.07</ReproductionRate>
+		<AllowableGovernmentIds>
+			<short>0</short> <!-- Republic -->
+			<short>1</short> <!-- Mercantile Guild -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsyOps</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityIntelligenceAgent</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>18</OrbTypeId> <!-- Grasslands -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.6</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.6</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+		</Biases>
+		<CharacterFirstNames>
+			<string>Lebon</string>
+			<string>Arridan</string>
+			<string>Essaf</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Atthanchi</string>
+			<string>Kodansta</string>
+			<string>Saxxul</string>
+		</CharacterLastNames>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<DefaultInfantryId>46</DefaultInfantryId> <!-- Battle Group -->
+		<Name>Ketarov</Name>
+		<Description>Les Ketarovs sont une race mammalienne bipède de taille moyenne, recouverte d'une courte fourrure blanche.
+
+		Ils sont extrêmement intelligents et raffolent de l’intrigue et de la tromperie. Plutôt que d’affronter leurs ennemis dans un conflit ouvert, ils préfèrent exploiter leurs faiblesses à travers l’espionnage et le sabotage.
+
+		Les Ketarovs sont naturellement méfiants et soupçonnent en permanence les autres de chercher à les trahir. Cette paranoïa renforce leur inclination pour l’espionnage et la surveillance. Cependant, cela peut aussi conduire à des malentendus, car ils remettent constamment en question les intentions de leurs propres alliés.
+
+		Pour ces raisons, les Ketarovs sont souvent des partenaires peu fiables – ironiquement, leur manque de confiance envers les autres les rend eux-mêmes indignes de confiance.
+
+		Les Ketarovs vivent généralement en grandes communautés établies sur les vastes plaines des planètes de type Prairie ou Continentale.</Description>
+		<ImageFilename>UserInterface/Races/Ketarov</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>13</RaceId> <!-- Kiadian -->
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.05</ReproductionRate>
+		<AllowableGovernmentIds>
+			<short>0</short> <!-- Republic -->
+			<short>1</short> <!-- Mercantile Guild -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ScanFocusing</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Countermeasures</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>17</OrbTypeId> <!-- Forest -->
+				<Factor>0.05</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.6</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+		</Biases>
+		<CharacterFirstNames>
+			<string>Donato</string>
+			<string>Gudan</string>
+			<string>Juran</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Ikkuros</string>
+			<string>Nothris</string>
+			<string>Hassari</string>
+		</CharacterLastNames>
+		<StartingArtifactIds>
+			<int>3</int> <!-- Tablet of Aksorra -->
+		</StartingArtifactIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<DefaultInfantryId>47</DefaultInfantryId> <!-- Battle Trooper Brigade -->
+		<Name>Kiadian</Name>
+		<Description>Les Kiadians sont une race humanoïde hautement intelligente, reconnaissable à leur crâne volumineux.
+
+		Perspicaces et pragmatiques, ils évaluent soigneusement chaque action en anticipant ses répercussions potentielles. Ils comptent parmi les alliés les plus loyaux de la galaxie.
+
+		Les Kiadians sont des penseurs profonds, dont la culture fascinante repose sur une subtilité raffinée. Ils se passionnent pour les complexités abstraites des mathématiques avancées. Mais ils sont aussi d’un esprit très pratique, appliquant leur intelligence aiguisée au développement de technologies sophistiquées.
+
+		Leur technologie avancée inclut le ShadowGhost ECM, un système de contre-mesures d’une efficacité exceptionnelle. Ce dispositif rend les vaisseaux Kiadians extrêmement difficiles à cibler, leur permettant d’éviter une grande partie des tirs ennemis.
+
+		Leur code d’honneur est légendaire : un Kiadian préférera mourir plutôt que de rompre sa parole. Une fois engagé dans un accord, il ne reviendra jamais sur son engagement.
+
+		Fiers et déterminés, ils aiment relever des défis considérés comme impossibles, même si cela les mène souvent à une défaite honorable. Cette approche, en apparence irrationnelle, peut parfois aboutir à des accomplissements stupéfiants – les Kiadians luttent avec ténacité là où d’autres abandonneraient face à l’échec assuré.
+
+		Les Kiadians vivent généralement dans les montagnes et les plaines des planètes continentales ou forestières.</Description>
+		<ImageFilename>UserInterface/Races/Kiadian</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>14</RaceId> <!-- Naxxilian -->
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.05</ReproductionRate>
+		<AllowableGovernmentIds>
+			<short>0</short> <!-- Republic -->
+			<short>1</short> <!-- Mercantile Guild -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>RecruitedTroopStrengthInfantry</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopGroundAttack</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceTroopGeneral</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterQualityTroopGeneral</Type>
+				<Amount>0.15</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId> <!-- Ice -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> <!-- Ice Tundra -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId> <!-- Frozen Ice -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> <!-- Ice Tundra -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId> <!-- Frozen Ice -->
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+		</Biases>
+		<CharacterFirstNames>
+			<string>Balluk</string>
+			<string>Doktan</string>
+			<string>Kutar</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Bhulkadin</string>
+			<string>Zhukziban</string>
+			<string>Rustov</string>
+		</CharacterLastNames>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<DefaultInfantryId>48</DefaultInfantryId> <!-- Fighting Clan -->
+		<Name>Naxxilian</Name>
+		<Description>Les Naxxiliens sont de gigantesques reptiles redoutables aux yeux rouge vif. Bien qu’ils soient reptiliens, leur corps est recouvert d’une épaisse fourrure. Leurs avant-bras, d’une puissance phénoménale, en font de redoutables combattants au corps à corps.
+
+		Extrêmement agressifs, ils peuvent toutefois devenir des alliés loyaux s’ils sont gagnés à une cause. De nature très prudente, les Naxxiliens peuvent cependant se montrer amicaux une fois qu’ils se sont familiarisés avec quelqu’un.
+
+		Les Naxxiliens vouent un culte fanatique à un sport compétitif appelé Todash. Ce jeu se joue avec deux petites pierres, l’objectif étant de faire entrer simultanément les deux dans la zone de but adverse. Chaque réussite rapporte un point, et la première équipe à atteindre 10 points remporte la partie.
+
+		En Todash, il n’existe aucune règle stricte concernant la manière dont un joueur portant une pierre peut être plaqué, ce qui en fait un jeu parfois extrêmement brutal. La possession des pierres alterne souvent entre les équipes, menant à des parties pouvant durer des heures, voire être ajournées pour reprendre le lendemain.
+
+		Beaucoup de Naxxiliens vivent dans de petits campements tribaux. Cependant, ils possèdent aussi de vastes cités développées, abritant des industries avancées, notamment dans la construction de vaisseaux spatiaux.
+
+		Les Naxxiliens peuplent généralement les étendues glacées des planètes de type Toundra Gelée et Glacée, mais on peut parfois les trouver dans des vallées isolées des mondes de Glace Éternelle.</Description>
+		<ImageFilename>UserInterface/Races/Naxxilian</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>15</RaceId> <!-- Quameno -->
+		<FlagFilename>UserInterface/Flags/Quameno_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Quameno_2</string>
+			<string>UserInterface/Flags/Quameno_3</string>
+			<string>UserInterface/Flags/Quameno_4</string>
+			<string>UserInterface/Flags/Quameno_5</string>
+			<string>UserInterface/Flags/Quameno_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.05</ReproductionRate>
+		<AssimilationRate>0.75</AssimilationRate>
+		<MigrationFactor>0.8</MigrationFactor>
+		<Aggression>0.7</Aggression>
+		<Caution>1.25</Caution>
+		<Dependability>1.3</Dependability>
+		<IsPlayable>false</IsPlayable>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchReactor</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipEnergyUsage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceAmbassador</Type>
+				<Amount>-0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceFleetAdmiral</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceTroopGeneral</Type>
+				<Amount>-0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CharacterAppearanceScientist</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId> <!-- Marshy Swamp -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>9</OrbTypeId> <!-- Ocean -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> <!-- Ice Tundra -->
+				<Factor>0.05</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>23</OrbTypeId> <!-- Deep Ocean -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId> <!-- Mangrove Forest -->
+				<Factor>0.2</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+		</Biases>
+		<StartingArtifactIds>
+			<int>0</int> <!-- Stele of Takdun -->
+		</StartingArtifactIds>
+		<DefaultInfantryId>49</DefaultInfantryId> <!-- BattleMech Brigade -->
+		<Name>Quameno</Name>
+		<Description>Les Quamenos sont une race amphibienne hautement intelligente. Ils sont grands et gracieux, dotés de membres élancés et d’un long cou. Leurs grands yeux, situés sur les côtés de leur tête, leur offrent une vision périphérique exceptionnelle couvrant presque 360 degrés.
+
+		Les Quamenos sont profondément pacifiques et préfèrent mener une existence solitaire. Ils choisissent généralement de vivre en isolement, en restant en dehors du tumulte des affaires galactiques.
+
+		Ils affectionnent particulièrement les défis intellectuels complexes, comme résoudre des énigmes ou déchiffrer des inscriptions anciennes. Cette prédisposition naturelle fait d’eux d’excellents linguistes, capables de maîtriser une nouvelle langue en seulement quelques jours.
+
+		Les Quamenos ont également un goût prononcé pour l’expérimentation scientifique, notamment dans l’exploration de principes exotiques. Leur fascination pour les théories énergétiques inhabituelles les a conduits à développer le NovaCore, un réacteur d’une puissance et d’une efficacité remarquables.
+
+		Passionnés par l’histoire galactique, ils recherchent sans relâche d’anciens artefacts préhistoriques. De nombreuses études menées par les érudits Quamenos suggèrent que de vastes pans de notre compréhension du passé demeurent incomplets.
+
+		Les communautés Quamenos vivent généralement dans des biodômes semi-submergés, hautement technologiques, installés dans les zones côtières peu profondes des planètes océaniques ou d’océan profond.</Description>
+		<ImageFilename>UserInterface/Races/Quameno</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>16</RaceId> <!-- Securan -->
+		<BundleName>Quameno</BundleName>
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.08</ReproductionRate>
+		<AllowableGovernmentIds>
+			<short>0</short> <!-- Republic -->
+			<short>1</short> <!-- Mercantile Guild -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>Diplomacy</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TourismIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>0.05</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.25</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+		</Biases>
+		<CharacterFirstNames>
+			<string>Donato</string>
+			<string>Gudan</string>
+			<string>Juran</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Ikkuros</string>
+			<string>Nothris</string>
+			<string>Hassari</string>
+		</CharacterLastNames>
+		<StartingArtifactIds>
+			<int>4</int> <!-- Harp of Karidas -->
+		</StartingArtifactIds>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<DefaultInfantryId>50</DefaultInfantryId> <!-- Scout Group -->
+		<Name>Securan</Name>
+		<Description>Les Securans sont une race humanoïde à la peau verte, d’une beauté saisissante.
+
+		Ils sont amicaux et font preuve d’une loyauté sans faille envers leurs alliés.
+
+		Leur taux de reproduction élevé permet à leur population de croître rapidement.
+
+		Les Securans excellent dans les arts du spectacle, en particulier le chant et la danse. Ils sont également de talentueux musiciens et compositeurs.
+
+		Leur tradition théâtrale est très développée, et leurs pièces regorgent de drame et de suspense. Les acteurs et actrices securans sont très recherchés à travers la galaxie et occupent fréquemment les premiers rôles des plus grandes productions. De vastes compagnies dramatiques securanes parcourent les étoiles pour se produire dans divers lieux prestigieux.
+
+		Ils portent aussi un amour passionné à la gastronomie. Apprécier un bon repas accompagné d’un excellent vin securan est un élément central de leur culture.
+
+		Les Securans sont d’une hospitalité légendaire. Tout visiteur venu d’ailleurs sera inévitablement convié à un somptueux festin, mettant à l’honneur leurs mets raffinés et leurs spécialités culinaires.
+
+		Les Securans peuplent les vastes plaines ouvertes des planètes de type Savane Désertique, Désert Sablonneux ou Désert Rocheux.</Description>
+		<ImageFilename>UserInterface/Races/Securan</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>17</RaceId> <!-- Shandar -->
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.06</ReproductionRate>
+		<AllowableGovernmentIds>
+			<short>0</short> <!-- Republic -->
+			<short>1</short> <!-- Mercantile Guild -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ColonyHappiness</Type>
+				<Amount>0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>MiningRate</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ArmorStrength</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId> <!-- Volcanic -->
+				<Factor>0.3</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId> <!-- Carbonaceous -->
+				<Factor>0.2</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId> <!-- Sulphur Volcanic -->
+				<Factor>0.2</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId> <!-- Volcanic -->
+				<Factor>0.4</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId> <!-- Carbonaceous -->
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId> <!-- Sulphur Volcanic -->
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
+		<Biases>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+		</Biases>
+		<CharacterFirstNames>
+			<string>Balluk</string>
+			<string>Doktan</string>
+			<string>Kutar</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Bhulkadin</string>
+			<string>Zhukziban</string>
+			<string>Rustov</string>
+		</CharacterLastNames>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<DefaultInfantryId>51</DefaultInfantryId> <!-- Protector Force -->
+		<Name>Shandar</Name>
+		<Description>Les Shandars sont une race reptilienne au tempérament paisible, dotée d’une peau écailleuse verte.
+
+		Ils vivent près des cheminées volcaniques sur des planètes volcaniques ou carbonacées, et peuvent parfois être trouvés sur des mondes volcaniques soufrés. Ils adorent la chaleur et la chaleur, et passent volontiers des heures à se prélasser dans des piscines géothermiques naturelles.
+
+		L’espérance de vie des Shandars se mesure en siècles, certains atteignant même les 1 000 ans. Ils sont généralement détendus, peu enclins à l’inquiétude ou à la planification. Ils privilégient les plaisirs simples et vivent pleinement l’instant présent.
+
+		Les Shandars possèdent une grande expertise dans l’utilisation de la lave en fusion pour la construction. Ils façonnent des structures solides et durables en contrôlant son refroidissement progressif. Grâce à ces techniques, ils peuvent rapidement ériger des bâtiments résistants. Leurs immenses chantiers navals souterrains, bâtis de cette manière, sont particulièrement célèbres.
+
+		Bien qu’ils se montrent souvent industrieux dans l’exploitation des pierres précieuses, ils s’intéressent peu au reste de la galaxie. La plupart des Shandars préfèrent mener une existence paisible, passant leurs longues vies à savourer la chaleur des rives de leurs lacs de lave.</Description>
+		<ImageFilename>UserInterface/Races/Shandar</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>18</RaceId> <!-- Sluken -->
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.06</ReproductionRate>
+		<AllowableGovernmentIds>
+			<short>0</short> <!-- Republic -->
+			<short>1</short> <!-- Mercantile Guild -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchEngines</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PlagueContainment</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopRecoveryRate</Type>
+				<Amount>0.25</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopExperienceGain</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>8</OrbTypeId> <!-- Marshy Swamp -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>27</OrbTypeId> <!-- Mangrove Forest -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+		</Biases>
+		<CharacterFirstNames>
+			<string>Qarg</string>
+			<string>Cwedo</string>
+			<string>Rardi</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Boshak</string>
+			<string>Teklor</string>
+			<string>Zaddaty</string>
+		</CharacterLastNames>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<DefaultInfantryId>52</DefaultInfantryId> <!-- Terminator Brigade -->
+		<Name>Sluken</Name>
+		<Description>Les Slukens sont une race insectoïde de petite taille, recouverte d’une épaisse carapace brune. Ils possèdent de nombreuses petites pattes avant, leur permettant d’accomplir plusieurs actions simultanément.
+
+		Extrêmement agressifs et intelligents, les Slukens vouent un culte macabre à la mort, élément central de leurs coutumes.
+
+		Ils possèdent une capacité étrange et sinistre : ils peuvent incorporer à leur propre corps des appendices et organes issus d’autres races extraterrestres. Ainsi, certains Slukens arborent des membres supplémentaires, des yeux additionnels ou d’autres parties corporelles issues d’êtres vivants étrangers.
+
+		Certaines civilisations affirment que les Slukens seraient en réalité des créatures génétiquement modifiées, créées pour être des guerriers ultimes. Mais les Slukens dénoncent ces accusations comme étant de la pure calomnie.
+
+		Leur technologie inclut le StarBurner, un moteur extrêmement rapide et puissant. Grâce à ces moteurs, les vaisseaux Slukens peuvent surpasser presque tous leurs adversaires en vitesse.
+
+		Les Slukens habitent principalement les planètes marécageuses et les forêts de mangroves.</Description>
+		<ImageFilename>UserInterface/Races/Sluken</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>19</RaceId> <!-- Ugnari -->
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.06</ReproductionRate>
+		<AllowableGovernmentIds>
+			<short>0</short> <!-- Republic -->
+			<short>1</short> <!-- Mercantile Guild -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>TradeIncome</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Targeting</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>-0.05</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchSensors</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId> <!-- Ice -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> <!-- Ice Tundra -->
+				<Factor>0.2</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId> <!-- Frozen Ice -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<MinimumSuitabilityForColonization>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> <!-- Ice Tundra -->
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId> <!-- Frozen Ice -->
+				<Factor>0.45</Factor>
+			</OrbTypeFactor>
+		</MinimumSuitabilityForColonization>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.4</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+		</Biases>
+		<CharacterFirstNames>
+			<string>Darrat</string>
+			<string>Kibul</string>
+			<string>Ruty</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Uktab</string>
+			<string>Woppit</string>
+			<string>Owak</string>
+		</CharacterLastNames>
+		<AllowableIntelligenceMissionTypes>
+			<CharacterMissionType>CounterIntelligence</CharacterMissionType>
+			<CharacterMissionType>StealTerritoryMap</CharacterMissionType>
+			<CharacterMissionType>StealGalaxyMap</CharacterMissionType>
+			<CharacterMissionType>StealOperationsMap</CharacterMissionType>
+			<CharacterMissionType>StealTechData</CharacterMissionType>
+			<CharacterMissionType>SabotageConstruction</CharacterMissionType>
+			<CharacterMissionType>SabotageColony</CharacterMissionType>
+			<CharacterMissionType>DestroyBase</CharacterMissionType>
+			<CharacterMissionType>InciteRevolution</CharacterMissionType>
+			<CharacterMissionType>AssassinateCharacter</CharacterMissionType>
+			<CharacterMissionType>DeepCover</CharacterMissionType>
+			<CharacterMissionType>DefectCharacter</CharacterMissionType>
+			<CharacterMissionType>DestroyFacility</CharacterMissionType>
+			<CharacterMissionType>InfectColonyWithPlague</CharacterMissionType>
+		</AllowableIntelligenceMissionTypes>
+		<DefaultInfantryId>53</DefaultInfantryId> <!-- WarBot Brigade -->
+		<Name>Ugnari</Name>
+		<Description>Les Ugnaris sont une race de rongeurs de petite taille, à la peau ridée.
+
+		Bien qu’ils ne soient pas particulièrement doués en technologie, ils sont fascinés par les machines et l’électronique, et passent beaucoup de temps à les étudier et à expérimenter de nouvelles combinaisons.
+
+		Cette fascination les conduit souvent à inventer des technologies alternatives intéressantes, en assemblant des composants sans lien apparent pour créer des équipements aux capacités améliorées.
+
+		Les Ugnaris aiment aussi parier et sont prêts à miser sur presque n’importe quelle activité imaginable.
+
+		De nature plutôt amicale mais prudente, ils sont également connus pour leur sens des affaires… discutable. Il est vivement conseillé de lire attentivement les petites lignes de tout contrat signé avec un Ugnari, car ils sont souvent rusés, voire carrément malhonnêtes.
+
+		Cependant, les Ugnaris ne considèrent pas la fourberie comme une faute morale. Tromper quelqu’un n’est pour eux pas un affront personnel, mais plutôt un exploit commercial. En fait, ils admirent sincèrement quiconque parvient à les surpasser en ruse.
+
+		Leur technologie comprend le système de ciblage Raptor Combat. Ce dispositif de visée avancé rend les tirs des vaisseaux militaires ugnaris plus précis et plus mortels.
+
+		Les Ugnaris habitent les terres désolées des toundras glacées et des planètes de glace. Ils construisent généralement de vastes cités souterraines, nichées au cœur de gigantesques cavernes et tunnels de glace.</Description>
+		<ImageFilename>UserInterface/Races/Ugnari</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>20</RaceId> <!-- Shakturi -->
+		<FlagFilename>UserInterface/Flags/Shakturi_1</FlagFilename>
+		<AlternateFlagFilenames>
+			<string>UserInterface/Flags/Shakturi_2</string>
+			<string>UserInterface/Flags/Shakturi_3</string>
+			<string>UserInterface/Flags/Shakturi_4</string>
+			<string>UserInterface/Flags/Shakturi_5</string>
+			<string>UserInterface/Flags/Shakturi_6</string>
+		</AlternateFlagFilenames>
+		<MainColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.08</ReproductionRate>
+		<AssimilationRate>0.2</AssimilationRate>
+		<Aggression>1.8</Aggression>
+		<Caution>0.5</Caution>
+		<Dependability>0.5</Dependability>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
+		<PreventUseAsIndependent>true</PreventUseAsIndependent>
+		<Bonuses>
+			<Bonus>
+				<Type>ResearchAll</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>WarWearinessReduction</Type>
+				<Amount>0.8</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsychicEspionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsychicSabotage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>Espionage</Type>
+				<Amount>0.1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>CounterEspionage</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>PsyOps</Type>
+				<Amount>0.3</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ResearchWeapons</Type>
+				<Amount>0.2</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>TroopMaintenance</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ShipMaintenanceAll</Type>
+				<Amount>0.5</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+			<Bonus>
+				<Type>ColonyCorruptionReduction</Type>
+				<Amount>0.4</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<ColonizationSuitabilityModifiers>
+			<OrbTypeFactor>
+				<OrbTypeId>10</OrbTypeId> <!-- Sandy Desert -->
+				<Factor>0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>11</OrbTypeId> <!-- Ice -->
+				<Factor>-0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>12</OrbTypeId> <!-- Volcanic -->
+				<Factor>0.5</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>19</OrbTypeId> <!-- Rocky Desert -->
+				<Factor>0.15</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>20</OrbTypeId> <!-- Desert Savanna -->
+				<Factor>0.05</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>21</OrbTypeId> <!-- Ice Tundra -->
+				<Factor>-0.1</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>22</OrbTypeId> <!-- Frozen Ice -->
+				<Factor>-0.2</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>29</OrbTypeId> <!-- Carbonaceous -->
+				<Factor>0.5</Factor>
+			</OrbTypeFactor>
+			<OrbTypeFactor>
+				<OrbTypeId>30</OrbTypeId> <!-- Sulphur Volcanic -->
+				<Factor>0.35</Factor>
+			</OrbTypeFactor>
+		</ColonizationSuitabilityModifiers>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-0.9</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>5</RaceId> <!-- Ikkuro -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>8</RaceId> <!-- Wekkarus -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>9</RaceId> <!-- Atuuk -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>10</RaceId> <!-- Dhayut -->
+				<Factor>-0.2</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>11</RaceId> <!-- Gizurean -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>12</RaceId> <!-- Ketarov -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>13</RaceId> <!-- Kiadian -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>14</RaceId> <!-- Naxxilian -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>15</RaceId> <!-- Quameno -->
+				<Factor>-0.6</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>16</RaceId> <!-- Securan -->
+				<Factor>-0.8</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>17</RaceId> <!-- Shandar -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>18</RaceId> <!-- Sluken -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>19</RaceId> <!-- Ugnari -->
+				<Factor>-0.7</Factor>
+			</RaceFactor>
+		</Biases>
+		<DefaultInfantryId>54</DefaultInfantryId> <!-- Slayer Swarm -->
+		<Name>Shakturi</Name>
+		<Description>Les Shakturi sont une race éteinte d’extraterrestres insectoïdes qui auraient habité la galaxie il y a fort longtemps.
+
+		De nombreux mythes et légendes antiques décrivent les Shakturi comme de redoutables envahisseurs venus d’une autre galaxie lointaine. Ils étaient des agresseurs rusés et impitoyables qui parvinrent à conquérir la majeure partie de la galaxie. Mais alors qu’ils étaient sur le point de remporter une victoire totale, ils disparurent soudainement sans laisser de trace.
+
+		Du moins, c’est ce que racontent les anciens récits. D’autres prétendent que les Shakturi n’ont jamais réellement existé, et qu’ils sont en réalité une invention destinée à calomnier toutes les races insectoïdes en les faisant passer pour cruelles et maléfiques.</Description>
+		<ImageFilename>UserInterface/Races/Shakturi</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>248</RaceId> <!-- Berserk AI -->
+		<MainColor>
+			<R>255</R>
+			<G>208</G>
+			<B>48</B>
+			<A>255</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.02</ReproductionRate>
+		<AssimilationRate>0.5</AssimilationRate>
+		<Aggression>2</Aggression>
+		<Caution>0.5</Caution>
+		<Dependability>0.5</Dependability>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
+		<PreventUseAsIndependent>true</PreventUseAsIndependent>
+		<AllowableGovernmentIds>
+			<short>1</short> <!-- Mercantile Guild -->
+		</AllowableGovernmentIds>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>0</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+		</Biases>
+		<CharacterFirstNames>
+			<string>BK</string>
+			<string>ZG</string>
+			<string>MX</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>497</string>
+			<string>229</string>
+			<string>843</string>
+		</CharacterLastNames>
+		<DefaultInfantryId>-1</DefaultInfantryId> <!-- N/A -->
+		<Name>Berserk AI</Name>
+		<ImageFilename>UserInterface/Races/Mortalen</ImageFilename>
+	</Race>
+	<Race>
+		<RaceId>249</RaceId> <!-- CrazedHiveInsectoids -->
+		<BundleName>Hive</BundleName>
+		<MainColor>
+			<R>0</R>
+			<G>128</G>
+			<B>48</B>
+			<A>255</A>
+		</MainColor>
+		<SecondaryColor>
+			<R>0</R>
+			<G>0</G>
+			<B>0</B>
+			<A>0</A>
+		</SecondaryColor>
+		<ReproductionRate>1.2</ReproductionRate>
+		<AssimilationRate>0.5</AssimilationRate>
+		<Aggression>2</Aggression>
+		<Caution>0.5</Caution>
+		<Dependability>0.5</Dependability>
+		<ImportanceOfOthersReputations>0</ImportanceOfOthersReputations>
+		<PreventUseAsIndependent>true</PreventUseAsIndependent>
+		<AllowableGovernmentIds>
+			<short>1</short> <!-- Mercantile Guild -->
+		</AllowableGovernmentIds>
+		<Bonuses>
+			<Bonus>
+				<Type>BoardingAssault</Type>
+				<Amount>1</Amount>
+				<AppliesTo>Empire</AppliesTo>
+			</Bonus>
+		</Bonuses>
+		<Biases>
+			<RaceFactor>
+				<RaceId>0</RaceId> <!-- Human -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>1</RaceId> <!-- Ackdarian -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>2</RaceId> <!-- Teekan -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>3</RaceId> <!-- Haakonish -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>4</RaceId> <!-- Mortalen -->
+				<Factor>-0.5</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>6</RaceId> <!-- Boskara -->
+				<Factor>-0.3</Factor>
+			</RaceFactor>
+			<RaceFactor>
+				<RaceId>7</RaceId> <!-- Zenox -->
+				<Factor>-1</Factor>
+			</RaceFactor>
+		</Biases>
+		<CharacterFirstNames>
+			<string>Qarg</string>
+			<string>Cwedo</string>
+			<string>Rardi</string>
+		</CharacterFirstNames>
+		<CharacterLastNames>
+			<string>Boshak</string>
+			<string>Teklor</string>
+			<string>Zaddaty</string>
+		</CharacterLastNames>
+		<DefaultInfantryId>32764</DefaultInfantryId> <!-- Hive Raider -->
+		<Name>Crazed Hive Insectoids</Name>
+		<ImageFilename>UserInterface/Races/Gizurean</ImageFilename>
+	</Race>
+</ArrayOfRace>
